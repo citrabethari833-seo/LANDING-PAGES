@@ -1,0 +1,366 @@
+<style type="text/css">
+ 
+ .headerDefault .mainMenu ul li ul li a {
+    display: block;
+    font-weight: 500;
+    position: relative;
+    padding: 6px 10px;
+    color: var(--white);
+    white-space: inherit;
+    font-size: 15px;
+} 
+
+</style>
+
+<header id="headerArea" class="headerArea trans">
+  <div class="headerWrap headerDefault">
+    <div class="header">
+      <div class="headerLogo">
+        <div class="logo"> 
+		<a href="index.php" title=""> <img src="images/logo (2).png" alt="" class="imgEd11"/> 
+		<img src="images/logo (2).png" alt="Madhavcollege" class="mobileLogo"/></a> </div>
+      </div>
+      <div class="headerRight">
+        <div class="headerRightTop">
+          <!---->
+          <div class="utilMenu">
+            <ul>
+              <!--  <li> <a href="index.php"><i class="fa fa-home"></i> Home</a></li> -->
+              <!-- <li><a href="careers.php"><i class="fa fa-graduation-cap"></i> Careers</a></li> -->
+              <!-- <li><a href="blog.php"><i class="fa fa-comment"></i> Blog</a></li> -->
+
+              <!-- <li>
+                <a href="https://highereducation.mp.gov.in/?page=JUL9t1LHqftaDqryEIQFtg%3D%3D" target="_blank"><i class="fa fa-check"></i> NEP</a>
+              </li> -->
+          <!--     <li>
+                <a href="pdf/naac.pdf" target="_blank"><i class="fa fa-check"></i> छात्र संतुष्टि सर्वेक्षण फार्म</a>
+              </li> -->
+          
+             <li><a href="https://www.facebook.com/people/Madhav-Mahavidyalaya/100068748801635/?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://www.youtube.com/@madhavmahavidyalaya7398" target="_blank"><i class="fab fa-youtube" ></i></a></li>
+                <li><a href="https://www.linkedin.com/company/madhav-mahavidhyalaya/" target="_blank"><i class="fab fa-linkedin-in" target="_blank"></i></a></li>
+                <li><a href="https://www.instagram.com/mmvgwl/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+             
+
+
+      <!--           <li> <a href="#" style="background:#0099A8; padding:15px; margin-left: 10px;"><i class="fa fa-users"></i> &nbsp;Group of Website <span>&#9660;</span></a>-->
+      <!--          <ul>-->
+      <!--        <li><a href="http://mbeducation.org.in/" target="_blank">मध्य भारत शिक्षा समिति</a></li>-->
+
+      <!--      <li><a href="https://madhavcollege.edu.in/website/" target="_blank">माधव महाविद्यालय, ग्वालियर</a></li>-->
+      <!--      <li><a href="http://pgvcollege.edu.in" target="_blank">पार्वतीबाई गोखले विज्ञान महाविद्यालय, ग्वालियर</a></li>-->
+      <!--      <li><a href="https://pgvcollege.edu.in/lawcollege" target="_blank">माधव विधि महाविद्यालय, ग्वालियर</a></li>-->
+      <!--    <li><a href="https://madhavcollege.edu.in/madhavshiksha" target="_blank">माधव शिक्षा महाविद्यालय, ग्वालियर</a></li>-->
+      <!--<li><a href="https://pgvcollege.edu.in/pgumvschool/" target="_blank">पार्वतीबाई गोखले उच्चतर माध्यमिक विद्यालय</a></li>-->
+      <!--      <li><a href="https://sarvajanikschool.org.in/" target="_blank">सार्वजनिक माध्यमिक विद्यालय,ग्वालियर</a></li>-->
+      <!--          </ul>-->
+      <!--        </li>-->
+              <li>
+                               
+
+<div id="google_translate_element" style="margin-top: 5px;line-height: 30px;"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: '', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, includedLanguages : 'en,hi,yy'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+              </li>
+
+   
+
+            </ul>
+          </div>
+          
+         <marquee style="color: #fff;"> NAAC ACCREDITED “B” Grade MADHAV MAHAVIDYALAYA </marquee>
+          
+          
+          <div class="headerIcons">    
+            <div class="headerPhone"> 
+
+              <a href="download_menu.php" target="_blank" style="background-color: #0099a8;" class="btn btn-primary"> 
+
+							<i class="fa fa-download" style=" font-size: 15px !important;color:#fff;" aria-hidden="true"></i> <b></b>Download</b> &nbsp; 
+
+              </a>
+
+							<a href="tel:0751-4048874"><i class="fa fa-phone-alt">&nbsp;</i>0751-4048874</a></div>
+           
+           <!--  <div><a href="https://www.facebook.com/MadhavCollege/" target="_blank"><span class="fab fa-facebook"></span></a></div>
+             <div><a href="#" target="_blank"><span class="fab fa-linkedin"></span></a></div> -->
+          </div>
+        </div>
+        <div class="menuHolder">
+ 
+          <div class="menuWrap">
+            <div class="mainMenu">
+<div id="wBHBGNRV9XCQK3H1" class="mwPageBlock Menu" style="display:  ;"><div class="blockContents">
+  <ul id="mYJLwH5jB">
+
+<li class="no-children"><a href="index.php"><span class="Title">Home</span></a></li>
+    
+<li class="has-children"><a href="#"><span class="Title">About</span></a>
+  
+<ul>
+<li class="no-children"><a href="about-us.php" class=""><span class="Title">About Us</span></a></li>
+<li class="no-children"><a href="governing-body.php"><span class="Title">Governing Body</span></a></li>
+<li class="no-children"><a href="management-committee.php"><span class="Title">Management Committee</span></a></li>
+<li class="no-children"><a href="principal.php"><span class="Title">Principal Desk</span></a></li>
+<li class="no-children"><a href="faculty.php"><span class="Title">Faculty </span></a></li>
+<li class="no-children"><a href="officestaff.php"><span class="Title">Office Staff</span></a></li>
+</ul>
+</li>
+
+<li class="has-children"><a><span class="Title">Admission</span></a>
+<ul>
+<li class="no-children"><a href="admission.php"><span class="Title">Admission</span></a></li>
+<li class="no-children"><a href="courses.php"><span class="Title">Courses</span></a></li>
+<li class="no-children"><a href="fee-structure.php"><span class="Title">Fee Structure</span></a></li>
+</ul>
+</li>
+
+
+<li class="has-children"><a><span class="Title">Academics</span></a>
+<ul>
+<li class="no-children"><a href="https://www.tribal.mp.gov.in/mptaas" target="_blank"><span class="Title">Scholarship</span></a></li>
+<li class="no-children"><a href="result_module.php" target="_blank"><span class="Title">Result</span></a></li>
+<!-- <li class="no-children"><a href="noticeboard.php"><span class="Title">Academic Notice</span></a></li>
+<li class="no-children"><a href="general-notice.php"><span class="Title">General Notice</span></a></li> -->
+
+
+<li class="has-children"><a><span class="Title">Activities</span></a>
+  <ul>
+<li class="no-children"><a href="activities_info.php"><span class="Title">Activities</span></a></li>
+
+<li class="no-children"><a href="sports_info.php"><span class="Title">Sports Activities</span></a></li>
+<li class="no-children"><a href="nss_ncc_info.php"><span class="Title">NSS & NCC</span></a></li>
+
+<!--<li class="no-children"><a href="sports.php"><span class="Title">Sports Activities</span></a></li>-->
+<!--<li class="no-children"><a href="ncc&nss.php"><span class="Title">NSS & NCC</span></a></li>-->
+</ul>
+</li>
+
+<!-- <li class="no-children"><a href="result.php"><span class="Title">Results</span></a></li> -->
+<li class="no-children"><a href="research-center.php"><span class="Title">Research Center</span></a></li>
+<li class="no-children"><a href="#"><span class="Title">Placement</span></a></li>
+<li class="no-children"><a href="http://www.pmkvyofficial.org/" target="_blank"><span class="Title">Skill Development</span></a></li>
+</ul>
+</li>
+
+<li><a href="#"><span class="Title">Journals</span></a></li>
+<li><a href="blog.php"> Blog</a></li>
+
+<li  class="has-children"><a><span class="Title">Media</span></a>
+<ul>
+  <li class="no-children"><a href="gallery.php"><span class="Title">Photo Gallery</span></a></li>
+   <li class="no-children"><a href="video.php"><span class="Title">Video Gallery</span></a></li>
+</ul>
+</li>
+    <!-- <ul>
+<li class="no-children"><a href="Fitchburg-State-University-Health-Services.html"><span class="Title">Fitchburg State University Health Services</span></a></li>
+
+<li class="no-children"><a href="Residencies.html"><span class="Title">Residencies</span></a></li></ul> -->
+
+
+<!-- <li><a href="https://highereducation.mp.gov.in/?page=JUL9t1LHqftaDqryEIQFtg%3D%3D" target="_blank"><span class="Title">NEP</span></a></li> -->
+
+<!--<li><a href="alumni.php"><span class="Title">Alumni</span></a></li>-->
+
+<li class="has-children"><a><span class="Title">Alumni</span></a>
+<ul>
+<li class="no-children"><a href="alumni.php"><span class="Title">Our Alumni</span></a></li>
+<li class="no-children"><a href="alumni_add.php"><span class="Title">Register for Alumni</span></a></li>
+</ul>
+</li>
+
+
+<li class="has-children"><a><span class="Title">NAAC</span></a>
+  <ul>
+      <li class="no-children"><a href="http://naac.gov.in/index.php/en/" target="_blank">NAAC</a></li>
+      <li class="no-children"><a href="pdf/SSR 28.06.2025.pdf" target="_blank"><span class="Title">SSR Session 2018-19 to 2022-23</span></a></li>
+      <li class="has-children"><a href="#">IQAC</a>
+        <ul>
+        <li class="no-children"><a href="pdf/001.pdf" target="_blank"><span class="Title">IQAC Contact Detail</span></a></li>
+        <li class="no-children"><a href="pdf/002.pdf" target="_blank"><span class="Title">Quality Policy & Objectives</span></a></li>
+        <li class="no-children"><a href="pdf/003.pdf" target="_blank"><span class="Title">IQAC Committee (2022-23)</span></a></li>
+        <li class="no-children"><a href="pdf/004.pdf" target="_blank"><span class="Title">Agenda & Minutes of Meeting of IQAC (2022-23)</span></a></li>
+        <li class="no-children"><a href="pdf/005.pdf" target="_blank"><span class="Title">Action Taken Report of IQAC (2022-23)</span></a></li>
+        <li class="no-children"><a href="pdf/006.pdf" target="_blank"><span class="Title">Internal Quality Assurance Cell (IQAC)</span></a></li>
+        
+        </ul>
+      </li>
+        
+      <li class="no-children"><a href="pdf/feedback 2022_merged.pdf" target="_blank">Feedback</a></li>
+  </ul>           
+</li>
+
+ <li><a href="pdf/inq.pdf" target="_blank"> 
+             RTI
+         </a>
+  </li>
+
+<li> 
+  <a href="https://highereducation.mp.gov.in/?page=JUL9t1LHqftaDqryEIQFtg%3D%3D" target="_blank"> 
+  NEP</a> </li>
+
+
+</ul></div></div>
+
+
+
+              <div class="locationsMenu">
+                <h4>Locations</h4>
+                <ul>
+                  <li><a href="#">Fitchburg Community Health Center</a></li>
+                  <li><a href="#">Gardner Community Health Center</a></li>
+                  <li><a href="#">Leominster Community Health Center</a></li>
+                  <li><a href="#">ACTION Community Health Center</a></li>
+                  </li>
+                </ul>
+              </div>
+              
+             
+            </div>
+          </div>
+          <div class="headerBtns">
+            <ul>
+              
+              <li><a href="https://epravesh.mponline.gov.in/" target="_blank" style="font-size: 16px;">Apply For Admission</a></li>
+            
+                <li class="mobilrnone"><a href="contact-us.php" style="font-size: 16px;">Contact</a></li>
+            </ul>
+          </div>
+          
+          <!-- Header Mobile Menu -->
+
+      
+
+
+ <div class="topnav" style="">
+
+
+  <a href="#" class="">&nbsp;&nbsp;</a>
+  <div id="myLinks">
+    <a href="index.php">Home</a>
+     
+  <div style="width:100%;">
+      <span class="dropbtn">About <i class="fa fa-caret-right"></i></span> 
+        <div class="dropdown-content">
+         <a href="about-us.php">About Us</a>
+         <a href="governing-body.php">Governing Body</a>
+         <a href="management-committee.php">Management Committee</a>
+         <a href="principal.php">Principal Desk</a>
+         <a href="faculty.php">Faculty</a>
+         <a href="officestaff.php">Office Staff</a>
+        </div>
+  </div>
+
+
+
+<div style="width:100%;">
+     <span class="dropbtn">Admission <i class="fa fa-caret-right"></i></span>
+     <div class="dropdown-content">
+       <a href="admission.php">Admission</a>
+       <a href="courses.php">Courses</a>
+       <a href="fee-structure.php">Fee Structure</a>
+     </div>
+</div>
+
+
+
+<div style="width:100%;">
+   <span class="dropbtn">Academics <i class="fa fa-caret-right"></i></span>
+     <div class="dropdown-content">
+       <a href="https://www.tribal.mp.gov.in/mptaas" target="_blank"><span class="Title">Scholarship</span></a>
+
+       <a href="activities.php"><span class="Title">Activities</span></a>
+       <a href="sports.php"><span class="Title">Sports Activities</span></a>
+       <a href="ncc&amp;nss.php"><span class="Title">NSS &amp; NCC</span></a>
+       <a href="research-center.php"><span class="Title">Research Center</span></a>
+    
+       <a href="#"><span class="Title">Placement</span></a>
+       <a href="http://www.pmkvyofficial.org/" target="_blank"><span class="Title">Skill Development</span></a>
+     </div>
+</div>
+
+
+ <a href="#"><span class="Title">Journals</span></a>
+
+
+  <div style="width:100%;">
+     <span class="dropbtn">Media <i class="fa fa-caret-right"></i></span>
+     <div class="dropdown-content">
+       <a href="gallery.php"><span class="Title">Photo Gallery</span></a>
+        <a href="video.php"><span class="Title">Video Gallery</span></a>
+     </div>
+   
+  </div>
+
+
+
+ <div style="width:100%;">
+    <span class="dropbtn">Alumni <i class="fa fa-caret-right"></i></span>
+     <div class="dropdown-content">
+      <a href="alumni.php"><span class="Title">Our Alumni</span></a>
+      <a href="alumni_add.php"><span class="Title">Register for Alumni</span></a>
+     </div>
+   
+  </div>
+
+ <div style="width:100%;">
+    <span class="dropbtn">NAAC <i class="fa fa-caret-right"></i></span>
+     <div class="dropdown-content">
+      <a href="http://naac.gov.in/index.php/en/" target="_blank">NAAC</a>
+      <a href="pdf/SSR 28.06.2025.pdf" target="_blank">SSR Session 2018-19 to 2022-23</a>
+      <a>IQAC 
+       <!--<a href="pdf/001.pdf" target="_blank"><span class="Title">IQAC Contact Detail</span></a>-->
+       <!-- <a href="pdf/002.pdf" target="_blank"><span class="Title">Quality Policy & Objectives</span></a>-->
+       <!-- <a href="pdf/003.pdf" target="_blank"><span class="Title">IQAC Committee (2022-23)</span></a>-->
+       <!-- <a href="pdf/004.pdf" target="_blank"><span class="Title">Agenda & Minutes of Meeting of IQAC (2022-23)</span></a>-->
+       <!-- <a href="pdf/005.pdf" target="_blank"><span class="Title">Action Taken Report of IQAC (2022-23)</span></a>-->
+       <!-- <a href="pdf/006.pdf" target="_blank"><span class="Title">Internal Quality Assurance Cell (IQAC)</span></a>-->
+      </a>
+      <a href="pdf/feedback 2022_merged.pdf" target="_blank">Feedback</a>
+     </div>
+   
+  </div>
+<a href="pdf/inq.pdf" target="_blank">RTI</a>
+ 
+<a href="https://highereducation.mp.gov.in/?page=JUL9t1LHqftaDqryEIQFtg%3D%3D" target="_blank"> NEP</a>
+  
+      <a href="blog.php">Blog</a>
+
+    <a href="contact-us.php">Contact</a> 
+  <a href="download_menu.php">Download</a> 
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<script type="text/javascript">
+  
+</script>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
