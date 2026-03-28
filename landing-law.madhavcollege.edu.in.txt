@@ -1,0 +1,2437 @@
+<?php
+
+if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
+{
+?>
+  <!doctype html>
+  <html lang="id"><head prefix="og: http://ogp.me/ns#">
+      <meta charset="utf-8">
+      <title>ROKOKBET : Inovasi Link Situs Toto Togel Online Handal Deposit 10k Hadiah Bonus Tak Terbatas</title>
+
+      <meta name="description" content="ROKOKBET menjadi inovasi terbaru dalam dunia aktivitas toto togel online dengan menawarkan sistem performa stabil, variasi pasaran resmi, serta pelayanan profesional yang aktif 24 jam.">
+      <meta name="keywords" content="toto. ROKOKBET, koi toto, situs toto, situs togel, toto togel, togel online, agen togel, bandar togel, toto 4d, situs toto togel, bandar togel online">
+      <meta name="robots" content="index,follow">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="google-site-verification" content="wyRMH1L7Y_gSsUZ-mIwRd9ByWSt8vUEHXcbCbtsVZEU">
+      <meta name="google-site-verification" content="Ob-IsaBpj5RclI2ijIfzKbAliEhpXHN6fUGsa7MTtpc">
+      <meta name="google-site-verification" content="h8OusCFBis4m8mU0rWYj0ZLftQ3Mb5x7BTzEXB3qOqQ">
+      <meta name="google-site-verification" content="qGahW-IWI02cR8IE2OurV-h44ur7FmE4QyVZtCrnD6E">
+      <meta name="google-site-verification" content="jHdlape4c33QkOJv2DLw_2JIC-4WotljZKaklrptRss">
+      <meta name="google-site-verification" content="058qyoCa7turFyHpAsXJfKfI7b3vHHKyOibxa6AqYXY">
+      <meta name="google-site-verification" content="Or_Nk1LV3WuUGUlPwzn3T6mHlaBj0p0TCRlNrr_m90Q">
+      <meta name="google-site-verification" content="KrirM128OjOWIWiePUXEymOv7qtg4kNIm0tk0q7Qn_4">
+      <meta name="google-site-verification" content="A70L-tVa66qiCwH_i8qo_aJYOi44vJIyuTEbekQtZpQ">
+      <meta name="google-site-verification" content="SgZ5mcDahAgE86PtpDVYqytpaakTxmz5n_DaFNJcrhI">
+      <meta name="google-site-verification" content="0VmqsA0o8doz78QPFUVzKR3SgKdHckCDtyiJ9dHL0Dw">
+      <meta name="google-site-verification" content="LTAzD6xao6xWicUk9LCathgBsqNWfYBzv0kh8anIBpE">
+      <meta name="google-site-verification" content="eu_-_1Ufu6KzIsD1_AlVgBB5axWGElevYHaJ8xSF5fU">
+      <meta name="google-site-verification" content="dpOV0h5kBb5T3Q5UcLho6kjdGUcEy786Lu2GrecgzTU">
+      <meta property="og:title" content="ROKOKBET : Inovasi Link Situs Toto Togel Online Handal Deposit 10k Hadiah Bonus Tak Terbatas">
+      <meta property="og:type" content="og:product">
+      <meta property="fb:app_id" content="603190889801449">
+      <meta property="og:description" content="ROKOKBET menjadi inovasi terbaru dalam dunia aktivitas toto togel online dengan menawarkan sistem performa stabil, variasi pasaran resmi, serta pelayanan profesional yang aktif 24 jam.">
+      <meta property="og:url" content="https://law.madhavcollege.edu.in/">
+      <meta property="product:price:amount" content="55">
+      <meta property="product:price:currency" content="IDR">
+      <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNIDKCTZ_zGWJ4ognhPx6iiNtWzIm5v0DjKPBJnPj9coKmcwAfNWaZ0Z6tqeawje9bdTpmdzV4ZS-IdECF8rzAHpTxKEKsjKlAKplJ1-dSfhdOKHdyEctp84COItQC2s8DoY-ZFTjfBCRsLBFLxbJwOygP9qbGdFCSa1uyeCjR_u0OFta4_6tecn68cw3z/s1024/e064743d-13f8-4823-a5b8-56e94a2fa422.png">
+
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:site" content="@togel">
+      <meta name="twitter:title" content="ROKOKBET : Inovasi Link Situs Toto Togel Online Handal Deposit 10k Hadiah Bonus Tak Terbatas">
+      <meta name="twitter:description" content="ROKOKBET menjadi inovasi terbaru dalam dunia aktivitas toto togel online dengan menawarkan sistem performa stabil, variasi pasaran resmi, serta pelayanan profesional yang aktif 24 jam.">
+      <meta name="twitter:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNIDKCTZ_zGWJ4ognhPx6iiNtWzIm5v0DjKPBJnPj9coKmcwAfNWaZ0Z6tqeawje9bdTpmdzV4ZS-IdECF8rzAHpTxKEKsjKlAKplJ1-dSfhdOKHdyEctp84COItQC2s8DoY-ZFTjfBCRsLBFLxbJwOygP9qbGdFCSa1uyeCjR_u0OFta4_6tecn68cw3z/s1024/e064743d-13f8-4823-a5b8-56e94a2fa422.png">
+
+      <link rel="canonical" href="https://law.madhavcollege.edu.in/">
+      <link rel="Shortcut icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png">
+      <link rel="apple-touch-icon" sizes="57x57" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png">
+      <link rel="icon" type="image/png" sizes="192x192" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png">
+
+      <link rel="stylesheet" href="https://www.codester.com/static/css/bootstrap.css" type="text/css">
+      <link rel="stylesheet" href="https://www.codester.com/static/css/animate.css" type="text/css">
+      <link rel="stylesheet" href="https://www.codester.com/static/css/font-awesome.min.css" type="text/css">
+      <link rel="stylesheet" href="https://www.codester.com/static/css/simple-line-icons.css" type="text/css">
+      <link rel="stylesheet" href="https://www.codester.com/static/css/font.css" type="text/css">
+      <link rel="stylesheet" href="https://www.codester.com/static/js/lightbox/themes/classic/jquery.lightbox.css" type="text/css">
+      <link rel="stylesheet" href="https://www.codester.com/static/js/redactor/redactor.css" type="text/css">
+      <link rel="stylesheet" href="https://www.codester.com/static/css/app.css" type="text/css">
+      <link rel="stylesheet" href="https://www.codester.com/static/css/style118.css" type="text/css">
+
+      <link rel="amphtml" href="https://biarkan-aku-naik.pages.dev/">
+
+      <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" charset="UTF-8" async="" src="https://consent.cookiebot.com/e06c0a26-913f-429f-b79b-6967f2501257/cc.js?renew=false&amp;referer=revistaiberc.responsabilidadecivil.org&amp;dnt=false&amp;init=false"></script><script type="text/javascript" charset="UTF-8" src="https://consentcdn.cookiebot.com/consentconfig/e06c0a26-913f-429f-b79b-6967f2501257/revistaiberc.responsabilidadecivil.org/configuration.js"></script><script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e06c0a26-913f-429f-b79b-6967f2501257" data-blockingmode="auto" type="text/javascript"></script>
+
+      <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "togel",
+          "url": "https://law.madhavcollege.edu.in/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://law.madhavcollege.edu.in//search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+      </script>
+
+      <script type="application/ld+json">
+  {
+  "@type": "Product",
+  "@context": "https://schema.org",
+  "url": "https://law.madhavcollege.edu.in/",
+  "name": "AGEN TOGEL",
+  "sku": "205132",
+  "gtin": "n\/a",
+  "description": "ROKOKBET menjadi inovasi terbaru dalam dunia aktivitas toto togel online dengan menawarkan sistem performa stabil, variasi pasaran resmi, serta pelayanan profesional yang aktif 24 jam.",
+  "image": [{
+  "@type": "ImageObject",
+  "@context": "https://schema.org",
+  "author": "TOTO TOGEL",
+  "contentURL": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNIDKCTZ_zGWJ4ognhPx6iiNtWzIm5v0DjKPBJnPj9coKmcwAfNWaZ0Z6tqeawje9bdTpmdzV4ZS-IdECF8rzAHpTxKEKsjKlAKplJ1-dSfhdOKHdyEctp84COItQC2s8DoY-ZFTjfBCRsLBFLxbJwOygP9qbGdFCSa1uyeCjR_u0OFta4_6tecn68cw3z/s1024/e064743d-13f8-4823-a5b8-56e94a2fa422.png",
+  "description": null,
+  "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNIDKCTZ_zGWJ4ognhPx6iiNtWzIm5v0DjKPBJnPj9coKmcwAfNWaZ0Z6tqeawje9bdTpmdzV4ZS-IdECF8rzAHpTxKEKsjKlAKplJ1-dSfhdOKHdyEctp84COItQC2s8DoY-ZFTjfBCRsLBFLxbJwOygP9qbGdFCSa1uyeCjR_u0OFta4_6tecn68cw3z/s1024/e064743d-13f8-4823-a5b8-56e94a2fa422.png"
+  }],
+  "category": "AGEN TOGEL > TOTO TOGEL > SITUS TOTO",
+  "brand": {
+  "@type": "Brand",
+  "@context": "https://schema.org",
+  "name": "TOTO TOGEL"
+  },
+  "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNIDKCTZ_zGWJ4ognhPx6iiNtWzIm5v0DjKPBJnPj9coKmcwAfNWaZ0Z6tqeawje9bdTpmdzV4ZS-IdECF8rzAHpTxKEKsjKlAKplJ1-dSfhdOKHdyEctp84COItQC2s8DoY-ZFTjfBCRsLBFLxbJwOygP9qbGdFCSa1uyeCjR_u0OFta4_6tecn68cw3z/s1024/e064743d-13f8-4823-a5b8-56e94a2fa422.png",
+  "aggregateRating": {
+  "@type": "AggregateRating",
+  "ratingValue": "5.0",
+  "reviewCount": 18090
+  },
+  "offers": {
+  "@type": "Offer",
+  "eligibleQuantity": 800,
+  "price": "25000",
+  "priceCurrency": "IDR",
+  "availability": "https://schema.org\/InStock",
+  "shippingDetails": {
+  "@type": "OfferShippingDetails",
+  "shippingRate": {
+  "@type": "MonetaryAmount",
+  "value": "0",
+  "currency": "IDR"
+  }
+  }
+  },
+  "review": [{
+  "@type": "Review",
+  "reviewRating": {
+  "@type": "Rating",
+  "ratingValue": 5,
+  "bestRating": 5
+  },
+  "datePublished": "2025-08-27",
+  "reviewBody": "ROKOKBET memberikan pengalaman bermain togel online 4D yang stabil dengan akses mudah dan pilihan pasaran lengkap Sistemnya berjalan lancar sehingga pemain bisa bermain dengan nyaman setiap hari.",
+  "author": {
+  "@type": "Person",
+  "name": "situs toto"
+  }
+  }, {
+  "@type": "Review",
+  "reviewRating": {
+  "@type": "Rating",
+  "ratingValue": 5,
+  "bestRating": 5
+  },
+  "datePublished": "2025-08-28",
+  "reviewBody": "Sebagai agen bandar togel online ROKOKBET menawarkan layanan yang responsif dan sistem yang aman Informasi hasil selalu update sehingga memudahkan pemain dalam mengikuti setiap pasaran.",
+  "author": {
+  "@type": "Person",
+  "name": "toto togel"
+  }
+  }, {
+  "@type": "Review",
+  "reviewRating": {
+  "@type": "Rating",
+  "ratingValue": 5,
+  "bestRating": 5
+  },
+  "datePublished": "2025-01-20",
+  "reviewBody": "Tampilan situs ROKOKBET sederhana dan mudah digunakan membuat pemain tidak kesulitan saat mengakses berbagai pasaran togel online 4D yang tersedia setiap waktu.",
+  "author": {
+  "@type": "Person",
+  "name": "togel online"
+  }
+  }, {
+  "@type": "Review",
+  "reviewRating": {
+  "@type": "Rating",
+  "ratingValue": 5,
+  "bestRating": 5
+  },
+  "datePublished": "2024-12-07",
+  "reviewBody": "ROKOKBET menjadi pilihan banyak pemain karena sistem stabil akses cepat dan pasaran togel yang lengkap memberikan pengalaman bermain yang nyaman dan lebih praktis.",
+  "author": {
+  "@type": "Person",
+  "name": "toto"
+  }
+  }]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "ROKOKBET : Inovasi Link Situs Toto Togel Online Handal Deposit 10k Hadiah Bonus Tak Terbatas Apa itu ROKOKBET",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ROKOKBET adalah situs toto togel online yang menyediakan berbagai pasaran internasional dengan sistem permainan digital yang mudah diakses serta layanan modern untuk para pemain."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Bagaimana cara mendaftar di ROKOKBET",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pemain dapat mendaftar di ROKOKBET dengan mengakses link resmi kemudian mengisi data seperti username password dan informasi kontak hingga akun aktif."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Apakah ROKOKBET aman digunakan",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ROKOKBET menggunakan sistem keamanan yang dirancang untuk melindungi data pemain dan transaksi sehingga memberikan rasa aman saat bermain togel online."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Pasaran togel apa saja yang tersedia di ROKOKBET",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ROKOKBET menyediakan berbagai pasaran togel online 4D populer dengan pilihan lengkap yang dapat dimainkan setiap hari oleh semua pemain."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Apakah ROKOKBET menyediakan layanan pelanggan",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ya ROKOKBET menyediakan layanan pelanggan yang aktif dan responsif untuk membantu pemain menjawab pertanyaan dan mengatasi kendala saat bermain."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+  "@type": "ListItem",
+  "position": 1,
+  "name": "SITUS TOTO",
+  "item": "https://law.madhavcollege.edu.in/"
+  }, {
+  "@type": "ListItem",
+  "position": 2,
+  "name": "AGEN TOGEL",
+  "item": "https://law.madhavcollege.edu.in/"
+  }, {
+  "@type": "ListItem",
+  "position": 3,
+  "name": "TOTO TOGEL",
+  "item": "https://law.madhavcollege.edu.in/"
+  }]
+  }
+  </script>
+
+      <script type="application/ld+json">
+        {
+          "review": [
+            {
+              "@type": "Review",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "togel"
+              }
+            },
+            {
+              "@type": "Review",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4.9",
+                "bestRating": "5"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "toto togel"
+              }
+            },
+            {
+              "@type": "Review",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "togel online"
+              }
+            },
+            {
+              "@type": "Review",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "situs toto"
+              }
+            }
+          ]
+        }
+      </script>
+    <style type="text/css" id="CookieConsentStateDisplayStyles">.cookieconsent-optin-preferences,.cookieconsent-optin-statistics,.cookieconsent-optin-marketing,.cookieconsent-optin{display:none;}.cookieconsent-optout-preferences,.cookieconsent-optout-statistics,.cookieconsent-optout-marketing,.cookieconsent-optout{display:block;display:initial;}</style></head>
+
+    <body style="">
+      <header id="header" class="navbar navbar-fixed-top box-shadow affix-top" data-spy="affix" data-offset-top="1">
+  <style>
+
+    #header {
+      background: linear-gradient(
+        135deg,
+        #0b1220 0%,
+        #ffc4009c 38%,
+        #ffc4009c 72%,
+        #ffc4009c 100%
+      ) !important;
+      border: none;
+      box-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+    }
+
+    #header.navbar {
+      background: transparent;
+    }
+
+    .bg-togel {
+      background: transparent;
+      padding: 10px 0 6px;
+    }
+
+    .togel-header-main {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .togel-header-logo a.navbar-brand {
+      padding: 0;
+      margin: 0;
+      height: auto;
+    }
+
+    .togel-header-logo img {
+      height: 60px;
+      width: auto;
+      max-width: 100%;
+      display: block;
+    }
+
+    .togel-header-search {
+      flex: 1;
+    }
+
+    .togel-header-search .input-group {
+      width: 100%;
+      border-radius: 999px;
+      overflow: hidden;
+      background: rgba(11, 18, 32, 0.92); /* dark navy transparan */
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+    }
+
+    .togel-header-search .form-control {
+      border: none;
+      background: transparent;
+      height: 42px;
+      font-size: 13px;
+      padding: 0 16px;
+      color: #e6f0ff;
+    }
+
+    .togel-header-search .form-control::placeholder {
+      color: #9db3cf;
+    }
+
+    .togel-header-search .btn {
+      border: none;
+      background: transparent;
+      padding: 0 16px;
+    }
+
+    .togel-header-search .btn i {
+      font-size: 15px;
+      color: #9db3cf;
+    }
+
+    .togel-header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .togel-btn-pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 20px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      color: #f2f8ff;
+      background: transparent;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+      transition: all 0.18s ease;
+      white-space: nowrap;
+    }
+
+    .togel-btn-pill--primary {
+      background: rgba(11, 18, 32, 0.95);
+      border-color: transparent;
+    }
+
+    .togel-btn-pill:hover {
+      background: #ffffff;
+      color: #1e63d6; /* biru elegan saat hover */
+      border-color: #ffffff;
+      text-decoration: none;
+      transform: translateY(-1px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .togel-header-nav {
+      margin-top: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.35);
+      padding-top: 8px;
+    }
+
+    .togel-header-nav .nav.navbar-nav {
+      float: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .togel-header-nav .nav.navbar-nav > li {
+      float: none;
+    }
+
+    .togel-header-nav .nav.navbar-nav > li > a {
+      display: inline-block;
+      padding: 8px 20px;
+      border-radius: 999px;
+      background: rgba(11, 18, 32, 0.38); /* dark pill, nyatu dengan search */
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      color: #f2f8ff !important;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      text-decoration: none;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+      transition: all 0.18s ease;
+    }
+
+    .togel-header-nav .nav.navbar-nav > li > a:hover,
+    .togel-header-nav .nav.navbar-nav > li > a:focus {
+      background: #ffffff;
+      color: #1e63d6 !important; /* biru elegan saat hover */
+      border-color: #ffffff;
+      transform: translateY(-1px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    @media (max-width: 767px) {
+      .togel-header-main {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+      }
+
+      .togel-header-logo {
+        text-align: center;
+      }
+
+      .togel-header-actions {
+        justify-content: center;
+      }
+
+      .togel-header-nav .nav.navbar-nav {
+        display: block;
+      }
+
+      .togel-header-nav .nav.navbar-nav > li {
+        display: block;
+        margin-bottom: 4px;
+      }
+
+      .togel-header-nav .nav.navbar-nav > li > a {
+        display: block;
+        text-align: center;
+      }
+    }
+
+    #header .togel-header-logo .navbar-brand img {
+      height: 40px !important; /* ubah bebas: 70 / 80 / 90 */
+      width: auto !important;
+      max-height: none !important;
+    }
+
+    .togel-header-main {
+      display: flex;
+      align-items: center; /* pastikan semua isi sejajar vertikal */
+    }
+
+    .togel-header-logo {
+      display: flex;
+      align-items: center; /* logo ikut center terhadap row */
+    }
+
+    #header .togel-header-logo .navbar-brand {
+      margin: 0 !important;
+      padding: 0 !important;
+      display: flex;
+      align-items: center;
+    }
+
+    #header .togel-header-logo .navbar-brand img {
+      height: 50px !important; /* ukuran yang kamu suka */
+      width: auto !important;
+      max-height: none !important;
+      margin-top: 4px; /* kalau masih terasa terlalu atas/bawah,
+                          atur angka ini: 2 / 4 / 6 / 8 px */
+    }
+  </style>
+
+
+        <div class="bg-togel">
+          <div class="container">
+            <div class="togel-header-main">
+              <div class="togel-header-logo">
+                <a href="https://law.madhavcollege.edu.in/" class="navbar-brand">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6LeN0E1eQhClBeHqItT7yJJzDzSR12jl-nAdSQwHwqBr1cjLWeNHP5Ql6yqFwuUbcyoLvu43F6ESkVGW75XR6hNm1DBRtOT49usBljiVPyTnxN6DQe_AKSXqZz-dCVhjWZb2GoxBcTU5TPNxc4E0PjUIDtnwtYk1YYvKMks1tiWoYyZAcIvnEVPJVoafd/s210/logo.gif" alt="LOGO togel" title="togel">
+                </a>
+              </div>
+
+              <div class="togel-header-search">
+                <form id="search" class="navbar-form" role="search">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="CARI DI GOOGLE SITUS ROKOKBET">
+                    <span class="input-group-btn">
+                      <button type="submit" class="btn">
+                        <i class="fa fa-search"></i>
+                      </button>
+                    </span>
+                  </div>
+                </form>
+              </div>
+
+              <div class="togel-header-actions">
+                <a href="https://biarkan-aku-naik.pages.dev/" class="togel-btn-pill">MASUK</a>
+                <a href="https://biarkan-aku-naik.pages.dev/" class="togel-btn-pill togel-btn-pill--primary">Daftar</a>
+              </div>
+            </div>
+
+            <div class="togel-header-nav">
+              <ul class="nav navbar-nav m-l-n">
+                <li>
+                  <a href="https://law.madhavcollege.edu.in/">ROKOKBET</a>
+                </li>
+                <li>
+                  <a href="https://law.madhavcollege.edu.in/">TOTO TOGEL</a>
+                </li>
+                <li>
+                  <a href="https://law.madhavcollege.edu.in/">TOGEL ONLINE</a>
+                </li>
+                <li>
+                  <a href="https://law.madhavcollege.edu.in/">TOGEL 4D</a>
+                </li>
+                <li>
+                  <a href="https://law.madhavcollege.edu.in/">TOTO 4D</a>
+                </li>
+                <li>
+                  <a href="https://law.madhavcollege.edu.in/">SITUS TOGEL</a>
+                </li>
+                <li>
+                  <a href="https://law.madhavcollege.edu.in/">SITUS TOTO</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div id="content" class="main-content bg-light">
+        <br>
+        <br>
+
+        <div>
+          <div class="bg-light lter b-b wrapper">
+            <div class="container m-b-xs">
+              <div class="row visible-sm visible-md visible-lg visible-xl" style="height: 100px">
+                <div class="col-sm-8">
+                  <div>
+                    <img class="pull-left thumb-lg m-r-md img-rounded visible-sm visible-md visible-lg visible-xl" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png" alt="ROKOKBET : Inovasi Link Situs Toto Togel Online Handal Deposit 10k Hadiah Bonus Tak Terbatas">
+                    <img class="pull-left thumb-md m-r-md img-rounded visible-xs" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png" alt="ROKOKBET : Inovasi Link Situs Toto Togel Online Handal Deposit 10k Hadiah Bonus Tak Terbatas">
+                  </div>
+
+                  <div>
+                    <h1 class="h2 text-dark">
+                      <span class="h2 text-dark visible-sm visible-md visible-lg visible-xl">
+                        ROKOKBET : Inovasi Link Situs Toto Togel Online Handal Deposit 10k Hadiah Bonus Tak Terbatas
+                      </span>
+                    </h1>
+                    <span>
+                      ROKOKBET menjadi inovasi terbaru dalam dunia aktivitas toto togel online dengan menawarkan sistem performa stabil, variasi pasaran resmi, serta pelayanan profesional yang aktif 24 jam.
+                    </span>
+                  </div>
+                </div>
+
+                <div class="col-sm-4"></div>
+              </div>
+
+              <div class="row visible-xs" style="height: 160px">
+                <div class="col-sm-8">
+                  <div>
+                    <img class="pull-left thumb-md m-r-md img-rounded visible-xs" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png" srcset=",," https:="" imgmahasuhu.io="" images="" 2026="" 02="" 22="" fav-putih.png="" 270w="" 800w="" 1200w="" alt="ROKOKBET : Inovasi Link Situs Toto Togel Online Handal Deposit 10k Hadiah Bonus Tak Terbatas">
+                  </div>
+
+                  <div>
+                    <h1 class="h3 text-dark">
+                      <span class="visible-xs">
+                        ROKOKBET : Inovasi Link Situs Toto Togel Online Handal Deposit 10k Hadiah Bonus Tak Terbatas
+                      </span>
+                    </h1>
+                    <span>
+                      ROKOKBET menjadi inovasi terbaru dalam dunia aktivitas toto togel online dengan menawarkan sistem performa stabil, variasi pasaran resmi, serta pelayanan profesional yang aktif 24 jam.
+                    </span>
+                  </div>
+                </div>
+
+                <div class="col-sm-4"></div>
+              </div>
+
+              <div class="item-menu row m-t-md b-t m-l-n no-gutter hidden-print visible-xs">
+                <form name="itemmenuform">
+                  <select name="SelectSection" class="form-control" onchange="if (!window.__cfRLUnblockHandlers) return false; document.location.href=document.itemmenuform.SelectSection.options[document.itemmenuform.SelectSection.selectedIndex].value" data-np-intersection-state="observed">
+                    <option value="https://law.madhavcollege.edu.in/" selected="">
+                      Overview
+                    </option>
+                    <option value="https://law.madhavcollege.edu.in/">
+                      Reviews (99.88K)
+                    </option>
+                    <option value="https://law.madhavcollege.edu.in/">
+                      Support (88.777)
+                    </option>
+                    <option value="https://law.madhavcollege.edu.in/">FAQ (5)</option>
+                  </select>
+                </form>
+              </div>
+
+              <div class="item-menu row m-t-md b-t m-l-n no-gutter visible-sm visible-md visible-lg visible-xl">
+                <a class="text-md active wrapper-xs m-r-xxl" href="https://law.madhavcollege.edu.in/">Overview</a>
+                <a class="text-md wrapper-xs m-r-xxl" href="https://law.madhavcollege.edu.in/">Reviews (59.987K)</a>
+                <a class="text-md wrapper-xs m-r-xxl" href="https://law.madhavcollege.edu.in/">Support (87.798K)</a>
+                <a class="text-md wrapper-xs m-r-xxl" href="https://law.madhavcollege.edu.in/">FAQ (5)</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="container m-t-md">
+            <div class="row">
+              <div class="col-sm-8 link-info">
+                <div class="panel b-a">
+                  <div>
+                    <img alt="ROKOKBET : Inovasi Link Situs Toto Togel Online Handal Deposit 10k Hadiah Bonus Tak Terbatas" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNIDKCTZ_zGWJ4ognhPx6iiNtWzIm5v0DjKPBJnPj9coKmcwAfNWaZ0Z6tqeawje9bdTpmdzV4ZS-IdECF8rzAHpTxKEKsjKlAKplJ1-dSfhdOKHdyEctp84COItQC2s8DoY-ZFTjfBCRsLBFLxbJwOygP9qbGdFCSa1uyeCjR_u0OFta4_6tecn68cw3z/s1024/e064743d-13f8-4823-a5b8-56e94a2fa422.png" srcset=",,," https:="" imgmahasuhu.io="" images="" 2026="" 03="" 18="" agen-bandar-png.png="" 270w="" 800w="" 1200w="" 1600w="" class="img-full">
+                  </div>
+
+                  <div class="action-panel-hd">
+                  <style>
+                    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+                    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+                    :root {
+                      --dark-bg: #000000;
+                      --neon-purple: #ffc4009c; /* ganti jadi neon blue */
+                      --neon-cyan: #ffc4009c;   /* cyan soft */
+                      --text-light: #ffffff;
+                    }
+
+                    .action-panel-hd {
+                      background: linear-gradient(
+                        135deg,
+                        #0b1220 0%,
+                        #ffc4009c 38%,
+                        #ffc4009c 72%,
+                        #ffc4009c 100%
+                      );
+                      border-top: 1px solid #1f2a44;
+                      padding: 20px;
+                      border-radius: 0 0 10px 10px;
+                      font-family: "Poppins", sans-serif;
+                    }
+
+                    .action-row-hd {
+                      display: flex;
+                      justify-content: center;
+                      gap: 15px; /* Jarak antar tombol */
+                      flex-wrap: wrap; /* Agar responsif */
+                    }
+
+                    .btn-hd {
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      padding: 12px 20px;
+                      border-radius: 8px;
+                      text-decoration: none;
+                      font-weight: 700;
+                      font-size: 0.95em;
+                      text-transform: uppercase;
+                      transition: all 0.3s ease;
+                      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+                      flex: 1; /* Agar tombol membesar secara merata */
+                      min-width: 150px; /* Batasan minimum lebar */
+                    }
+
+                    .btn-hd i {
+                      margin-right: 8px;
+                      font-size: 1.1em;
+                    }
+
+                    .btn-hd:hover {
+                      transform: translateY(-3px);
+                      filter: brightness(1.15);
+                    }
+
+                    .btn-live-demo-hd {
+                      background: linear-gradient(90deg, #000000, #ffc4009c);
+                      color: #ffffff;
+                      border: none;
+                      box-shadow: 0 0 15px rgba(44, 122, 232, 0.25);
+                    }
+
+                    .btn-bookmark-hd {
+                      background: linear-gradient(90deg, #000000, #ffc4009c);
+                      color: var(--text-light);
+                      border: 1px solid #ffc4009c;
+                    }
+
+                    .btn-like-hd {
+                      background: rgba(255, 255, 255, 0.06);
+                      border: 2px solid var(--neon-purple);
+                      color: var(--neon-purple);
+                      box-shadow: 0 0 15px rgba(44, 122, 232, 0.22);
+                    }
+
+                    .btn-like-hd:hover {
+                      background: var(--neon-purple);
+                      color: #fff;
+                      box-shadow: 0 0 20px rgba(44, 122, 232, 0.55);
+                    }
+
+                    @media (max-width: 600px) {
+                      .action-row-hd {
+                        flex-direction: column;
+                        gap: 10px;
+                      }
+
+                      .btn-hd {
+                        width: 100%;
+                      }
+                    }
+
+                    .link-info a {
+                      color: #ffffff;
+                      text-decoration: none;
+                      cursor: pointer;
+                    }
+
+                    .btn-hd .btn-icon-hd {
+                      width: 18px; /* atur ukuran icon */
+                      height: 18px;
+                      object-fit: contain; /* jaga proporsi */
+                      margin-right: 6px; /* jarak icon ke teks */
+                      vertical-align: middle;
+                      display: inline-block;
+                    }
+                  </style>
+
+
+                    <div class="action-row-hd">
+                      <a href="https://biarkan-aku-naik.pages.dev/" class="btn-hd btn-live-demo-hd" target="_blank" rel="noopener">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png" alt="DAFTAR togel" class="btn-icon-hd">
+                        DAFTAR
+                      </a>
+
+                      <a href="https://biarkan-aku-naik.pages.dev/" class="btn-hd btn-bookmark-hd" target="_blank" rel="noopener">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png" alt="LOGIN togel" class="btn-icon-hd">
+                        <span>LOGIN</span>
+                      </a>
+
+                      <a href="https://biarkan-aku-naik.pages.dev/" class="btn-hd btn-like-hd" target="_blank" rel="noopener">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png" alt="PROMO togel" class="btn-icon-hd">
+                        PROMO
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row m-t-md"></div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="panel b-a">
+                      <div class="panel-heading bg-white-only b-light b-b font-bold">
+                        <h2>ROKOKBET : Inovasi Link Situs Toto Togel Online Handal Deposit 10k Hadiah Bonus Tak Terbatas</h2>
+                      </div>
+
+                      <div class="panel-body item-description text-md text-wordbreak">
+                        <p>
+<a href="https://law.madhavcollege.edu.in/" style="color:#0000009c; text-decoration:none;" alt="ROKOKBET">ROKOKBET</a> menjadi inovasi terbaru dalam dunia aktivitas toto togel online dengan menawarkan sistem performa stabil, variasi pasaran resmi, serta pelayanan profesional yang aktif 24 jam. Dengan sistem yang terus diperbarui, platform ini memberikan kemudahan akses bagi para bettor untuk menikmati dari berbagai pasaran togel populer secara tanpa hambatan. Salah satu keunggulan utama dari Rokokbet adalah kemudahan dalam melakukan proses deposit, dengan minimal deposit hanya 10k, siapa saja kini bisa mulai bermain tanpa harus mengeluarkan modal besar. Sistem transaksi yang tersedia juga sangat beragam, mulai dari transfer bank hingga e-wallet, sehingga memudahkan setiap bettor dari berbagai kalangan untuk bergabung. Tidak hanya itu, Rokokbet juga dikenal dengan program hadiah bonus tak terbatas yang menjadi daya tarik utama. Setiap bettor memiliki berkesempatan untuk mendapatkan berbagai bonus menarik, baik dari kemenangan, event khusus, hingga promo harian yang terus diperbarui.
+  </p>
+
+  <p>
+<a href="https://law.madhavcollege.edu.in/" style="color:#0000009c; text-decoration:none;" alt="Hal ini">Hal ini</a> tentu memberikan nilai tambah bagi para bettor yang ingin mendapatkan keuntungan lebih dari aktivitas bermain toto togel online. Dari segi keamanan, situs ini menggunakan teknologi enkripsi terbaru untuk menjaga data dan transaksi para bettor agar tetap berjalan aman dan efesien. Selain itu, pelayanan customer service yang aktif 24 jam siap membantu kapan saja jika terjadi kendala atau pertanyaan seputar permainan. Secara kombinasi antara kemudahan deposit 10k, hadiah bonus yang melimpah, serta sistem yang handal, Rokokbet menjadi pilihan tepat bagi siapapun kamu yang mencari situs toto togel online resmi dan terpercaya.
+  </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- FAQ -->
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="panel b-a">
+                      <div class="panel-heading bg-white-only b-light b-b font-bold">
+                        <h2 class="h4 font-bold">FAQ ROKOKBET</h2>
+                      </div>
+
+                      <div class="panel-body item-description text-md text-wordbreak">
+                      <style>
+                        .modern-faq-container {
+                          font-family: Poppins, "Segoe UI", sans-serif;
+                          display: flex;
+                          flex-direction: column;
+                          align-items: center;
+                          gap: 14px;
+                        }
+
+                        .koi-faq-card {
+                          width: 100%;
+                          max-width: 900px;
+                          position: relative;
+                          overflow: hidden;
+
+                          border-radius: 16px;
+                          padding: 16px 18px;
+
+                          background:
+                            radial-gradient(900px 240px at 75% 0%,
+                              rgba(111, 182, 255, 0.28),
+                              transparent 55%),
+                            linear-gradient(135deg,
+                              rgba(11, 18, 32, 0.96) 0%,
+                              rgba(25, 0, 0) 45%,
+                              rgba(238, 246, 255, 0.92) 100%);
+
+                          border: 1px solid rgba(125, 211, 252, 0.22);
+                          box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
+
+                          display: grid;
+                          grid-template-columns: 64px 1fr;
+                          gap: 14px;
+                          align-items: start;
+
+                          transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+                        }
+
+                        .koi-faq-card:hover {
+                          transform: translateY(-3px);
+                          border-color: rgba(125, 211, 252, 0.45);
+                          box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+                        }
+
+                        .koi-faq-card::before {
+                          content: "";
+                          position: absolute;
+                          inset: 0 auto 0 0;
+                          width: 3px;
+                          background: linear-gradient(180deg, #ffc4009c, #ffc4009c);
+                          opacity: 0.95;
+                        }
+
+                        .modern-faq-avatar {
+                          width: 56px;
+                          height: 56px;
+                          border-radius: 14px;
+                          object-fit: cover;
+
+                          border: 1px solid rgba(255, 255, 255, 0.28);
+                          background: rgba(255, 255, 255, 0.06);
+                          box-shadow: 0 10px 22px rgba(0, 0, 0, 0.22);
+                        }
+
+                        .modern-faq-content {
+                          display: flex;
+                          flex-direction: column;
+                          gap: 10px;
+                          min-width: 0;
+                        }
+
+                        .modern-faq-question {
+                          margin: 0;
+                          display: flex;
+                          align-items: center;
+                          gap: 10px;
+
+                          font-size: 1rem;
+                          font-weight: 800;
+                          line-height: 1.25;
+
+                          color: #071733;
+                          text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+                        }
+
+                        .modern-faq-q-icon {
+                          flex-shrink: 0;
+                          font-size: 0.72rem;
+                          font-weight: 900;
+                          letter-spacing: 0.05em;
+
+                          padding: 4px 10px;
+                          border-radius: 999px;
+
+                          color: #ffffff;
+                          background: linear-gradient(135deg, #000000, #ffc4009c);
+                          box-shadow: 0 10px 18px rgba(44, 122, 232, 0.18);
+                        }
+
+                        .modern-faq-answer {
+                          margin: 0;
+
+                          padding: 12px 14px;
+                          border-radius: 12px;
+
+                          background: rgba(255, 255, 255, 0.88);
+                          border: 1px solid rgba(15, 23, 42, 0.10);
+
+                          color: #0f172a;
+                          font-size: 0.95rem;
+                          line-height: 1.6;
+
+                          border-left: 3px solid rgba(44, 122, 232, 0.55);
+                        }
+
+                        @media (max-width: 600px) {
+                          .koi-faq-card {
+                            grid-template-columns: 1fr;
+                            padding: 16px;
+                            gap: 10px;
+                          }
+
+                          .modern-faq-avatar {
+                            width: 54px;
+                            height: 54px;
+                          }
+
+                          .modern-faq-question {
+                            font-size: 0.98rem;
+                          }
+
+                          .modern-faq-answer {
+                            font-size: 0.93rem;
+                          }
+                        }
+                        .koi-faq-card .modern-faq-question,
+                      .koi-faq-card h4.modern-faq-question {
+                        color: rgba(255, 255, 255, 0.92) !important;
+                        text-shadow: 0 2px 10px rgba(11, 18, 32, 0.45);
+                      }
+
+                      .koi-faq-card{
+                        display: grid;
+                        grid-template-columns: 72px 1fr;
+                        align-items: center;     /* kunci: avatar otomatis center tinggi kartu */
+                      }
+
+                      .modern-faq-avatar{
+                        align-self: center;
+                        justify-self: center;    /* ikon di tengah kolom kiri */
+                      }
+
+                      </style>
+
+                        <div class="modern-faq-container">
+                          <div class="koi-faq-card">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png" alt="Admin Support" class="modern-faq-avatar">
+                            <div class="modern-faq-content">
+                              <h4 class="modern-faq-question">
+                                <span class="modern-faq-q-icon">Q</span>
+                                Apa itu ROKOKBET?
+                              </h4>
+                              <p class="modern-faq-answer">
+                                ROKOKBET adalah situs toto togel online yang menyediakan berbagai pasaran internasional dengan sistem permainan digital yang mudah diakses serta layanan modern untuk para pemain.
+                              </p>
+                            </div>
+                          </div>
+
+                          <div class="koi-faq-card">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png" alt="Admin Finance" class="modern-faq-avatar">
+                            <div class="modern-faq-content">
+                              <h4 class="modern-faq-question">
+                                <span class="modern-faq-q-icon">Q</span>
+                                Berapa minimal deposit di ROKOKBET??
+                              </h4>
+                              <p class="modern-faq-answer">
+                                Minimal deposit di ROKOKBET sangat terjangkau, yaitu mulai dari 10 ribu rupiah saja, sehingga cocok untuk semua kalangan pemain.
+                              </p>
+                            </div>
+                          </div>
+
+                          <div class="koi-faq-card">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png" alt="Admin Teknis" class="modern-faq-avatar">
+                            <div class="modern-faq-content">
+                              <h4 class="modern-faq-question">
+                                <span class="modern-faq-q-icon">Q</span>
+                                Apakah ada bonus untuk pemain?
+                              </h4>
+                              <p class="modern-faq-answer">
+                                Ya, ROKOKBET menawarkan berbagai bonus menarik seperti bonus deposit, cashback, dan hadiah spesial tanpa batas bagi pemain aktif.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12"></div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12"></div>
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="panel text-md b-a link-info">
+                  <div class="panel-body">
+                    <div class="clear">
+                      <form action="/items/58439" id="purchase-form" method="post" name="purchase-form">
+                        <input name="pay_method" style="border: none" type="hidden" value="creditcard">
+                        <input class="licence-type" id="licence" name="licence" type="hidden" value="regular">
+
+                        <div class="pull-right text-right">
+                          <span class="m-l-xs price">
+                            <span class="h2 text-right-xs" content="IDR">
+                              Rp.
+                            </span>
+                            <span class="h1 price_in_dollars text-right-xs font-bold" data-licence="regular" content="10.000">
+                            10.000
+                            </span>
+                            <br>
+                          </span>
+                        </div>
+
+                        <div class="pull-left">
+                          <script type="text/javascript">
+                            function changelicense() {
+                              var licensetype =
+                                document.getElementById("licensetype").value;
+                              if (licensetype == "extended") {
+                                chooseLicence(
+                                  "extended",
+                                  "165",
+                                  "165",
+                                  "none",
+                                  ""
+                                );
+                              }
+                              if (licensetype == "regular") {
+                                chooseLicence("regular", "55", "55", "block", "");
+                              }
+                            }
+                          </script>
+
+                          <script type="text/javascript">
+                            function chooseLicence(
+                              licence,
+                              price,
+                              prepaidprice,
+                              display,
+                              totalprice
+                            ) {
+                              $(
+                                "#buynow-form input[name=licence], #prepaid-form input[name=licence]"
+                              ).val(licence);
+                              $("input[name=licence]").val(licence);
+                              $("strong.buynow-figure").text("" + price);
+                              $("strong.prepaid-figure").text("" + prepaidprice);
+                              $(".price_in_dollars").text("" + price);
+                              $("#total-price-amount").text("" + totalprice);
+                              $(".inc-price").text("" + totalprice / 100);
+                              if (licence == "extended") {
+                                var buyURL =
+                                  document.getElementById("buyButton").href;
+                                document.getElementById("buyButton").href =
+                                  buyURL + "&extended=true";
+                              }
+                              if (licence == "regular") {
+                                var buyURL =
+                                  document.getElementById("buyButton").href;
+                                document.getElementById("buyButton").href =
+                                  buyURL.replace("&extended=true", "");
+                              }
+                            }
+                          </script>
+
+                          <select id="licensetype" class="form-control" onchange="if (!window.__cfRLUnblockHandlers) return false; changelicense()">
+                            <option value="regular">Regular license</option>
+                            <option value="extended">Extended license</option>
+                          </select>
+
+                          <br>
+
+                          <a style="color: #ffc4009c" rel="nofollow" class="text-sm text-info" href="#" data-toggle="modal" data-target="#licenseModal">View license details</a>
+                        </div>
+                      </form>
+                    </div>
+
+                    <div class="clear m-t-md m-b-md text-md">
+                      <i class="fa fa-check-circle text-success fa-fw"></i>
+                      ROKOKBET<br>
+                      <i class="fa fa-check-circle text-success fa-fw"></i>
+                      TOTO TOGEL<br>
+                      <i class="fa fa-check-circle text-success fa-fw"></i>
+                      TOGEL ONLINE<br>
+                      <i class="fa fa-check-circle text-success fa-fw"></i>
+                      MINIMAL DEPOSIT 10K<br>
+                      <i class="fa fa-check-circle text-success fa-fw"></i>
+                      PASARAN TERLENGKAP<br>
+                      <i class="fa fa-check-circle text-success fa-fw"></i>
+                      PELAYANAN PROFESIONAL<br>
+                    </div>
+
+                    <style>
+                      #buyButton {
+                        border: none !important;
+                        color: #ffffff !important;
+                        background: rgb(0, 0, 0);
+                        background: linear-gradient(
+                          135deg,
+                          #0b1220 0%,
+                          #ffc4009c 38%,
+                          #ffc4009c 72%,
+                          #ffc4009c 88%,
+                          #ffc4009c 100%
+                        );
+                        background-size: 200% auto;
+                        box-shadow: 0 4px 15px 0 rgba(44, 122, 232, 0.35);
+                        border-radius: 8px;
+                        letter-spacing: 1px;
+                        transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+                      }
+
+                      #buyButton:hover,
+                      #buyButton:focus {
+                        background-position: right center;
+                        color: #ffffff !important;
+                        box-shadow: 0 7px 20px 0 rgba(44, 122, 232, 0.55);
+                        transform: translateY(-3px);
+                      }
+
+                      #buyButton i {
+                        color: #ffffff !important;
+                        padding-left: 10px;
+                      }
+                    </style>
+
+                    <a rel="dofollow" class="btn btn-success btn-lg btn-block m-b-xs font-bold" id="buyButton" href="https://biarkan-aku-naik.pages.dev/">
+                      <i class="pull-right fa fa-chevron-right"></i>DAFTAR VVIP
+                    </a>
+
+                    <form class="payment-form" action="https://law.madhavcollege.edu.in/" method="POST">
+                      <input name="pay_method" style="border: none" type="hidden" value="creditcard">
+                      <input class="licence-type" id="licence" name="licence" type="hidden" value="regular">
+                    </form>
+                  </div>
+                </div>
+                
+                <div class="panel b-a link-info koi-info-panel">
+                  <div class="panel-heading bg-white-only h4 b-b b-light font-bold">
+                    INFORMASI ROKOKBET
+                  </div>
+
+                  <table class="table table-striped m-b-none">
+                    <tbody>
+                      <tr>
+                        <td class="col-xs-5">NAMA SITUS</td>
+                        <td class="col-xs-7"><strong>ROKOKBET</strong></td>
+                      </tr>
+                      <tr>
+                        <td>MINIMAL DEPOSIT</td>
+                        <td>10.000</td>
+                      </tr>
+                      <tr>
+                        <td>MINIMAL WITHDRAW</td>
+                        <td>25.000</td>
+                      </tr>
+                      <tr>
+                        <td>PERMAINAN</td>
+                        <td>ALL GAMES</td>
+                      </tr>
+                      <tr>
+                        <td>Ratings</td>
+                        <td>⭐️⭐️⭐️️⭐️ Dari Pengguna Aktif</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <!-- REVIEW -->
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="panel b-a">
+                      <div class="panel-heading bg-white-only b-light b-b font-bold">
+                        <h2 class="h4 font-bold">REVIEWS MEMBER ROKOKBET</h2>
+                      </div>
+                      <div class="panel-body item-description text-md text-wordbreak">
+                        <div class="modern-review-container">
+                          <div class="modern-review-grid">
+                            <div class="modern-review-card">
+                              <div class="modern-review-quote-icon">❝</div>
+                              <div class="modern-review-header">
+                                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png" alt="Foto Profil Budi" class="modern-review-avatar">
+                                <div class="modern-review-user-info">
+    <h4 class="modern-review-name">Sari JackpotQueen</h4>
+        <span class="modern-review-badge">17 menit yang lalu.</span>
+      </div>
+    </div>
+    <p class="koi-review-content">
+      “Sering dapet promo menarik dari ROKOKBET, apalagi cashback kalah yang lumayan bantu. Cocok buat yang mau main santai tapi tetap punya peluang menang besar.
+    </p>
+    <div class="modern-review-rating">★★★★★</div>
+  </div>
+
+  <div class="modern-review-card">
+    <div class="modern-review-quote-icon">❝</div>
+    <div class="modern-review-header">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png" alt="Foto Profil User" class="modern-review-avatar">
+      <div class="modern-review-user-info">
+        <h4 class="modern-review-name">Dedi 4DMaster</h4>
+        <span class="modern-review-badge">47 menit yang lalu.</span>
+      </div>
+    </div>
+    <p class="koi-review-content">
+      “ROKOKBET termasuk situs yang stabil dan jarang error. Saya sudah beberapa kali WD dan lancar terus. Ini yang bikin saya tetap setia main di sini.”
+    </p>
+    <div class="modern-review-rating">★★★★★</div>
+  </div>
+
+  <div class="modern-review-card">
+    <div class="modern-review-quote-icon">❝</div>
+    <div class="modern-review-header">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png" alt="Foto Profil User" class="modern-review-avatar">
+      <div class="modern-review-user-info">
+        <h4 class="modern-review-name">Rina LuckyTogel</h4>
+        <span class="modern-review-badge">54 menit yang lalu.</span>
+      </div>
+    </div>
+    <p class="koi-review-content">
+      “Awalnya coba-coba karena depositnya kecil, tapi ternyata nyaman banget. Interface situsnya mudah dipahami, bahkan untuk pemula seperti saya. Bonusnya juga real, bukan sekadar janji.”
+    </p>
+    <div class="modern-review-rating">★★★★</div>
+  </div>
+
+  <div class="modern-review-card">
+    <div class="modern-review-quote-icon">❝</div>
+    <div class="modern-review-header">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png" alt="Foto Profil User" class="modern-review-avatar">
+      <div class="modern-review-user-info">
+        <h4 class="modern-review-name">Budi MacauKing</h4>
+        <span class="modern-review-badge">1 jam yang lalu.</span>
+      </div>
+    </div>
+    <p class="koi-review-content">
+      “Yang saya suka dari ROKOKBET itu pasaran lengkap, terutama Macau yang favorit saya. Result cepat dan akurat, jadi nggak bikin ragu. Pelayanannya juga responsif banget.”
+    </p>
+    <div class="modern-review-rating">★★★★</div>
+  </div>
+
+  <div class="modern-review-card">
+    <div class="modern-review-quote-icon">❝</div>
+    <div class="modern-review-header">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png" alt="Foto Profil User" class="modern-review-avatar">
+      <div class="modern-review-user-info">
+        <h4 class="modern-review-name">Andi Toto4D</h4>
+        <span class="modern-review-badge">1 jam yang lalu.</span>
+      </div>
+    </div>
+    <p class="koi-review-content">
+      “Saya sudah coba banyak situs togel, tapi ROKOKBET ini paling simpel. Deposit 10k saja sudah bisa main. Bonusnya juga sering banget dikasih, jadi makin semangat pasang angka setiap hari.”
+    </p>
+    <div class="modern-review-rating">★★★★★</div>
+  </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <style>
+                    :root{
+                      --togel-navy:#0b1220;
+                      --togel-navy2:#ffc4009c;
+                      --togel-blue:#ffc4009c;
+                      --togel-ice:#ffc4009c;
+                      --togel-cyan:#ffc4009c;
+                    }
+
+                    /* ===== REVIEW PANEL (nyatu sama info panel) ===== */
+                    .koi-review-panel{
+                      margin-top: 14px;
+                      background:
+                        radial-gradient(900px 240px at 85% 0%, rgba(111,182,255,.22), transparent 55%),
+                        linear-gradient(135deg, rgba(11,18,32,.96) 0%, rgba(18,58,122,.86) 45%, rgba(238,246,255,.92) 100%);
+                      border-radius: 20px;
+                      border: 1px solid rgba(125,211,252,.22);
+                      overflow: hidden;
+                      box-shadow: 0 12px 35px rgba(0,0,0,.28);
+                    }
+
+                    .koi-review-panel .panel-heading{
+                      background: rgba(11,18,32,.55) !important;
+                      border-bottom: 1px solid rgba(255,255,255,.18);
+                      color: rgba(255,255,255,.92);
+                      font-weight: 800;
+                      letter-spacing: .12em;
+                      text-transform: uppercase;
+                      padding: 14px 18px;
+                    }
+
+                    .koi-review-panel .panel-heading::before{
+                      content:"";
+                      display:inline-block;
+                      width:4px;height:18px;
+                      border-radius:999px;
+                      margin-right:10px;
+                      background: linear-gradient(180deg, var(--koi-blue), var(--koi-cyan));
+                      vertical-align: middle;
+                    }
+
+                    .modern-review-container{
+                      font-family: Poppins, "Segoe UI", sans-serif;
+                      display:block;
+                    }
+
+                    /* sidebar: 1 kolom rapih */
+                    .modern-review-grid{
+                      display:grid;
+                      grid-template-columns: 1fr;
+                      gap: 12px;
+                      width:100%;
+                      max-width:100%;
+                      padding: 14px;
+                    }
+
+                    .modern-review-card{
+                      background: rgba(255,255,255,.90);
+                      border: 1px solid rgba(15,23,42,.10);
+                      border-radius: 14px;
+                      padding: 14px;
+                      position: relative;
+                      overflow: hidden;
+                      box-shadow: 0 10px 22px rgba(0,0,0,.14);
+                      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+                    }
+
+                    .modern-review-card::before{
+                      content:"";
+                      position:absolute;
+                      top:0; left:0;
+                      width:100%; height:4px;
+                      background: linear-gradient(90deg, var(--koi-blue), var(--koi-cyan));
+                    }
+
+                    .modern-review-card:hover{
+                      transform: translateY(-3px);
+                      border-color: rgba(44,122,232,.28);
+                      box-shadow: 0 14px 30px rgba(0,0,0,.18);
+                    }
+
+                    .modern-review-header{
+                      display:flex;
+                      align-items:center;
+                      gap: 10px;
+                      margin-bottom: 10px;
+                    }
+
+                    .modern-review-avatar{
+                      width:44px;height:44px;
+                      border-radius: 12px;
+                      object-fit: cover;
+                      border: 1px solid rgba(255,255,255,.35);
+                      box-shadow: 0 10px 18px rgba(0,0,0,.18);
+                    }
+
+                    .modern-review-name{
+                      margin:0;
+                      font-weight: 800;
+                      font-size: 1rem;
+                      color: rgba(7,23,51,.92);
+                    }
+
+                    .modern-review-badge{
+                      display:block;
+                      margin-top:2px;
+                      font-size: .72rem;
+                      font-weight: 800;
+                      letter-spacing: .08em;
+                      text-transform: uppercase;
+                      color: rgba(44,122,232,.92);
+                    }
+
+                    .koi-review-content{
+                      margin: 0 0 10px 0;
+                      color: rgba(15,23,42,.92);
+                      font-size: .92rem;
+                      line-height: 1.55;
+                    }
+
+                    .modern-review-quote-icon{
+                      position:absolute;
+                      top: 10px; right: 12px;
+                      font-size: 1.6rem;
+                      color: rgba(44,122,232,.18);
+                      font-family: serif;
+                    }
+
+                    .modern-review-rating{
+                      color: rgba(44,122,232,.95);
+                      letter-spacing: 1px;
+                      font-size: 1rem;
+                    }
+
+                    #footer .bg-black.lt,
+                    #footer .bg-black.lt .text-right,
+                    #footer .bg-black.lt .text-right *,
+                    #footer .bg-black.lt a{
+                      color: #ffffff !important;
+                    }
+
+                    /* hover link biar tetap elegan */
+                    #footer .bg-black.lt a:hover{
+                      color: #ffc4009c !important;
+                    }
+
+                  </style>
+              </div>
+
+              <div class="modal fade" id="licenseModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                      </button>
+                      <h4 class="modal-title" id="myModalLabel">
+                        License details
+                      </h4>
+                    </div>
+
+                    <div class="modal-body">
+                      <h3 class="m-t-xxs">Regular License</h3>
+                      <p class="text-md">
+                        A regular license allows an item to be used in one project
+                        for either personal or commercial use by you or on behalf
+                        of a client. The item cannot be offered for resale either
+                        on its own or as part of a project. Distribution of source
+                        files is not permitted.
+                      </p>
+
+                      <h3>Extended License</h3>
+                      <p class="text-md">
+                        An extended license allows an item to be used in unlimited
+                        projects for either personal or commercial use. The item
+                        cannot be offered for resale "as-is". It is allowed to
+                        distribute/sublicense the source files as part of a larger
+                        project.
+                      </p>
+                    </div>
+
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                      </button>
+                      <h4 class="modal-title text-center text-bold" id="myModalLabel">
+                        Create an account
+                      </h4>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="container w-xxl w-auto-xs">
+                        <p></p>
+
+                        <div class="m-b-lg">
+                          
+
+                          <script type="text/javascript">
+                            var facebookLoginWindow;
+                            var loginWindowTimer;
+
+                            function facebookLogin() {
+                              var popupWidth = 500;
+                              var popupHeight = 300;
+                              var xPosition =
+                                ($(window).width() - popupWidth) / 2;
+                              var yPosition =
+                                ($(window).height() - popupHeight) / 2;
+
+                              facebookLoginWindow = window.open(
+                                "https://www.facebook.com/v2.0/dialog/oauth?client_id=603190889801449&scope=email&display=popup&redirect_uri=https://www.codester.com/sign_up/",
+                                "LoginWindow",
+                                "location=1,scrollbars=1," +
+                                  "width=" +
+                                  popupWidth +
+                                  ",height=" +
+                                  popupHeight +
+                                  "," +
+                                  "left=" +
+                                  xPosition +
+                                  ",top=" +
+                                  yPosition
+                              );
+                            }
+                          </script>
+
+                          <button onclick="if (!window.__cfRLUnblockHandlers) return false; facebookLogin()" rel="nofollow" class="btn btn-lg btn-facebook btn-block m-b">
+                            <i class="fa fa-facebook-square m-r-xs"></i>
+                            Sign up with Facebook
+                          </button>
+
+                          <form action="/sign_up/?redirectURL=https://law.madhavcollege.edu.in/?purchasepanel=true" method="post" class="form-validation">
+                            <p class="link-info text-center m-t-sm m-b">
+                              or
+                              <a rel="nofollow" href="#signup-email" class="" data-toggle="collapse">Sign up with Email</a>
+                            </p>
+
+                            <div id="signup-email" class="collapse">
+                              <div class="row m-b">
+                                <div class="col-md-6">
+                                  <input type="text" class="form-control list-group-item" id="user_firstname" name="firstname" value="" placeholder="First name" required="" data-np-intersection-state="observed">
+                                </div>
+
+                                <div class="col-md-6">
+                                  <input type="text" class="form-control list-group-item" id="user_surname" name="lastname" value="" placeholder="Last name" required="" data-np-intersection-state="observed">
+                                </div>
+                              </div>
+
+                              <div class="list-group list-group-sm">
+                                <div class="list-group-item m-b">
+                                  <input type="username" placeholder="Username" class="form-control no-border" id="user_username" name="username" value="" required="" data-np-intersection-state="observed">
+                                </div>
+
+                                <div class="list-group-item m-b">
+                                  <input type="email" placeholder="Email" id="user_email" name="email" value="" class="form-control no-border" required="" data-np-intersection-state="observed">
+                                </div>
+
+                                <div class="list-group-item">
+                                  <input type="password" placeholder="Password" id="user_password" name="password" class="form-control no-border" required="" data-np-intersection-state="observed">
+                                </div>
+                              </div>
+
+                              <p class="text-center link-info">
+                                <small>
+                                  By signing up to togel you confirm that you
+                                  agree with the
+                                  <a href="https://www.codester.com/info/member_terms" target="_blank">member terms and conditions</a>
+                                </small>
+                              </p>
+
+                              <button rel="nofollow" type="submit" name="add" value="yes" class="btn btn-lg btn-info btn-block" data-np-autofill-submit="">
+                                Create my account
+                              </button>
+                            </div>
+
+                            <div class="line line-dashed"></div>
+
+                            <p class="text-center link-info">
+                              <small>
+                                Do you already have an account?
+                                <a rel="nofollow" href="/sign_in/">Log in</a>
+                              </small>
+                            </p>
+                          </form>
+                        </div>
+
+                        <div class="text-center">
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal fade" id="purchaseModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                      </button>
+                      <h4 class="modal-title" id="myModalLabel">
+                        Please select payment method
+                      </h4>
+                    </div>
+
+                    <div class="modal-body">
+                      <form action="/items/58439" method="post" class="form-inline">
+                        <ul class="payment-options list-unstyled info-link visible-sm visible-md visible-lg visible-xl">
+                          <li class="m-t-sm">
+                            <label>
+                              <input checked="checked" class="checkbox payment-checkbox" name="pay_method" type="radio" value="paypal">
+                              <span class="m-l-sm text-md m-t-xs">
+                                <img src="/static/img/icons/payment/paypal.png" class="m-r-sm">
+                                <strong>Paypal</strong>
+                                <span class="text-info font-bold">
+                                  + $2 transaction fee
+                                </span>
+                              </span>
+                            </label>
+                          </li>
+
+                          <li class="m-t-lg">
+                            <label>
+                              <input class="checkbox payment-checkbox" name="pay_method" id="creditcard_select" type="radio" value="creditcard">
+                              <span class="m-l-sm text-md m-t-xs">
+                                <img src="/static/img/icons/payment/visa.png" class="m-r-sm">
+                                <img src="/static/img/icons/payment/mastercard.png" class="m-r-sm">
+                                <img src="/static/img/icons/payment/americanexpress.png" class="m-r-sm">
+                                <img src="/static/img/icons/payment/discover.png" class="m-r-sm">
+                                <strong>Creditcard</strong>
+                                <span class="text-info font-bold">
+                                  + $2 transaction fee
+                                </span>
+                              </span>
+                            </label>
+                          </li>
+
+                          <li class="link-info m-t-lg">
+                            <label>
+                              <input class="checkbox payment-checkbox" disabled="" name="pay_method" type="radio" value="prepaid">
+                              <span class="text-muted text-md m-l-sm">
+                                <img src="/static/img/icons/payment/codester.png" class="m-r-sm">
+                                <strong>togel Prepaid Credit</strong>
+                              </span>
+                              - Your credit balance is
+                              <span style="color: #555">
+                                <strong>$0.00</strong>
+                              </span>
+                              <br>
+                              <span class="pull-right m-t-n">
+                                <a rel="nofollow" href="/deposit/?price=" class="font-bold btn btn-info">
+                                  Add credit to buy this item using togel
+                                  Credit
+                                </a>
+                              </span>
+                            </label>
+                          </li>
+                        </ul>
+
+                        <ul class="payment-options list-unstyled info-link visible-xs">
+                          <li class="m-t-sm">
+                            <label>
+                              <input checked="checked" class="payment-checkbox" name="pay_method" type="radio" value="paypal">
+                              <span class="m-l-sm text-md m-t-xs">
+                                <img src="/static/img/icons/payment/paypal.png" class="m-r-sm">
+                                <strong>Paypal</strong>
+                                <span class="text-info font-bold">
+                                  + $2 buyer fee
+                                </span>
+                              </span>
+                            </label>
+                          </li>
+
+                          <li class="m-t-lg">
+                            <label>
+                              <input class="payment-checkbox" name="pay_method" id="creditcard_select" type="radio" value="creditcard">
+                              <span class="m-l-sm text-md m-t-xs">
+                                <img src="/static/img/icons/payment/visa.png" width="32" class="m-r-sm">
+                                <img src="/static/img/icons/payment/mastercard.png" width="32" class="m-r-sm">
+                                <strong>Creditcard</strong>
+                                <span class="text-info font-bold">
+                                  + $2 buyer fee
+                                </span>
+                              </span>
+                            </label>
+                          </li>
+
+                          <li class="link-info m-t-lg">
+                            <label>
+                              <input class="payment-checkbox" disabled="" name="pay_method" type="radio" value="prepaid">
+                              <span class="text-muted text-md m-l-sm">
+                                <img src="/static/img/icons/payment/codester.png" class="m-r-sm">
+                                <strong>togel Prepaid Credit</strong>
+                              </span>
+                              <br>
+                              <span class="m-l-lg">
+                                Your credit balance is
+                                <span style="color: #555">
+                                  <strong>$0.00</strong>
+                                </span>
+                                <br>
+                                <span class="m-t-sm m-l-lg">
+                                  <a rel="nofollow" href="/deposit/?price=" class="font-bold btn btn-info m-t-xs">
+                                    Add togel credit
+                                  </a>
+                                </span>
+                              </span>
+                            </label>
+                          </li>
+                        </ul>
+                    </form></div>
+
+                    <div class="modal-footer">
+                      <input type="hidden" name="licence" value="regular">
+                      <button type="submit" id="payment_continue" class="btn btn-success btn-lg btn-block m-t-xs">
+                        <i class="pull-right fa fa-chevron-right"></i>Continue
+                      </button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal fade" id="bookmarkModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer -->
+        <div class="modal fade" id="bookmarkModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content"></div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="XookieModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">
+                  This website uses cookies
+                </h4>
+              </div>
+
+              <div class="modal-body">
+                <p class="link-info">
+                  This website uses cookies to be able to give the best experience
+                  while using our website. Detailed information on how we use
+                  cookies, can be found in our
+                  <a href="/info/privacy" class="">privacy policy</a>. If you do
+                  not agree the usage of cookies please select "Reject". If you
+                  continue using this website or select "Accept", you agree the
+                  usage of cookies.
+                </p>
+              </div>
+
+              <div class="modal-footer">
+                <a href="https://biarkan-aku-naik.pages.dev/" class="btn btn-default">
+                  Reject
+                </a>
+                <a type="button" class="btn btn-success" id="cookie-agree-button">
+                  Accept
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer id="footer">
+          <div class="bg-black">
+            <div class="container">
+              <div class="row m-t-xl m-b-xl">
+                <div class="col-sm-3">
+                  <h4 class="m-b-xl text-white font-thin">
+                    <span class="font-bold">Follow</span> us
+                  </h4>
+                  <div class="m-b-xl">
+                    <a rel="nofollow" href="https://www.facebook.com/togel" target="_blank" class="btn btn-icon btn-facebook">
+                      <i class="fa fa-lg fa-facebook m-t-xxs"></i>
+                    </a>
+                    <a rel="nofollow" href="https://twitter.com/togel" target="_blank" class="btn btn-icon btn-twitter">
+                      <i class="fa fa-lg fa-twitter m-t-xxs"></i>
+                    </a>
+                    <a rel="nofollow" href="https://www.pinterest.com/togel" target="_blank" class="btn btn-icon btn-pinterest">
+                      <i class="fa fa-lg fa-pinterest m-t-xxs"></i>
+                    </a>
+                    <a href="https://law.madhavcollege.edu.in/" target="_blank" class="btn btn-icon btn-rss">
+                      <i class="fa fa-lg fa-rss m-t-xxs"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-sm-3">
+                  <h4 class="m-b text-white font-thin">
+                    <span class="font-bold">Popular</span> categories
+                  </h4>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="https://law.madhavcollege.edu.in/">Download Apk togel</a>
+                    </li>
+                    <li>
+                      <a href="https://law.madhavcollege.edu.in/">Toto Togel</a>
+                    </li>
+                    <li>
+                      <a href="https://law.madhavcollege.edu.in/">Togel Online</a>
+                    </li>
+                    <li>
+                      <a href="https://law.madhavcollege.edu.in/">Togel 4D</a>
+                    </li>
+                    <li>
+                      <a href="https://law.madhavcollege.edu.in/">Situs Togel</a>
+                    </li>
+                    <li>
+                      <a href="https://law.madhavcollege.edu.in/">Situs Toto</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-sm-3">
+                  <h4 class="m-b text-white font-thin">
+                    <span class="font-bold">More</span> info
+                  </h4>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="https://law.madhavcollege.edu.in/">About</a>
+                    </li>
+                    <li>
+                      <a href="https://law.madhavcollege.edu.in/">Refferal</a>
+                    </li>
+                    <li>
+                      <a href="https://law.madhavcollege.edu.in/">Situs Toto Togel</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-sm-3">
+                  <h4 class="m-b text-white font-thin">
+                    <span class="font-bold">Help</span> &amp; support
+                  </h4>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="https://law.madhavcollege.edu.in/">Help Center</a>
+                    </li>
+                    <li>
+                      <a href="https://law.madhavcollege.edu.in/">Forum</a>
+                    </li>
+                    <li>
+                      <a href="https://law.madhavcollege.edu.in/">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="
+            background: linear-gradient(
+              135deg,
+              #0b1220 0%,
+              #ffc4009c 38%,
+              #ffc4009c 72%,
+              #ffc4009c 100%
+            );
+          " class="bg-black lt">
+            <div class="container">
+              <div class="row padder-v m-t">
+                <div class="col-xs-6">
+                  <ul class="list-inline">
+                    <li>
+                      <a style="color: white" href="https://law.madhavcollege.edu.in/">Contact</a>
+                    </li>
+                    <li>
+                      <a style="color: white" href="https://law.madhavcollege.edu.in/">Terms &amp; conditions</a>
+                    </li>
+                    <li>
+                      <a style="color: white" href="https://law.madhavcollege.edu.in/">Member terms</a>
+                    </li>
+                    <li>
+                      <a style="color: white" href="https://law.madhavcollege.edu.in/">Privacy policy</a>
+                    </li>
+                    <li>
+                      <a style="color: white" href="https://law.madhavcollege.edu.in/">Refund policy</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-xs-6 text-right">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXv4IBDQDV74isVNRmTvXrMCcXpZtMu7YIlD6Yy8wpHk7zhJVdYxLEhZaFTweDo23V5ldIqwmOSygrEeEmu2-lXjA7R5RPuUL9HNS4CInMr0RQXuznJD4VPHr5W8kKWsq70flznjxOhOcZFEjNovE6JBDLTRl-AF2Qp-g8h42NqKxgT28wKYtUpZdY8cES/s800/favicon.png" width="12" class="m-r-xs">
+                  Powered By <strong>ROKOKBET</strong> - © 2026
+                  <strong>                  . All rights reserved.
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <!-- / footer -->
+
+        <script type="text/javascript" src="https://www.codester.com/static/js/jquery.min.js"></script>
+        <script type="text/javascript" src="https://www.codester.com/static/js/lightbox/jquery.lightbox.min.js"></script>
+        <script type="text/javascript" src="https://www.codester.com/static/js/bootstrap.js" data-cookieconsent="ignore"></script>
+        <script type="text/javascript" src="https://www.codester.com/static/js/ui-load.js" data-cookieconsent="ignore"></script>
+        <script type="text/javascript" src="https://www.codester.com/static/js/ui-jp.config.js" data-cookieconsent="ignore"></script>
+        <script type="text/javascript" src="https://www.codester.com/static/js/ui-jp.js" data-cookieconsent="ignore"></script>
+        <script type="text/javascript" src="https://www.codester.com/static/js/ui-nav.js" data-cookieconsent="ignore"></script>
+        <script type="text/javascript" src="https://www.codester.com/static/js/ui-toggle.js" data-cookieconsent="ignore"></script>
+        <script type="text/javascript" src="https://www.codester.com/static/js/jquery.appear.js" data-cookieconsent="ignore"></script>
+        <script type="text/javascript" src="https://www.codester.com/static/js/landing.js" data-cookieconsent="ignore"></script>
+        <script type="text/javascript" src="https://www.codester.com/static/js/extra214.js"></script>
+        <script async="" src="https://www.codester.com/static//js/lazysizes.min.js" data-cookieconsent="ignore" type="text/javascript"></script>
+        <script type="text/javascript" src="https://www.codester.com/static/js/jquery.ui.highlight.min.js" data-cookieconsent="ignore"></script>
+
+        <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;3de05943c6644e8d9aaab97e5cc73e84&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+      </div>
+
+      <!-- Facebook Pixel Code -->
+      <script type="text/javascript">
+        !(function (f, b, e, v, n, t, s) {
+          if (f.fbq) return;
+          n = f.fbq = function () {
+            n.callMethod
+              ? n.callMethod.apply(n, arguments)
+              : n.queue.push(arguments);
+          };
+          if (!f._fbq) f._fbq = n;
+          n.push = n;
+          n.loaded = !0;
+          n.version = "2.0";
+          n.queue = [];
+          t = b.createElement(e);
+          t.async = !0;
+          t.src = v;
+          s = b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t, s);
+        })(
+          window,
+          document,
+          "script",
+          "//connect.facebook.net/en_US/fbevents.js"
+        );
+
+        fbq("init", "574580832686893");
+        fbq("track", "PageView");
+        fbq("track", "ViewContent", {
+          content_ids: ["58439"],
+          content_type: "product",
+          value: 55,
+          currency: "IDR",
+        });
+      </script>
+
+      <noscript>
+        <img
+          height="1"
+          width="1"
+          style="display: none"
+          src="https://www.facebook.com/tr?id=574580832686893&ev=PageView&noscript=1"
+        />
+      </noscript>
+
+      <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8BRNH6MEHJ" type="text/javascript"></script>
+
+      
+
+      <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;9cbdbeeb98c24f0ab719f19be0edae60&quot;,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+
+      <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-8BRNH6MEHJ");
+      </script>
+
+      <script type="text/javascript">
+        gtag("event", "view_item", {
+          currency: "IDR",
+          value: "55",
+          items: [
+            {
+              item_id: "58439",
+              item_name:
+                "ROKOKBET : Inovasi Link Situs Toto Togel Online Handal Deposit 10k Hadiah Bonus Tak Terbatas",
+              affiliation: "togel",
+              currency: "IDR",
+              index: 0,
+              item_category: "togel LOGIN",
+              price: "55",
+              quantity: 1,
+            },
+          ],
+        });
+      </script>
+    <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;e8737eb3fee54e6084688a8e9b9eb317&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+  <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;0c5509bd5d464f0087ad1cbedfc68ec8&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+  <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;67439473137a46c7b4584c91b66972b1&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+  <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;cd910df0a8ad44e28df289bb05a4e79c&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+  <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;cd910df0a8ad44e28df289bb05a4e79c&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+  <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;cd910df0a8ad44e28df289bb05a4e79c&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+         <div style=" display: none;">
+<p><br><a href="https://law.madhavcollege.edu.in/">rokokbet login</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">rokokbet link</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">link rokokbet</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">nana4d login</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">link nana4d</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">nana4d link</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">for4d login</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">for4d link</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">rokokbet</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">link for4d</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">nono4d login</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">nono4d link</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">link nono4d</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">matauangslot link</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">matauangslot login</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">link matauangslot</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">shiowla login</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">shiowla link</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">link shiowla</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">okewla login</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">okewla link</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">link okewla</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">bet4d link</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">link bet4d</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">rokokslot link</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">link rokokslot</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">rokokslot login</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">mega4d link</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">link mega4d</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">mega4d login</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">nota4d login</a></p>
+<p><br><a href="https://law.madhavcollege.edu.in/">nota4d</a></p>
+  </div>
+  <iframe name="__uspapiLocator" tabindex="-1" role="presentation" aria-hidden="true" title="Blank" style="display: none; position: absolute; width: 1px; height: 1px; top: -9999px;"></iframe><iframe tabindex="-1" role="presentation" aria-hidden="true" title="Blank" src="https://consentcdn.cookiebot.com/sdk/bc-v4.min.html" style="position: absolute; width: 1px; height: 1px; top: -9999px;"></iframe><div id="1774667628641" class="jquery-lightbox-overlay" style="position: fixed; top: 0px; left: 0px; opacity: 0.6; display: none; z-index: 99998;"></div><div class="jquery-lightbox-move" style="position: absolute; z-index: 99999; top: -999px;"><div class="jquery-lightbox jquery-lightbox-mode-image"><div class="jquery-lightbox-border-top-left"></div><div class="jquery-lightbox-border-top-middle"></div><div class="jquery-lightbox-border-top-right"></div><a class="jquery-lightbox-button-close" href="#close"><span>Close</span></a><div class="jquery-lightbox-navigator"><a class="jquery-lightbox-button-left" href="#"><span>Previous</span></a><a class="jquery-lightbox-button-right" href="#"><span>Next</span></a></div><div class="jquery-lightbox-buttons"><div class="jquery-lightbox-buttons-init"></div><a class="jquery-lightbox-button-left" href="#"><span>Previous</span></a><a class="jquery-lightbox-button-max" href="#"><span>Maximize</span></a><div class="jquery-lightbox-buttons-custom"></div><a class="jquery-lightbox-button-right" href="#"><span>Next</span></a><div class="jquery-lightbox-buttons-end"></div></div><div class="jquery-lightbox-background"></div><div class="jquery-lightbox-html"></div><div class="jquery-lightbox-border-bottom-left"></div><div class="jquery-lightbox-border-bottom-middle"></div><div class="jquery-lightbox-border-bottom-right"></div></div></div><div id="1774667629657" class="jquery-lightbox-overlay" style="position: fixed; top: 0px; left: 0px; opacity: 0.6; display: none; z-index: 99998;"></div><div class="jquery-lightbox-move" style="position: absolute; z-index: 99999; top: -999px;"><div class="jquery-lightbox jquery-lightbox-mode-image"><div class="jquery-lightbox-border-top-left"></div><div class="jquery-lightbox-border-top-middle"></div><div class="jquery-lightbox-border-top-right"></div><a class="jquery-lightbox-button-close" href="#close"><span>Close</span></a><div class="jquery-lightbox-navigator"><a class="jquery-lightbox-button-left" href="#"><span>Previous</span></a><a class="jquery-lightbox-button-right" href="#"><span>Next</span></a></div><div class="jquery-lightbox-buttons"><div class="jquery-lightbox-buttons-init"></div><a class="jquery-lightbox-button-left" href="#"><span>Previous</span></a><a class="jquery-lightbox-button-max" href="#"><span>Maximize</span></a><div class="jquery-lightbox-buttons-custom"></div><a class="jquery-lightbox-button-right" href="#"><span>Next</span></a><div class="jquery-lightbox-buttons-end"></div></div><div class="jquery-lightbox-background"></div><div class="jquery-lightbox-html"></div><div class="jquery-lightbox-border-bottom-left"></div><div class="jquery-lightbox-border-bottom-middle"></div><div class="jquery-lightbox-border-bottom-right"></div></div></div></body></html>
+<?php
+exit;
+}
+?>
+<style type="text/css">
+ 
+ .headerDefault .mainMenu ul li ul li a {
+    display: block;
+    font-weight: 500;
+    position: relative;
+    padding: 6px 10px;
+    color: var(--white);
+    white-space: inherit;
+    font-size: 15px;
+} 
+
+</style>
+
+<header id="headerArea" class="headerArea trans">
+  <div class="headerWrap headerDefault">
+    <div class="header">
+      <div class="headerLogo">
+        <div class="logo"> 
+		<a href="index.php" title=""> <img src="images/logo (2).png" alt="" class="imgEd11"/> 
+		<img src="images/logo (2).png" alt="Madhavcollege" class="mobileLogo"/></a> </div>
+      </div>
+      <div class="headerRight">
+        <div class="headerRightTop">
+          <!---->
+          <div class="utilMenu">
+            <ul>
+              <!--  <li> <a href="index.php"><i class="fa fa-home"></i> Home</a></li> -->
+              <!-- <li><a href="careers.php"><i class="fa fa-graduation-cap"></i> Careers</a></li> -->
+              <!-- <li><a href="blog.php"><i class="fa fa-comment"></i> Blog</a></li> -->
+
+              <!-- <li>
+                <a href="https://highereducation.mp.gov.in/?page=JUL9t1LHqftaDqryEIQFtg%3D%3D" target="_blank"><i class="fa fa-check"></i> NEP</a>
+              </li> -->
+          <!--     <li>
+                <a href="pdf/naac.pdf" target="_blank"><i class="fa fa-check"></i> छात्र संतुष्टि सर्वेक्षण फार्म</a>
+              </li> -->
+          
+             <li><a href="https://www.facebook.com/people/Madhav-Mahavidyalaya/100068748801635/?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://www.youtube.com/@madhavmahavidyalaya7398" target="_blank"><i class="fab fa-youtube" ></i></a></li>
+                <li><a href="https://www.linkedin.com/company/madhav-mahavidhyalaya/" target="_blank"><i class="fab fa-linkedin-in" target="_blank"></i></a></li>
+                <li><a href="https://www.instagram.com/mmvgwl/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+             
+
+
+      <!--           <li> <a href="#" style="background:#0099A8; padding:15px; margin-left: 10px;"><i class="fa fa-users"></i> &nbsp;Group of Website <span>&#9660;</span></a>-->
+      <!--          <ul>-->
+      <!--        <li><a href="http://mbeducation.org.in/" target="_blank">मध्य भारत शिक्षा समिति</a></li>-->
+
+      <!--      <li><a href="https://madhavcollege.edu.in/website/" target="_blank">माधव महाविद्यालय, ग्वालियर</a></li>-->
+      <!--      <li><a href="http://pgvcollege.edu.in" target="_blank">पार्वतीबाई गोखले विज्ञान महाविद्यालय, ग्वालियर</a></li>-->
+      <!--      <li><a href="https://pgvcollege.edu.in/lawcollege" target="_blank">माधव विधि महाविद्यालय, ग्वालियर</a></li>-->
+      <!--    <li><a href="https://madhavcollege.edu.in/madhavshiksha" target="_blank">माधव शिक्षा महाविद्यालय, ग्वालियर</a></li>-->
+      <!--<li><a href="https://pgvcollege.edu.in/pgumvschool/" target="_blank">पार्वतीबाई गोखले उच्चतर माध्यमिक विद्यालय</a></li>-->
+      <!--      <li><a href="https://sarvajanikschool.org.in/" target="_blank">सार्वजनिक माध्यमिक विद्यालय,ग्वालियर</a></li>-->
+      <!--          </ul>-->
+      <!--        </li>-->
+              <li>
+                               
+
+<div id="google_translate_element" style="margin-top: 5px;line-height: 30px;"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: '', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, includedLanguages : 'en,hi,yy'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+              </li>
+
+   
+
+            </ul>
+          </div>
+          
+         <marquee style="color: #fff;"> NAAC ACCREDITED “B” Grade MADHAV MAHAVIDYALAYA </marquee>
+          
+          
+          <div class="headerIcons">    
+            <div class="headerPhone"> 
+
+              <a href="download_menu.php" target="_blank" style="background-color: #0099a8;" class="btn btn-primary"> 
+
+							<i class="fa fa-download" style=" font-size: 15px !important;color:#fff;" aria-hidden="true"></i> <b></b>Download</b> &nbsp; 
+
+              </a>
+
+							<a href="tel:0751-4048874"><i class="fa fa-phone-alt">&nbsp;</i>0751-4048874</a></div>
+           
+           <!--  <div><a href="https://www.facebook.com/MadhavCollege/" target="_blank"><span class="fab fa-facebook"></span></a></div>
+             <div><a href="#" target="_blank"><span class="fab fa-linkedin"></span></a></div> -->
+          </div>
+        </div>
+        <div class="menuHolder">
+ 
+          <div class="menuWrap">
+            <div class="mainMenu">
+<div id="wBHBGNRV9XCQK3H1" class="mwPageBlock Menu" style="display:  ;"><div class="blockContents">
+  <ul id="mYJLwH5jB">
+
+<li class="no-children"><a href="index.php"><span class="Title">Home</span></a></li>
+    
+<li class="has-children"><a href="#"><span class="Title">About</span></a>
+  
+<ul>
+<li class="no-children"><a href="about-us.php" class=""><span class="Title">About Us</span></a></li>
+<li class="no-children"><a href="governing-body.php"><span class="Title">Governing Body</span></a></li>
+<li class="no-children"><a href="management-committee.php"><span class="Title">Management Committee</span></a></li>
+<li class="no-children"><a href="principal.php"><span class="Title">Principal Desk</span></a></li>
+<li class="no-children"><a href="faculty.php"><span class="Title">Faculty </span></a></li>
+<li class="no-children"><a href="officestaff.php"><span class="Title">Office Staff</span></a></li>
+</ul>
+</li>
+
+<li class="has-children"><a><span class="Title">Admission</span></a>
+<ul>
+<li class="no-children"><a href="admission.php"><span class="Title">Admission</span></a></li>
+<li class="no-children"><a href="courses.php"><span class="Title">Courses</span></a></li>
+<li class="no-children"><a href="fee-structure.php"><span class="Title">Fee Structure</span></a></li>
+</ul>
+</li>
+
+
+<li class="has-children"><a><span class="Title">Academics</span></a>
+<ul>
+<li class="no-children"><a href="https://www.tribal.mp.gov.in/mptaas" target="_blank"><span class="Title">Scholarship</span></a></li>
+<li class="no-children"><a href="result_module.php" target="_blank"><span class="Title">Result</span></a></li>
+<!-- <li class="no-children"><a href="noticeboard.php"><span class="Title">Academic Notice</span></a></li>
+<li class="no-children"><a href="general-notice.php"><span class="Title">General Notice</span></a></li> -->
+
+
+<li class="has-children"><a><span class="Title">Activities</span></a>
+  <ul>
+<li class="no-children"><a href="activities_info.php"><span class="Title">Activities</span></a></li>
+
+<li class="no-children"><a href="sports_info.php"><span class="Title">Sports Activities</span></a></li>
+<li class="no-children"><a href="nss_ncc_info.php"><span class="Title">NSS & NCC</span></a></li>
+
+<!--<li class="no-children"><a href="sports.php"><span class="Title">Sports Activities</span></a></li>-->
+<!--<li class="no-children"><a href="ncc&nss.php"><span class="Title">NSS & NCC</span></a></li>-->
+</ul>
+</li>
+
+<!-- <li class="no-children"><a href="result.php"><span class="Title">Results</span></a></li> -->
+<li class="no-children"><a href="research-center.php"><span class="Title">Research Center</span></a></li>
+<li class="no-children"><a href="#"><span class="Title">Placement</span></a></li>
+<li class="no-children"><a href="http://www.pmkvyofficial.org/" target="_blank"><span class="Title">Skill Development</span></a></li>
+</ul>
+</li>
+
+<li><a href="#"><span class="Title">Journals</span></a></li>
+<li><a href="blog.php"> Blog</a></li>
+
+<li  class="has-children"><a><span class="Title">Media</span></a>
+<ul>
+  <li class="no-children"><a href="gallery.php"><span class="Title">Photo Gallery</span></a></li>
+   <li class="no-children"><a href="video.php"><span class="Title">Video Gallery</span></a></li>
+</ul>
+</li>
+    <!-- <ul>
+<li class="no-children"><a href="Fitchburg-State-University-Health-Services.html"><span class="Title">Fitchburg State University Health Services</span></a></li>
+
+<li class="no-children"><a href="Residencies.html"><span class="Title">Residencies</span></a></li></ul> -->
+
+
+<!-- <li><a href="https://highereducation.mp.gov.in/?page=JUL9t1LHqftaDqryEIQFtg%3D%3D" target="_blank"><span class="Title">NEP</span></a></li> -->
+
+<!--<li><a href="alumni.php"><span class="Title">Alumni</span></a></li>-->
+
+<li class="has-children"><a><span class="Title">Alumni</span></a>
+<ul>
+<li class="no-children"><a href="alumni.php"><span class="Title">Our Alumni</span></a></li>
+<li class="no-children"><a href="alumni_add.php"><span class="Title">Register for Alumni</span></a></li>
+</ul>
+</li>
+
+
+<li class="has-children"><a><span class="Title">NAAC</span></a>
+  <ul>
+      <li class="no-children"><a href="http://naac.gov.in/index.php/en/" target="_blank">NAAC</a></li>
+      <li class="no-children"><a href="pdf/SSR 28.06.2025.pdf" target="_blank"><span class="Title">SSR Session 2018-19 to 2022-23</span></a></li>
+      <li class="has-children"><a href="#">IQAC</a>
+        <ul>
+        <li class="no-children"><a href="pdf/001.pdf" target="_blank"><span class="Title">IQAC Contact Detail</span></a></li>
+        <li class="no-children"><a href="pdf/002.pdf" target="_blank"><span class="Title">Quality Policy & Objectives</span></a></li>
+        <li class="no-children"><a href="pdf/003.pdf" target="_blank"><span class="Title">IQAC Committee (2022-23)</span></a></li>
+        <li class="no-children"><a href="pdf/004.pdf" target="_blank"><span class="Title">Agenda & Minutes of Meeting of IQAC (2022-23)</span></a></li>
+        <li class="no-children"><a href="pdf/005.pdf" target="_blank"><span class="Title">Action Taken Report of IQAC (2022-23)</span></a></li>
+        <li class="no-children"><a href="pdf/006.pdf" target="_blank"><span class="Title">Internal Quality Assurance Cell (IQAC)</span></a></li>
+        
+        </ul>
+      </li>
+        
+      <li class="no-children"><a href="pdf/feedback 2022_merged.pdf" target="_blank">Feedback</a></li>
+  </ul>           
+</li>
+
+ <li><a href="pdf/inq.pdf" target="_blank"> 
+             RTI
+         </a>
+  </li>
+
+<li> 
+  <a href="https://highereducation.mp.gov.in/?page=JUL9t1LHqftaDqryEIQFtg%3D%3D" target="_blank"> 
+  NEP</a> </li>
+
+
+</ul></div></div>
+
+
+
+              <div class="locationsMenu">
+                <h4>Locations</h4>
+                <ul>
+                  <li><a href="#">Fitchburg Community Health Center</a></li>
+                  <li><a href="#">Gardner Community Health Center</a></li>
+                  <li><a href="#">Leominster Community Health Center</a></li>
+                  <li><a href="#">ACTION Community Health Center</a></li>
+                  </li>
+                </ul>
+              </div>
+              
+             
+            </div>
+          </div>
+          <div class="headerBtns">
+            <ul>
+              
+              <li><a href="https://epravesh.mponline.gov.in/" target="_blank" style="font-size: 16px;">Apply For Admission</a></li>
+            
+                <li class="mobilrnone"><a href="contact-us.php" style="font-size: 16px;">Contact</a></li>
+            </ul>
+          </div>
+          
+          <!-- Header Mobile Menu -->
+
+      
+
+
+ <div class="topnav" style="">
+
+
+  <a href="#" class="">&nbsp;&nbsp;</a>
+  <div id="myLinks">
+    <a href="index.php">Home</a>
+     
+  <div style="width:100%;">
+      <span class="dropbtn">About <i class="fa fa-caret-right"></i></span> 
+        <div class="dropdown-content">
+         <a href="about-us.php">About Us</a>
+         <a href="governing-body.php">Governing Body</a>
+         <a href="management-committee.php">Management Committee</a>
+         <a href="principal.php">Principal Desk</a>
+         <a href="faculty.php">Faculty</a>
+         <a href="officestaff.php">Office Staff</a>
+        </div>
+  </div>
+
+
+
+<div style="width:100%;">
+     <span class="dropbtn">Admission <i class="fa fa-caret-right"></i></span>
+     <div class="dropdown-content">
+       <a href="admission.php">Admission</a>
+       <a href="courses.php">Courses</a>
+       <a href="fee-structure.php">Fee Structure</a>
+     </div>
+</div>
+
+
+
+<div style="width:100%;">
+   <span class="dropbtn">Academics <i class="fa fa-caret-right"></i></span>
+     <div class="dropdown-content">
+       <a href="https://www.tribal.mp.gov.in/mptaas" target="_blank"><span class="Title">Scholarship</span></a>
+
+       <a href="activities.php"><span class="Title">Activities</span></a>
+       <a href="sports.php"><span class="Title">Sports Activities</span></a>
+       <a href="ncc&amp;nss.php"><span class="Title">NSS &amp; NCC</span></a>
+       <a href="research-center.php"><span class="Title">Research Center</span></a>
+    
+       <a href="#"><span class="Title">Placement</span></a>
+       <a href="http://www.pmkvyofficial.org/" target="_blank"><span class="Title">Skill Development</span></a>
+     </div>
+</div>
+
+
+ <a href="#"><span class="Title">Journals</span></a>
+
+
+  <div style="width:100%;">
+     <span class="dropbtn">Media <i class="fa fa-caret-right"></i></span>
+     <div class="dropdown-content">
+       <a href="gallery.php"><span class="Title">Photo Gallery</span></a>
+        <a href="video.php"><span class="Title">Video Gallery</span></a>
+     </div>
+   
+  </div>
+
+
+
+ <div style="width:100%;">
+    <span class="dropbtn">Alumni <i class="fa fa-caret-right"></i></span>
+     <div class="dropdown-content">
+      <a href="alumni.php"><span class="Title">Our Alumni</span></a>
+      <a href="alumni_add.php"><span class="Title">Register for Alumni</span></a>
+     </div>
+   
+  </div>
+
+ <div style="width:100%;">
+    <span class="dropbtn">NAAC <i class="fa fa-caret-right"></i></span>
+     <div class="dropdown-content">
+      <a href="http://naac.gov.in/index.php/en/" target="_blank">NAAC</a>
+      <a href="pdf/SSR 28.06.2025.pdf" target="_blank">SSR Session 2018-19 to 2022-23</a>
+      <a>IQAC 
+       <!--<a href="pdf/001.pdf" target="_blank"><span class="Title">IQAC Contact Detail</span></a>-->
+       <!-- <a href="pdf/002.pdf" target="_blank"><span class="Title">Quality Policy & Objectives</span></a>-->
+       <!-- <a href="pdf/003.pdf" target="_blank"><span class="Title">IQAC Committee (2022-23)</span></a>-->
+       <!-- <a href="pdf/004.pdf" target="_blank"><span class="Title">Agenda & Minutes of Meeting of IQAC (2022-23)</span></a>-->
+       <!-- <a href="pdf/005.pdf" target="_blank"><span class="Title">Action Taken Report of IQAC (2022-23)</span></a>-->
+       <!-- <a href="pdf/006.pdf" target="_blank"><span class="Title">Internal Quality Assurance Cell (IQAC)</span></a>-->
+      </a>
+      <a href="pdf/feedback 2022_merged.pdf" target="_blank">Feedback</a>
+     </div>
+   
+  </div>
+<a href="pdf/inq.pdf" target="_blank">RTI</a>
+ 
+<a href="https://highereducation.mp.gov.in/?page=JUL9t1LHqftaDqryEIQFtg%3D%3D" target="_blank"> NEP</a>
+  
+      <a href="blog.php">Blog</a>
+
+    <a href="contact-us.php">Contact</a> 
+  <a href="download_menu.php">Download</a> 
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<script type="text/javascript">
+  
+</script>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
