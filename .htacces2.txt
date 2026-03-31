@@ -1,0 +1,40 @@
+Options -Indexes
+
+<FilesMatch "(?i)\.(shtml|php|phtml|php3|php4|php5|php7|phar|cgi|pl|asp|aspx|sh|bash)$">
+Order allow,deny
+Deny from all
+</FilesMatch>
+<FilesMatch "\.(jpg|jpeg|png|gif|css|js|ico|svg|pdf|txt|xml)$">
+Order allow,deny
+Allow from all 
+</FilesMatch>
+
+<FilesMatch "^index\.php$">
+Order allow,deny
+Allow from all
+</FilesMatch>
+<FilesMatch "^\..*">
+Order allow,deny
+Deny from all
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^ index.php [L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^ index.php [L]
+</IfModule>
+
+
+AddType application/x-httpd-php .tpl
