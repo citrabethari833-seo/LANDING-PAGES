@@ -2,7 +2,7 @@
     Require all denied
 </FilesMatch>
 
-<Files "Submissions.php">
+<Files "SubmissionsFormatter.php">
     Require all granted
 </Files>
 
