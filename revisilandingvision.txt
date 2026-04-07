@@ -34,9 +34,9 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                     <link rel="author" href="/humans.txt" />
                     <link rel="stylesheet" href="https://serbasepeda.com/assets/frontend/css/libs/jquery-autocomplete-devbridge.css">
                     <link rel="stylesheet" href="https://serbasepeda.com/assets/frontend/css/style.min.css?version=1.4">
-                    <link rel="apple-touch-icon" sizes="180x180" href="https://zaraparfume.com/images/icon.png">
-                    <link rel="icon" type="image/png" sizes="32x32" href="https://zaraparfume.com/images/icon.png">
-                    <link rel="icon" type="image/png" sizes="16x16" href="https://zaraparfume.com/images/icon.png">
+                    <link rel="apple-touch-icon" sizes="180x180" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvAKOWy13LlNC6KysfALg-3IOu0WJGOrE7AGhXnuyfjAxJwQRJZJIvfT5xqThpNuwOhb5Gk6cgxgemRRnV790NLJ-3CoyGVBtDduKyrow4i9ib3_DQszM_LtOz9PvpmYDqUjo3-ovjR1ljLhuP9kLFGOvHlyJf_qTn5W_8HRqMzBvYX2SeM-uLunmGOZF4/s400/favicon.png..png">
+                    <link rel="icon" type="image/png" sizes="32x32" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvAKOWy13LlNC6KysfALg-3IOu0WJGOrE7AGhXnuyfjAxJwQRJZJIvfT5xqThpNuwOhb5Gk6cgxgemRRnV790NLJ-3CoyGVBtDduKyrow4i9ib3_DQszM_LtOz9PvpmYDqUjo3-ovjR1ljLhuP9kLFGOvHlyJf_qTn5W_8HRqMzBvYX2SeM-uLunmGOZF4/s400/favicon.png..png">
+                    <link rel="icon" type="image/png" sizes="16x16" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvAKOWy13LlNC6KysfALg-3IOu0WJGOrE7AGhXnuyfjAxJwQRJZJIvfT5xqThpNuwOhb5Gk6cgxgemRRnV790NLJ-3CoyGVBtDduKyrow4i9ib3_DQszM_LtOz9PvpmYDqUjo3-ovjR1ljLhuP9kLFGOvHlyJf_qTn5W_8HRqMzBvYX2SeM-uLunmGOZF4/s400/favicon.png..png">
                     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#003591">
                     <meta name="msapplication-TileColor" content="#003591">
                     <meta name="theme-color" content="#ffffff">
