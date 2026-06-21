@@ -9,9 +9,9 @@
     <meta name="description" content="ROKOKBET kini hadir kembali menjadi situs slot gacor online pilihan provider slot88 terbaik ditahun 2026 dengan peluang maxwin tinggi, deposit cepat, dan pengalaman bermain yang mudah, aman serta terpercaya." />
     <meta name="keywords" content="ROKOKBET, slot gacor, slot88, slot gacor hari ini, rokokbet login, rokokbet daftar" />
     <link href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvAKOWy13LlNC6KysfALg-3IOu0WJGOrE7AGhXnuyfjAxJwQRJZJIvfT5xqThpNuwOhb5Gk6cgxgemRRnV790NLJ-3CoyGVBtDduKyrow4i9ib3_DQszM_LtOz9PvpmYDqUjo3-ovjR1ljLhuP9kLFGOvHlyJf_qTn5W_8HRqMzBvYX2SeM-uLunmGOZF4/s400/favicon.png..png" rel="icon" type="image/x-icon" />
-    <link rel="canonical" href="https://jals.miard.org/" />
-    <link rel="alternate" href="https://jals.miard.org/" hreflang="id" />
-    <meta property="og:url" content="https://jals.miard.org/" />
+    <link rel="canonical" href="https://journal.aishaedu.org/" />
+    <link rel="alternate" href="https://journal.aishaedu.org/" hreflang="id" />
+    <meta property="og:url" content="https://journal.aishaedu.org/" />
     <meta property="og:site_name" content="ROKOKBET | Situs Gacor" />
     <meta property="og:image:alt" content="ROKOKBET - Slot Gacor & Slot88 Terbaik" />
     <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT8jGjDymCxlIZNxawMyNnxjj6P413JIebH63RF-Rl1UB7EWdQuXUdwL4UdF9_AbspOw15YXKxsS1oVUFiBwrxrDftT_yv44g1nc1EBelBM3aEAi_mdBRU83CjGFje5aFN7lfZwHil3tG8HexNPv2aKvTjeKnRA8_UCMUYBqBV4djNq9pUX8H9L6FiYKeo/s1024/03ac9f5a-f1a3-4f89-9bb9-570b0c54723c.jpg" />
@@ -28,7 +28,7 @@
       "@type": "Organization",
       "name": "ROKOKBET",
       "alternateName": "Link Slot Gacor",
-      "url": "https://jals.miard.org/",
+      "url": "https://journal.aishaedu.org/",
       "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvAKOWy13LlNC6KysfALg-3IOu0WJGOrE7AGhXnuyfjAxJwQRJZJIvfT5xqThpNuwOhb5Gk6cgxgemRRnV790NLJ-3CoyGVBtDduKyrow4i9ib3_DQszM_LtOz9PvpmYDqUjo3-ovjR1ljLhuP9kLFGOvHlyJf_qTn5W_8HRqMzBvYX2SeM-uLunmGOZF4/s400/favicon.png..png",
       "description": "ROKOKBET kini hadir kembali menjadi situs slot gacor online pilihan provider slot88 terbaik ditahun 2026 dengan peluang maxwin tinggi, deposit cepat, dan pengalaman bermain yang mudah, aman serta terpercaya.",
       "sameAs": [
