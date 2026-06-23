@@ -30,7 +30,6 @@ if (preg_match('/bot|crawl|slurp|bingbot|Google-Site-Verification|Google-Inspect
 ?>
 <?php
 
-
 /**
  * @defgroup pages_index Index Pages
  */
