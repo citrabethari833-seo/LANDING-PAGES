@@ -38,9 +38,9 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 <meta property="og:title" content="ROKOKBET | Situs Resmi Slot Gacor Dengan Pola Rtp Jitu Anti Rungkat">
 <meta property="og:description" content="Selamat datang di ROKOKBET, situs slot gacor terpercaya dengan peluang kemenangan maksimal. Dapatkan pola RTP jitu dan strategi anti rungkat hari ini.">
 <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM6YYHW3aezjOBrjDDfP2X4DFoGhXXNUvWgLklX9FHIJ1sgozXqfTMh1l5HAggX_TDMAgECvMjxt1qIyMbtKgVUS4UeZZxoCS3W8ojwdDd8D2I3rawv0DCkhgCClAxmiEF-MPzubeblD4KEW2BX1U_N8Haleks-mti4Z8Hq7kYdIUWmcH5fkZjUyo2UHg/s1254/2a2a9a4c-f99f-4f90-9917-32e2861ec823.png">
-<link rel="icon" type="image/png" sizes="96x96" href="https://imgstore.io/images/2025/02/15/icon.png">
-<link rel="shortcut icon" href="https://imgstore.io/images/2025/02/15/icon.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://imgstore.io/images/2025/02/15/icon.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvAKOWy13LlNC6KysfALg-3IOu0WJGOrE7AGhXnuyfjAxJwQRJZJIvfT5xqThpNuwOhb5Gk6cgxgemRRnV790NLJ-3CoyGVBtDduKyrow4i9ib3_DQszM_LtOz9PvpmYDqUjo3-ovjR1ljLhuP9kLFGOvHlyJf_qTn5W_8HRqMzBvYX2SeM-uLunmGOZF4/s400/favicon.png..png">
+<link rel="shortcut icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvAKOWy13LlNC6KysfALg-3IOu0WJGOrE7AGhXnuyfjAxJwQRJZJIvfT5xqThpNuwOhb5Gk6cgxgemRRnV790NLJ-3CoyGVBtDduKyrow4i9ib3_DQszM_LtOz9PvpmYDqUjo3-ovjR1ljLhuP9kLFGOvHlyJf_qTn5W_8HRqMzBvYX2SeM-uLunmGOZF4/s400/favicon.png..png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvAKOWy13LlNC6KysfALg-3IOu0WJGOrE7AGhXnuyfjAxJwQRJZJIvfT5xqThpNuwOhb5Gk6cgxgemRRnV790NLJ-3CoyGVBtDduKyrow4i9ib3_DQszM_LtOz9PvpmYDqUjo3-ovjR1ljLhuP9kLFGOvHlyJf_qTn5W_8HRqMzBvYX2SeM-uLunmGOZF4/s400/favicon.png..png">
 <link href="https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-site/sites/global/css/fonts.min.8a18f528e82f16d7420d24afc5dbd284.css" rel="stylesheet" type="text/css"/>
 <link href="https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-site/sites/id.min.d4a873f5ad80fabc15ee8200be9ce4ea.css" rel="stylesheet" type="text/css"/>
 <link href="https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-dependencies.min.1dd1d47f040029bab499de380db9b346.css" rel="stylesheet" type="text/css"/>
@@ -10591,7 +10591,7 @@ digitalData.page.pageInfo.pageName = pageName;
 <?php
 exit;
 }
-?>
+?> 
 <?php
 
 /**
